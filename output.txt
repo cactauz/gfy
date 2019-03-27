@@ -1,0 +1,11165 @@
+loading mod: &{A Sea Block Config ./mods/A Sea Block Config_0.3.0 map[base:true]}
+loading mod: &{FNEI ./mods/FNEI_0.2.3 map[base:true]}
+loading mod: &{Nuclear Fuel ./mods/Nuclear Fuel_1.0.0 map[]}
+loading mod: &{bobenemies ./mods/bobenemies_0.17.2 map[base:true]}
+loading mod: &{boblibrary ./mods/boblibrary_0.17.0 map[base:true]}
+loading mod: &{bobtech ./mods/bobtech_0.17.2 map[base:true boblibrary:true bobenemies:false]}
+loading mod: &{Explosive Excavation ./mods/Explosive Excavation_1.1.5 map[]}
+loading mod: &{ScienceCostTweakerM ./mods/ScienceCostTweakerM_0.17.7 map[base:true]}
+loading mod: &{bobinserters ./mods/bobinserters_0.17.3 map[base:true]}
+loading mod: &{bobplates ./mods/bobplates_0.17.2 map[base:true boblibrary:true bobtech:false bobenemies:false]}
+loading mod: &{bobrevamp ./mods/bobrevamp_0.17.1 map[base:true boblibrary:true bobplates:false]}
+loading mod: &{KS_Power ./mods/KS_Power_0.3.5 map[]}
+loading mod: &{angelsrefining ./mods/angelsrefining_0.10.4 map[base:true bobplates:false bobrevamp:false]}
+loading mod: &{bobassembly ./mods/bobassembly_0.17.2 map[base:true boblibrary:true bobplates:false]}
+loading mod: &{boblogistics ./mods/boblogistics_0.17.4 map[base:true boblibrary:true bobplates:false bobinserters:false]}
+loading mod: &{bobpower ./mods/bobpower_0.17.2 map[bobplates:false base:true boblibrary:true]}
+loading mod: &{LandfillPainting ./mods/LandfillPainting_0.3.0 map[angelsrefining:false base:true]}
+loading mod: &{angelsaddons-warehouses ./mods/angelsaddons-warehouses_0.4.0 map[base:true angelsrefining:false]}
+loading mod: &{angelspetrochem ./mods/angelspetrochem_0.8.1 map[base:true angelsrefining:true bobplates:false bobassembly:false]}
+loading mod: &{bobelectronics ./mods/bobelectronics_0.17.2 map[bobplates:false base:true boblibrary:true]}
+loading mod: &{bobmodules ./mods/bobmodules_0.17.2 map[bobelectronics:false base:true boblibrary:true bobplates:false]}
+loading mod: &{SpaceMod ./mods/SpaceMod_0.4.2 map[base:true boblibrary:false bobplates:false bobmodules:false bobelectronics:false boblogistics:false bobtech:false]}
+loading mod: &{angelssmelting ./mods/angelssmelting_0.5.3 map[angelsrefining:true bobplates:false base:true angelspetrochem:true]}
+loading mod: &{bobwarfare ./mods/bobwarfare_0.17.2 map[bobplates:false boblogistics:false bobenemies:false base:true boblibrary:true]}
+loading mod: &{angelsbioprocessing ./mods/angelsbioprocessing_0.6.1 map[base:true angelspetrochem:true angelsrefining:true angelssmelting:true bobenemies:false]}
+loading mod: &{SeaBlock ./mods/SeaBlock_0.3.1 map[bobelectronics:true boblogistics:true KS_Power:true ScienceCostTweakerM:false base:true angelsbioprocessing:true angelsrefining:true SpaceMod:false angelspetrochem:true LandfillPainting:false]}
+loading mod: &{bobmining ./mods/bobmining_0.17.2 map[base:true boblibrary:true bobplates:false]}
+invalid item! nil
+invalid item! nil
+invalid item! nil
+invalid item! nil
+invalid item! nil
+invalid item! nil
+invalid item! nil
+invalid item! nil
+invalid item! nil
+invalid item! nil
+invalid item! nil
+invalid item! nil
+invalid item! nil
+invalid item! nil
+invalid item! nil
+invalid item! nil
+invalid item! nil
+invalid item! nil
+invalid item! nil
+invalid item! nil
+invalid item! nil
+invalid item! nil
+invalid item! nil
+invalid item! nil
+invalid item! nil
+invalid item! nil
+invalid item! nil
+invalid item! nil
+invalid item! nil
+invalid item! nil
+invalid item! nil
+invalid item! nil
+invalid item! nil
+invalid item! nil
+invalid item! nil
+invalid item! nil
+invalid item! nil
+invalid item! nil
+invalid item! nil
+invalid item! nil
+invalid item! nil
+invalid item! nil
+invalid item! nil
+invalid item! nil
+invalid item! nil
+invalid item! nil
+invalid item! nil
+invalid item! nil
+invalid item! nil
+invalid item! nil
+invalid item! nil
+invalid item! nil
+invalid item! nil
+invalid item! nil
+invalid item! nil
+invalid item! nil
+invalid item! nil
+invalid item! nil
+invalid item! nil
+invalid item! nil
+invalid item! nil
+invalid item! nil
+invalid item! nil
+invalid item! nil
+invalid item! nil
+invalid item! nil
+invalid item! nil
+invalid item! nil
+invalid item! nil
+invalid item! nil
+invalid item! nil
+invalid item! nil
+invalid item! nil
+invalid item! nil
+invalid item! nil
+invalid item! nil
+invalid item! nil
+invalid item! nil
+invalid item! nil
+invalid item! nil
+cathode-silver-smelting:
+	cathode-silver x 24
+results:
+	ingot-silver x 24
+
+ultimate-underground-belt:
+	iron-gear-wheel x 20
+	turbo-underground-belt x 2
+	steel-plate x 14
+results:
+	ultimate-underground-belt x 1
+
+logistic-chest-buffer-3:
+	logistic-chest-buffer-2 x 1
+	processing-unit x 1
+results:
+	logistic-chest-buffer-3 x 1
+
+sct-t2-micro-wafer:
+	iron-plate x 2
+	sct-t2-wafer-stamp x 4
+results:
+	sct-t2-micro-wafer x 2
+
+sct-htech-random:
+	sct-htech-thermalstore-heated x 1
+	iron-gear-wheel x 5
+results:
+	sct-htech-random x 1
+
+lithium-chloride:
+	lithia-water x 25
+results:
+	lithium-chloride x 1
+
+slag-processing-8:
+	mineral-sludge x 50
+results:
+	angels-void x 1
+
+electro-whinning-cell-2:
+	angels-void x 1
+results:
+	electro-whinning-cell-2 x 1
+
+alien-artifact-red-from-small:
+	small-alien-artifact-red x 25
+results:
+	alien-artifact-red x 1
+
+molten-iron-smelting-4:
+	ingot-cobalt x 12
+	ingot-iron x 12
+	ingot-nickel x 12
+results:
+	liquid-molten-iron x 360
+
+submachine-gun:
+	iron-gear-wheel x 10
+	copper-plate x 5
+	iron-plate x 10
+results:
+
+railgun:
+	copper-plate x 15
+	electronic-circuit x 10
+	advanced-circuit x 5
+	steel-plate x 15
+results:
+	railgun x 1
+
+life-support:
+	processing-unit x 100
+	low-density-structure x 100
+	productivity-module-3 x 50
+	pipe x 200
+results:
+	life-support x 1
+
+brown-liquor-recovery:
+	liquid-brown-liquor x 50
+	solid-sodium-hydroxide x 2
+results:
+	water-red-waste x 50
+	solid-sodium-sulfate x 1
+
+liquid-raw-vegetable-oil-nuts:
+	solid-nuts x 10
+results:
+	liquid-raw-vegetable-oil x 50
+
+angels-copper-pebbles-smelting:
+	angels-copper-pebbles x 4
+results:
+	copper-plate x 2
+
+angelsore5-pure-processing:
+	angels-ore5-pure x 9
+results:
+	angels-void x 1
+
+wood-from-cellulose:
+	cellulose-fiber x 4
+	paste-cellulose x 2
+results:
+	wood x 3
+
+induction-furnace-4:
+	induction-furnace-3 x 1
+results:
+	induction-furnace-4 x 1
+
+laser-rifle-battery:
+	laser-rifle-battery-case x 1
+	battery x 4
+results:
+	laser-rifle-battery x 1
+
+bob-sniper-turret-2:
+	iron-plate x 20
+	bob-sniper-turret-1 x 1
+	iron-gear-wheel x 20
+	steel-plate x 20
+results:
+	bob-sniper-turret-2 x 1
+
+geode-red-liquify:
+	geode-red x 5
+	sulfuric-acid x 15
+results:
+	crystal-slurry x 20
+
+angelsore8-crushed-processing:
+	angels-ore8-crushed x 4
+results:
+	angels-void x 1
+
+hazard-concrete:
+	concrete x 10
+results:
+	hazard-concrete x 1
+
+enriched-fuel-from-liquid-fuel:
+	liquid-fuel x 20
+results:
+	enriched-fuel x 1
+
+filter-ceramic:
+	filter-frame x 1
+results:
+	filter-ceramic x 1
+
+gas-refinery-small-4:
+	gas-refinery-small-3 x 1
+results:
+	gas-refinery-small-4 x 1
+
+processing-electronics:
+	plastic-bar x 1
+	sulfuric-acid x 5
+	copper-cable x 2
+results:
+
+solid-ammonium-paratungstate-smelting:
+	solid-ammonium-paratungstate x 24
+	gas-hydrogen x 60
+results:
+	powder-tungsten x 24
+
+pellet-press-4:
+	pellet-press-3 x 1
+results:
+	pellet-press-4 x 1
+
+lithium-cobalt-oxide:
+	lithium x 1
+	cobalt-oxide x 1
+results:
+	lithium-cobalt-oxide x 1
+
+tungsten-carbide:
+	tungsten-oxide x 1
+	carbon x 1
+results:
+	tungsten-carbide x 2
+
+processed-manganese-smelting:
+	liquid-sulfuric-acid x 40
+	processed-manganese x 4
+results:
+	cathode-manganese x 12
+
+rifle:
+	steel-plate x 10
+	copper-plate x 5
+	iron-gear-wheel x 10
+results:
+	rifle x 1
+
+wood-sawing:
+	solid-tree x 1
+	solid-saw x 1
+results:
+	wood x 0
+
+crystal-powder-shard-green:
+	crystal-shard-green-cut x 1
+results:
+	crystal-powder x 1
+
+geode-lightgreen-processing:
+	geode-lightgreen x 2
+results:
+	crystal-dust x 3
+	stone-crushed x 2
+
+gas-propene-synthesis:
+	gas-methanol x 100
+	steam x 50
+results:
+	gas-propene x 80
+	gas-residual x 20
+
+swamp-1-seed:
+	swamp-1 x 10
+results:
+	swamp-1-seed x 0
+
+washing-plant-2:
+	washing-plant x 1
+results:
+	washing-plant-2 x 1
+
+slow-accumulator-2:
+	advanced-circuit x 4
+	battery x 4
+	slow-accumulator x 1
+	steel-plate x 2
+results:
+	slow-accumulator-2 x 1
+
+bob-logistic-zone-expander:
+	steel-plate x 5
+	roboport-antenna-1 x 3
+results:
+	bob-logistic-zone-expander x 1
+
+liquid-plastic-2:
+	liquid-naphtha x 20
+	gas-polyethylene x 20
+results:
+	liquid-plastic x 20
+
+alien-science-pack-blue:
+	alien-artifact-blue x 1
+results:
+	alien-science-pack-blue x 1
+
+angelsore-chunk-mix1-processing:
+	angels-ore1-chunk x 2
+	angels-ore6-chunk x 2
+	catalysator-green x 1
+results:
+	angels-void x 1
+
+ore-floatation-cell-2:
+	ore-floatation-cell x 1
+results:
+	ore-floatation-cell-2 x 1
+
+raw-productivity-module-8:
+	processing-unit x 8
+	raw-productivity-module-7 x 1
+	productivity-processor-3 x 10
+	effectivity-processor-3 x 10
+	pollution-clean-processor-3 x 10
+	module-contact x 5
+	advanced-circuit x 8
+results:
+	raw-productivity-module-8 x 1
+
+flying-robot-frame:
+	battery x 2
+	steel-plate x 1
+	electronic-circuit x 3
+	electric-engine-unit x 1
+results:
+	flying-robot-frame x 1
+
+nuclear-fuel-reprocessing:
+	used-up-uranium-fuel-cell x 10
+results:
+	uranium-238 x 4
+	plutonium x 1
+
+gold-processed-processing:
+	processed-gold x 3
+results:
+	pellet-gold x 4
+
+swamp-garden-cultivating-a:
+	swamp-garden x 1
+results:
+	token-bio x 32
+
+pollution-clean-processor:
+	module-processor-board x 1
+	electronic-circuit x 2
+	advanced-circuit x 2
+results:
+
+bullet-magazine:
+	magazine x 1
+	bullet x 5
+results:
+	bullet-magazine x 1
+
+steel-chest:
+	steel-plate x 8
+results:
+	steel-chest x 1
+
+breeder-fuel-cell:
+	iron-plate x 10
+	plutonium x 1
+	uranium-238 x 19
+results:
+	breeder-fuel-cell x 1
+
+crystallizer:
+	angels-void x 1
+results:
+	crystallizer x 1
+
+steam-cracking-butane:
+	gas-butane x 60
+	steam x 60
+results:
+	gas-benzene x 80
+	gas-residual x 20
+
+manganese-ore-processing:
+	manganese-ore x 4
+results:
+	processed-manganese x 2
+
+fusion-reactor-equipment:
+	processing-unit x 200
+	low-density-structure x 50
+results:
+	fusion-reactor-equipment x 1
+
+small-plane:
+	plastic-bar x 100
+	advanced-circuit x 200
+	electric-engine-unit x 20
+	battery x 100
+results:
+	small-plane x 1
+
+sulfite-pulping:
+	water x 50
+	cellulose-fiber x 20
+	liquid-pulping-liquor x 75
+	gas-ammonia x 25
+results:
+	solid-wood-pulp x 25
+	liquid-brown-liquor x 75
+
+angelsore5-chunk:
+	angels-ore5-crushed x 2
+	water-purified x 50
+results:
+	angels-ore5-chunk x 2
+	water-yellow-waste x 50
+	geode-cyan x 1
+
+radar:
+	iron-plate x 10
+	electronic-circuit x 5
+	iron-gear-wheel x 5
+results:
+	radar x 1
+
+angelsore3-crystal:
+	angels-ore3-chunk x 2
+	sulfuric-acid x 10
+results:
+	angels-ore3-crystal x 2
+
+angelsore7-crystallization-3:
+	crystal-seedling x 50
+	catalysator-green x 1
+results:
+	angels-void x 1
+
+green-module-1-combine:
+	effectivity-module x 1
+	pollution-clean-module-1 x 1
+results:
+	green-module-1 x 1
+
+oil-processing-with-sulfur-dioxide:
+	water x 50
+	crude-oil x 100
+results:
+	sulfur-dioxide x 40
+	light-oil x 30
+	petroleum-gas x 40
+
+temperate-farm:
+	iron-plate x 1
+results:
+	temperate-farm x 1
+
+paper-bleaching-3:
+	gas-sulfur-dioxide x 40
+	water x 100
+	solid-wood-pulp x 2
+	solid-sodium-hydroxide x 2
+	gas-oxygen x 60
+results:
+	solid-paper x 6
+	solid-sodium-carbonate x 2
+	water-yellow-waste x 100
+
+fuel-cell:
+	steel-plate x 100
+	rocket-fuel x 500
+	processing-unit x 100
+	low-density-structure x 100
+results:
+	fuel-cell x 1
+
+express-splitter:
+	fast-splitter x 1
+	steel-plate x 8
+	iron-gear-wheel x 14
+	advanced-circuit x 5
+results:
+	express-splitter x 1
+
+angelsore5-crystal-processing:
+	angels-ore5-crystal x 8
+results:
+	slag x 1
+
+solid-fuel-from-light-oil:
+	light-oil x 10
+results:
+	solid-fuel x 1
+
+nitrogen:
+	liquid-air x 25
+results:
+	nitrogen x 20
+	oxygen x 5
+
+roboport-door-4:
+	steel-plate x 15
+	iron-gear-wheel x 20
+results:
+	roboport-door-4 x 1
+
+cannon-shell:
+	plastic-bar x 2
+	explosives x 1
+	steel-plate x 2
+results:
+
+filter-lime:
+	filter-frame x 1
+	stone-crushed x 5
+results:
+	filter-lime x 1
+
+raw-speed-module-6-combine:
+	speed-module-6 x 1
+	effectivity-module-6 x 1
+results:
+	raw-speed-module-6 x 1
+
+pollution-create-processor:
+	module-processor-board x 1
+	electronic-circuit x 2
+	advanced-circuit x 2
+results:
+
+express-stack-inserter:
+	turbo-stack-inserter x 1
+	steel-plate x 4
+	iron-gear-wheel x 6
+	processing-unit x 1
+results:
+	express-stack-inserter x 1
+
+paste-iron:
+	paste-cellulose x 5
+	iron-ore x 5
+results:
+	paste-iron x 5
+
+cobalt-oxide-from-copper:
+	copper-ore x 7
+	stone x 1
+	carbon x 1
+	hydrogen x 5
+results:
+	copper-plate x 0
+	cobalt-oxide x 0
+
+productivity-module:
+	advanced-circuit x 5
+	electronic-circuit x 5
+results:
+	productivity-module x 1
+
+paste-from-gas-chlor-methane:
+	cellulose-fiber x 5
+	gas-chlor-methane x 10
+results:
+	paste-cellulose x 10
+
+swamp-tree-arboretum-1:
+	tree-swamp-seed x 2
+	solid-mud x 5
+	water-light-mud x 50
+results:
+	bio-plastic x 2
+	solid-tree x 2
+
+bio-rubber:
+	gas-acetone x 20
+	bio-rubber x 1
+results:
+	liquid-rubber x 5
+
+iron-ore-smelting:
+	iron-ore x 24
+results:
+	ingot-iron x 24
+
+alien-artifact-green-from-basic:
+	alien-artifact-green x 1
+	alien-artifact x 5
+results:
+	alien-artifact-green x 1
+
+cement-mixture-2:
+	quartz x 1
+	solid-lime x 1
+	solid-aluminium-oxide x 1
+	iron-ore x 1
+results:
+	solid-cement x 2
+
+zinc-ore-smelting:
+	liquid-molten-lead x 60
+	zinc-ore x 24
+	gas-oxygen x 60
+results:
+	ingot-zinc x 24
+	ingot-lead x 6
+	gas-sulfur-dioxide x 30
+
+strand-casting-machine-3:
+	strand-casting-machine-2 x 1
+results:
+	strand-casting-machine-3 x 1
+
+molten-chrome-smelting:
+	ingot-chrome x 12
+results:
+	liquid-molten-chrome x 120
+
+bob-topaz-3:
+	topaz-ore x 1
+results:
+	topaz-3 x 1
+
+bronze-alloy:
+	copper-plate x 3
+	tin-plate x 2
+results:
+	bronze-alloy x 5
+
+green-waste-water-purification:
+	water-green-waste x 100
+results:
+	water-purified x 70
+	water-saline x 20
+
+pellet-gold-smelting:
+	pellet-gold x 6
+	solid-sodium-cyanide x 4
+	water-purified x 40
+	gas-oxygen x 40
+results:
+	solid-sodium-gold-cyanide x 18
+	solid-sodium-hydroxide x 4
+
+angels-chemical-furnace-3:
+	angels-chemical-furnace-2 x 1
+results:
+	angels-chemical-furnace-3 x 1
+
+green-module-8-combine:
+	pollution-clean-module-8 x 1
+	effectivity-module-8 x 1
+results:
+	green-module-8 x 1
+
+puffer-egg-3:
+	bio-puffer-egg-3 x 1
+results:
+	bio-puffer-1 x 1
+	bio-puffer-3 x 1
+
+steam-engine-4:
+	steam-engine-3 x 1
+	pipe x 5
+	steel-plate x 5
+	iron-gear-wheel x 5
+results:
+
+logistic-science-pack:
+	sct-t2-instruments x 1
+	sct-t2-reaction-nodes x 1
+results:
+	logistic-science-pack x 1
+
+ceramic-pipe-to-ground:
+	ceramic-pipe x 16
+	silicon-nitride x 5
+results:
+	ceramic-pipe-to-ground x 1
+
+angelsore6-pure:
+	angels-ore6-crystal x 4
+results:
+	angels-ore6-pure x 4
+
+angels-iron-pebbles-smelting:
+	angels-iron-pebbles x 4
+results:
+	iron-plate x 2
+
+slag-processing-7:
+	mineral-sludge x 50
+results:
+	angels-void x 1
+
+storage-tank-2:
+	storage-tank x 1
+	steel-plate x 20
+results:
+	storage-tank-2 x 1
+
+molten-titanium-smelting-5:
+	ingot-titanium x 12
+	ingot-cobalt x 12
+	ingot-chrome x 12
+results:
+	liquid-molten-titanium x 360
+
+bob-diamond-3:
+	diamond-ore x 1
+results:
+	diamond-3 x 1
+
+solid-trinitrotoluene:
+	liquid-toluene x 50
+	liquid-sulfuric-acid x 25
+	liquid-nitric-acid x 25
+results:
+	explosives x 3
+	water-yellow-waste x 25
+
+bob-flame-rocket:
+	flame-rocket-warhead x 1
+	rocket-body x 1
+results:
+	bob-flame-rocket x 1
+
+railgun-dart:
+	steel-plate x 5
+	electronic-circuit x 5
+results:
+	railgun-dart x 1
+
+solar-panel-equipment:
+	solar-panel x 1
+	advanced-circuit x 2
+	steel-plate x 5
+results:
+	solar-panel-equipment x 1
+
+crystal-slurry-filtering-conversion-1:
+	crystal-slurry x 50
+	water-mineralized x 100
+	filter-coal x 1
+results:
+	mineral-sludge x 50
+	water-yellow-waste x 40
+	filter-frame x 1
+
+raw-productivity-module-7-combine:
+	productivity-module-7 x 1
+	effectivity-module-7 x 1
+	pollution-clean-module-7 x 1
+results:
+	raw-productivity-module-7 x 1
+
+logistic-robot:
+	flying-robot-frame x 1
+	advanced-circuit x 2
+results:
+	logistic-robot x 1
+
+sct-t3-laser-foci:
+	copper-plate x 4
+	iron-plate x 6
+results:
+	sct-t3-laser-foci x 1
+	sct-waste-copperonly x 1
+
+angelsore-crushed-mix1-processing:
+	angels-ore1-crushed x 2
+	angels-ore2-crushed x 2
+	catalysator-brown x 1
+results:
+	angels-void x 1
+
+module-case:
+	plastic-bar x 2
+	iron-plate x 5
+results:
+
+liquid-pulping-liquor:
+	gas-sulfur-dioxide x 100
+	gas-oxygen x 40
+	water x 50
+results:
+	liquid-pulping-liquor x 100
+
+hydrogen-chloride:
+	chlorine x 12.5
+	hydrogen x 10
+results:
+	hydrogen-chloride x 25
+
+petroleum-generator:
+	steel-plate x 12
+	engine-unit x 8
+	electronic-circuit x 16
+	pipe x 10
+results:
+	petroleum-generator x 1
+
+thermal-water-filtering-2:
+	thermal-water x 35
+	filter-ceramic x 1
+results:
+	mineral-sludge x 35
+	filter-ceramic-used x 1
+
+bob-fluid-wagon-2:
+	fluid-wagon x 1
+	iron-gear-wheel x 12
+	steel-plate x 16
+	storage-tank-2 x 1
+results:
+	bob-fluid-wagon-2 x 1
+
+bronze-pipe:
+	bronze-alloy x 1
+results:
+	bronze-pipe x 1
+
+raw-productivity-module-2:
+	effectivity-processor x 2
+	pollution-clean-processor x 2
+	module-contact x 5
+	raw-productivity-module-1 x 1
+	productivity-processor x 2
+results:
+	raw-productivity-module-2 x 1
+
+angels-chemical-furnace:
+	steel-plate x 10
+results:
+	angels-chemical-furnace x 1
+
+washing-2:
+	water-heavy-mud x 200
+	water x 50
+results:
+	water-concentrated-mud x 200
+	solid-mud x 0
+
+robot-brain-construction:
+results:
+	robot-brain-construction x 1
+
+bob-sapphire-4:
+	water x 10
+	sapphire-3 x 1
+	grinding-wheel x 1
+results:
+	sapphire-4 x 1
+
+bob-robo-charge-port-4:
+	bob-robo-charge-port-3 x 1
+	steel-plate x 10
+	roboport-chargepad-4 x 4
+results:
+	bob-robo-charge-port-4 x 1
+
+raw-productivity-module-6:
+	module-contact x 5
+	processing-unit x 7
+	raw-productivity-module-5 x 1
+	productivity-processor-3 x 6
+	effectivity-processor-3 x 6
+	pollution-clean-processor-3 x 6
+results:
+	raw-productivity-module-6 x 1
+
+angels-roll-copper-converting:
+	angels-roll-copper x 1
+results:
+	angels-plate-copper x 4
+
+electric-mining-drill:
+	electronic-circuit x 3
+	iron-gear-wheel x 5
+	iron-plate x 10
+results:
+
+ftl-drive:
+	low-density-structure x 100
+	processing-unit x 500
+	productivity-module-3 x 500
+	speed-module-3 x 500
+	effectivity-module-3 x 500
+results:
+	ftl-drive x 1
+
+angels-solder-smelting-3:
+	ingot-tin x 12
+	ingot-copper x 12
+	ingot-silver x 12
+results:
+	liquid-molten-solder x 360
+
+fermentation-corn:
+	water x 50
+	solid-corn x 10
+results:
+	liquid-fermentation-raw x 75
+
+geode-cyan-processing:
+	geode-cyan x 2
+results:
+	stone-crushed x 2
+	crystal-dust x 3
+
+angelsore7-crystallization-2:
+	crystal-seedling x 50
+	catalysator-green x 1
+results:
+	angels-void x 1
+
+solid-sodium-hydroxide:
+	solid-sodium x 5
+	water-purified x 50
+results:
+	solid-sodium-hydroxide x 5
+
+angelsore-crystal-mix2-processing:
+	angels-ore3-crystal x 2
+	angels-ore4-crystal x 2
+	angels-ore5-crystal x 2
+	catalysator-orange x 1
+results:
+	angels-void x 1
+
+puffer-puffing-5:
+	gas-puffer-atmosphere x 20
+	gas-hydrogen-chloride x 100
+	bio-puffer-5 x 4
+	liquid-nutrient-pulp x 20
+results:
+	bio-puffer-5 x 1
+	gas-acid x 20
+	gas-hydrazine x 200
+
+filtration-unit-2:
+	filtration-unit x 1
+results:
+	filtration-unit-2 x 1
+
+ore-powderizer:
+	angels-void x 1
+results:
+	ore-powderizer x 1
+
+bob-armoured-cargo-wagon-2:
+	bob-armoured-cargo-wagon x 1
+	steel-plate x 25
+	iron-gear-wheel x 12
+results:
+	bob-armoured-cargo-wagon-2 x 1
+
+paste-titanium:
+	paste-cellulose x 5
+	rutile-ore x 5
+results:
+	paste-titanium x 5
+
+oil-processing-with-sulfur-dioxide-3:
+	water x 20
+	crude-oil x 100
+results:
+	heavy-oil x 30
+	light-oil x 30
+	sulfur-dioxide x 50
+
+catalyst-metal-red:
+	catalyst-metal-carrier x 10
+results:
+	catalyst-metal-red x 10
+
+crystal-powder-shard-blue:
+	crystal-shard-blue-cut x 1
+results:
+	crystal-powder x 1
+
+geode-purple-liquify:
+	geode-purple x 5
+	sulfuric-acid x 15
+results:
+	crystal-slurry x 40
+
+brass-pipe:
+	brass-alloy x 1
+results:
+	brass-pipe x 1
+
+liquid-hydrochloric-acid:
+	gas-hydrogen-chloride x 100
+	water-purified x 50
+results:
+	liquid-hydrochloric-acid x 50
+
+bob-titanium-plate:
+	calcium-chloride x 2
+	carbon x 1
+	rutile-ore x 2
+results:
+	titanium-plate x 1
+
+swamp-2-seed:
+	swamp-2 x 10
+results:
+	swamp-2-seed x 0
+
+solder:
+	solder-alloy x 4
+	resin x 1
+results:
+	solder x 1
+
+angelsore9-dust-processing:
+	angels-ore9-dust x 6
+results:
+	angels-void x 1
+
+liquid-plastic-3:
+	gas-formaldehyde x 20
+	gas-phenol x 20
+results:
+	liquid-plastic x 30
+
+angels-chemical-plant-4:
+	angels-chemical-plant-3 x 1
+results:
+	angels-chemical-plant-4 x 1
+
+electronic-components:
+	copper-cable x 1
+	plastic-bar x 1
+results:
+
+algae-farm-2:
+	algae-farm x 1
+results:
+	algae-farm-2 x 1
+
+bob-power-armor-mk3:
+	iron-plate x 25
+	effectivity-module-3 x 5
+	speed-module-3 x 5
+	power-armor-mk2 x 1
+	processing-unit x 50
+	steel-plate x 25
+results:
+	bob-power-armor-mk3 x 1
+
+calcium-chloride:
+	stone x 1
+	hydrogen-chloride x 10
+results:
+	calcium-chloride x 1
+
+robot-tool-construction:
+results:
+	robot-tool-construction x 1
+
+angels-roll-solder-converting:
+	angels-roll-solder x 4
+results:
+	angels-solder x 12
+
+burner-mining-drill:
+	iron-plate x 3
+	iron-gear-wheel x 3
+	stone-furnace x 1
+results:
+
+sct-utility-science-pack:
+	sct-htech-injector x 1
+	sct-htech-random x 1
+	sct-htech-capbank x 1
+results:
+	utility-science-pack x 2
+
+molten-iron-smelting-3:
+	ingot-iron x 12
+	ingot-silicon x 12
+results:
+	liquid-molten-iron x 240
+
+fish-butchery-1:
+	alien-fish-1-raw x 1
+results:
+	bio-raw-meat x 1
+
+bob-logistic-zone-expander-2:
+	steel-plate x 5
+	roboport-antenna-2 x 3
+	bob-logistic-zone-expander x 1
+results:
+	bob-logistic-zone-expander-2 x 1
+
+angels-plate-glass-1:
+	liquid-molten-glass x 40
+results:
+	angels-plate-glass x 3
+
+angelsore3-crushed-processing:
+	angels-ore3-crushed x 4
+results:
+	slag x 1
+
+geode-blue-processing:
+	geode-blue x 2
+results:
+	crystal-dust x 1
+	stone-crushed x 2
+
+bob-aluminium-plate:
+	alumina x 2
+	carbon x 1
+results:
+	aluminium-plate x 1
+
+bob-laser-turret-5:
+	steel-plate x 20
+	processing-unit x 20
+	battery x 12
+	bob-laser-turret-4 x 1
+results:
+	bob-laser-turret-5 x 1
+
+bob-topaz-4:
+	topaz-3 x 1
+	grinding-wheel x 1
+	water x 10
+results:
+	topaz-4 x 1
+
+basic-circuit-board:
+	wooden-board x 1
+	copper-cable x 3
+results:
+	basic-circuit-board x 1
+
+raw-speed-module-8:
+	raw-speed-module-7 x 1
+	speed-processor-3 x 10
+	effectivity-processor-3 x 10
+	module-contact x 5
+	advanced-circuit x 8
+	processing-unit x 8
+results:
+	raw-speed-module-8 x 1
+
+solar-panel-large-2:
+	copper-plate x 8
+	solar-panel-large x 1
+	steel-plate x 8
+	advanced-circuit x 16
+results:
+	solar-panel-large-2 x 1
+
+angels-storage-tank-1:
+	steel-plate x 10
+results:
+	angels-storage-tank-1 x 1
+
+nitrogen-dioxide:
+	nitric-oxide x 20
+	oxygen x 10
+results:
+	nitrogen-dioxide x 20
+
+bob-logistic-zone-expander-4:
+	bob-logistic-zone-expander-3 x 1
+	steel-plate x 5
+	roboport-antenna-4 x 3
+results:
+	bob-logistic-zone-expander-4 x 1
+
+bio-refugium-hogger:
+	iron-plate x 1
+results:
+	bio-refugium-hogger x 1
+
+swamp-5:
+	swamp-5-seed x 5
+	solid-mud x 10
+	solid-fertilizer x 1
+	water-thin-mud x 50
+results:
+	swamp-5 x 0
+	swamp-5-seed-dormant x 5
+
+alien-artifact-yellow-from-basic:
+	alien-artifact-yellow x 1
+	alien-artifact x 5
+results:
+	alien-artifact-yellow x 1
+
+big-burner-generator:
+	heat-exchanger x 4
+	steel-plate x 50
+	concrete x 100
+	pump x 10
+results:
+	big-burner-generator x 1
+
+angels-electrolyser-2:
+	angels-electrolyser x 1
+results:
+	angels-electrolyser-2 x 1
+
+bio-resin:
+	gas-ethanol x 20
+	bio-resin x 1
+results:
+	liquid-resin x 5
+
+robot-tool-logistic-2:
+results:
+	robot-tool-logistic-2 x 1
+
+solid-fuel-naphtha:
+	solid-coke x 1
+	liquid-naphtha x 100
+results:
+	solid-fuel x 2
+
+angels-flare-stack:
+	steel-plate x 10
+results:
+	angels-flare-stack x 1
+
+bob-laser-robot-capsule:
+	bob-laser-robot x 5
+results:
+	bob-laser-robot-capsule x 1
+
+logistic-chest-active-provider-2:
+	logistic-chest-active-provider x 1
+	processing-unit x 1
+results:
+	logistic-chest-active-provider-2 x 1
+
+tree-generator-1:
+	solid-soil x 5
+	water x 50
+results:
+	tree-seed x 4
+
+refined-hazard-concrete:
+	refined-concrete x 10
+results:
+	refined-hazard-concrete x 1
+
+angels-chemical-plant-2:
+	angels-chemical-plant x 1
+results:
+	angels-chemical-plant-2 x 1
+
+raw-productivity-module-4-combine:
+	productivity-module-4 x 1
+	effectivity-module-4 x 1
+	pollution-clean-module-4 x 1
+results:
+	raw-productivity-module-4 x 1
+
+tungsten-processed-processing:
+	processed-tungsten x 3
+results:
+	pellet-tungsten x 4
+
+crystal-enhancer:
+	seeded-dish x 1
+	crystal-powder x 1
+	catalysator-green x 1
+results:
+	crystal-enhancer x 1
+
+raw-speed-module-3:
+	speed-processor-2 x 3
+	effectivity-processor-2 x 3
+	advanced-circuit x 7
+	raw-speed-module-2 x 1
+results:
+	raw-speed-module-3 x 1
+
+flame-bullet-magazine:
+	flame-bullet x 5
+	magazine x 1
+results:
+	flame-bullet-magazine x 1
+
+explosive-artillery-shell:
+	steel-plate x 6
+	explosives x 15
+results:
+	explosive-artillery-shell x 1
+
+sorting-desert-4:
+	desert-4 x 20
+results:
+	solid-fruit x 12
+	cellulose-fiber x 14
+
+transport-belt:
+	iron-plate x 2
+	iron-gear-wheel x 2
+	basic-transport-belt x 1
+results:
+	transport-belt x 1
+
+fast-transport-belt:
+	steel-plate x 2
+	iron-gear-wheel x 4
+	transport-belt x 1
+results:
+	fast-transport-belt x 1
+
+angelsore6-chunk:
+	angels-ore6-crushed x 2
+	water-purified x 50
+results:
+	angels-ore6-chunk x 2
+	water-yellow-waste x 50
+	geode-red x 1
+
+casting-machine-4:
+	casting-machine-3 x 1
+results:
+	casting-machine-4 x 1
+
+copper-tungsten-pipe-to-ground:
+	copper-tungsten-pipe x 18
+	copper-tungsten-alloy x 5
+results:
+	copper-tungsten-pipe-to-ground x 1
+
+angels-air-filter-2:
+	angels-air-filter x 1
+results:
+	angels-air-filter-2 x 1
+
+puffer-puffing-3:
+	bio-puffer-3 x 4
+	liquid-nutrient-pulp x 20
+	gas-puffer-atmosphere x 20
+	gas-carbon-monoxide x 100
+results:
+	bio-puffer-3 x 1
+	gas-acid x 20
+	gas-urea x 200
+
+substation:
+	steel-plate x 10
+	advanced-circuit x 5
+	copper-plate x 5
+results:
+	substation x 1
+
+raw-productivity-module-6-combine:
+	productivity-module-6 x 1
+	effectivity-module-6 x 1
+	pollution-clean-module-6 x 1
+results:
+	raw-productivity-module-6 x 1
+
+tungsten-gear-wheel:
+	tungsten-plate x 1
+results:
+
+fast-accumulator:
+	iron-plate x 2
+	electronic-circuit x 2
+	battery x 4
+results:
+	fast-accumulator x 1
+
+gas-benzene-catalyst:
+	gas-methane x 100
+	catalyst-metal-green x 1
+results:
+	gas-benzene x 100
+	catalyst-metal-carrier x 1
+
+alien-artifact-red-from-basic:
+	alien-artifact x 5
+	alien-artifact-red x 1
+results:
+	alien-artifact-red x 1
+
+coal-crushed:
+	coal x 1
+results:
+	coal-crushed x 2
+
+shotgun-electric-shell:
+	shotgun-shell-casing x 1
+	copper-plate x 1
+	cordite x 1
+results:
+	shotgun-electric-shell x 1
+
+paste-copper:
+	paste-cellulose x 5
+	copper-ore x 5
+results:
+	paste-copper x 5
+
+sct-lab3-optics:
+	advanced-circuit x 20
+	sct-t3-femto-lasers x 1
+results:
+
+angelsore3-crystal-processing:
+	angels-ore3-crystal x 8
+results:
+	slag x 1
+
+bob-logistic-robot-3:
+results:
+	bob-logistic-robot-3 x 1
+
+solid-ammonium-nitrate:
+	liquid-nitric-acid x 100
+	gas-ammonia x 100
+results:
+	solid-ammonium-nitrate x 3
+
+destroyer-robot:
+results:
+	destroyer-robot x 1
+
+silicon-carbide:
+	silicon-powder x 1
+	carbon x 1
+results:
+	silicon-carbide x 1
+
+angels-rod-stack-steel-converting:
+	angels-rod-stack-steel x 1
+results:
+	angels-rod-steel x 4
+
+geode-red-processing:
+	geode-red x 2
+results:
+	crystal-dust x 1
+	stone-crushed x 2
+
+angels-warehouse-buffer:
+	steel-plate x 20
+	angels-warehouse x 1
+	advanced-circuit x 20
+results:
+	angels-warehouse-buffer x 1
+
+sulfur:
+	water x 30
+	petroleum-gas x 30
+results:
+	sulfur x 2
+
+bob-construction-robot-4:
+results:
+	bob-construction-robot-4 x 1
+
+chemical-plant:
+	steel-plate x 5
+	iron-gear-wheel x 5
+	electronic-circuit x 5
+	pipe x 5
+results:
+	chemical-plant x 1
+
+iron-gear-wheel:
+	iron-plate x 2
+results:
+
+utility-science-pack:
+	sct-htech-random x 1
+	sct-htech-capbank x 1
+	sct-htech-injector x 1
+results:
+	utility-science-pack x 2
+
+angels-wire-coil-copper-converting:
+	angels-wire-coil-copper x 4
+results:
+	angels-wire-copper x 16
+
+green-module-7-combine:
+	effectivity-module-7 x 1
+	pollution-clean-module-7 x 1
+results:
+	green-module-7 x 1
+
+molten-silicon-smelting:
+	ingot-silicon x 12
+results:
+	liquid-molten-silicon x 120
+
+temperate-4:
+	temperate-4-seed x 5
+	solid-soil x 5
+	solid-fertilizer x 1
+	water x 50
+results:
+	temperate-4 x 0
+	temperate-4-seed-dormant x 5
+
+tungsten-pipe-to-ground:
+	tungsten-pipe x 16
+	tungsten-plate x 5
+results:
+	tungsten-pipe-to-ground x 1
+
+he-bullet-magazine:
+	he-bullet x 5
+	magazine x 1
+results:
+	he-bullet-magazine x 1
+
+temperate-2:
+	temperate-2-seed x 5
+	solid-soil x 5
+	water x 50
+results:
+	temperate-2 x 0
+
+exoskeleton-equipment:
+	processing-unit x 10
+	electric-engine-unit x 30
+	steel-plate x 20
+results:
+	exoskeleton-equipment x 1
+
+angelsore-pure-mix3-processing:
+	angels-ore3-pure x 2
+	angels-ore5-pure x 2
+	catalysator-orange x 1
+	angels-ore2-pure x 2
+results:
+	angels-void x 1
+
+bob-robo-charge-port-3:
+	bob-robo-charge-port-2 x 1
+	steel-plate x 10
+	roboport-chargepad-3 x 4
+results:
+	bob-robo-charge-port-3 x 1
+
+liquid-trichlorosilane-smelting:
+	liquid-trichlorosilane x 90
+	ingot-silicon x 6
+results:
+	ingot-silicon x 24
+
+bio-butchery:
+	iron-plate x 1
+results:
+	bio-butchery x 1
+
+advanced-circuit:
+	circuit-board x 1
+	basic-electronic-components x 4
+	electronic-components x 4
+results:
+
+angelsore1-crushed-smelting:
+	angels-ore1-crushed x 3
+results:
+	iron-plate x 2
+
+gas-allylchlorid:
+	gas-propene x 50
+	gas-chlorine x 50
+results:
+	gas-allylchlorid x 50
+	gas-hydrogen-chloride x 50
+
+angels-plate-tin:
+	liquid-molten-tin x 40
+results:
+	angels-plate-tin x 4
+
+piercing-rounds-magazine:
+	copper-plate x 5
+	firearm-magazine x 1
+	steel-plate x 1
+results:
+	piercing-rounds-magazine x 1
+
+sct-prod-chipcase:
+	plastic-bar x 5
+	green-wire x 5
+	advanced-circuit x 1
+	heavy-oil x 120
+results:
+	sct-prod-chipcase x 1
+	sct-waste-copperonly x 1
+
+bob-cargo-wagon-2:
+	iron-gear-wheel x 12
+	cargo-wagon x 1
+	steel-plate x 20
+results:
+	bob-cargo-wagon-2 x 1
+
+express-underground-belt:
+	steel-plate x 14
+	iron-gear-wheel x 20
+	fast-underground-belt x 2
+results:
+	express-underground-belt x 1
+
+stone-crushed-dissolution:
+	sulfuric-acid x 15
+	stone-crushed x 25
+results:
+	slag-slurry x 50
+
+gas-synthesis-reforming:
+	gas-carbon-monoxide x 60
+	gas-hydrogen x 90
+results:
+	gas-synthesis x 100
+
+angels-wire-coil-platinum-casting:
+	liquid-molten-platinum x 40
+	liquid-molten-copper x 40
+	water x 40
+results:
+	angels-wire-coil-platinum x 4
+
+underground-belt:
+	iron-plate x 14
+	iron-gear-wheel x 20
+	basic-underground-belt x 2
+results:
+	underground-belt x 1
+
+hydro-plant-3:
+	hydro-plant-2 x 1
+results:
+	hydro-plant-3 x 1
+
+logistic-chest-passive-provider-2:
+	logistic-chest-passive-provider x 1
+	processing-unit x 1
+results:
+	logistic-chest-passive-provider-2 x 1
+
+laser-rifle-battery-amethyst:
+	laser-rifle-battery-emerald x 1
+	battery x 4
+results:
+	laser-rifle-battery-amethyst x 1
+
+roboport-chargepad-1:
+	steel-plate x 2
+	advanced-circuit x 5
+results:
+	roboport-chargepad-1 x 1
+
+solar-panel-small-3:
+	processing-unit x 4
+	copper-plate x 2
+	solar-panel-small-2 x 1
+	steel-plate x 2
+results:
+	solar-panel-small-3 x 1
+
+rocket-booster-1:
+	solid-ammonium-nitrate x 3
+	pipe x 1
+results:
+	rocket-booster x 2
+
+roll-solder-casting:
+	liquid-molten-solder x 80
+	water x 40
+results:
+	angels-roll-solder x 4
+
+alien-artifact-blue-from-basic:
+	alien-artifact-blue x 1
+	alien-artifact x 5
+results:
+	alien-artifact-blue x 1
+
+molten-steel-smelting-1:
+	ingot-steel x 12
+results:
+	liquid-molten-steel x 120
+
+paste-silver:
+	paste-cellulose x 5
+	silver-ore x 5
+results:
+	paste-silver x 5
+
+temperate-3:
+	temperate-3-seed x 5
+	solid-soil x 5
+	water x 50
+results:
+	temperate-3 x 0
+	temperate-3-seed-dormant x 5
+
+sct-t2-wafer-stamp:
+	iron-plate x 4
+results:
+	sct-t2-wafer-stamp x 4
+
+paste-cobalt:
+	cobalt-ore x 5
+	paste-cellulose x 5
+results:
+	paste-cobalt x 5
+
+red-stack-inserter:
+	long-handed-inserter x 1
+	steel-plate x 3
+	iron-gear-wheel x 5
+results:
+	red-stack-inserter x 1
+
+casting-machine:
+	iron-plate x 10
+results:
+	casting-machine x 1
+
+explosives:
+	sulfur x 1
+	coal x 1
+	water x 10
+results:
+
+angelsore7-crystallization-5:
+	crystal-seedling x 50
+	catalysator-green x 1
+results:
+	angels-void x 1
+
+bob-roboport-2:
+	roboport-door-2 x 1
+	roboport x 1
+	steel-plate x 15
+	roboport-antenna-2 x 5
+	roboport-chargepad-2 x 4
+results:
+	bob-roboport-2 x 1
+
+slag-processing-dissolution:
+	slag x 5
+	sulfuric-acid x 15
+results:
+	slag-slurry x 50
+
+angelsore-chunk-mix4-processing:
+	angels-ore2-chunk x 2
+	angels-ore6-chunk x 2
+	catalysator-green x 1
+results:
+	angels-void x 1
+
+sniper-rifle:
+	iron-gear-wheel x 10
+	steel-plate x 10
+	wood x 10
+results:
+	sniper-rifle x 1
+
+liquid-raw-vegetable-oil-pips:
+	solid-pips x 10
+results:
+	liquid-raw-vegetable-oil x 40
+
+automation-science-pack:
+	sct-t1-ironcore x 1
+	sct-t1-magnet-coils x 2
+results:
+	automation-science-pack x 1
+
+turbo-transport-belt:
+	steel-plate x 2
+	iron-gear-wheel x 4
+	express-transport-belt x 1
+results:
+	turbo-transport-belt x 1
+
+liquid-mineral-oil-catalyst:
+	liquid-naphtha x 60
+	thermal-water x 20
+	gas-carbon-monoxide x 20
+results:
+	liquid-mineral-oil x 100
+
+nuclear-fuel:
+	uranium-235 x 1
+	rocket-fuel x 1
+results:
+	nuclear-fuel x 1
+
+solid-silver-nitrate-smelting:
+	solid-silver-nitrate x 24
+results:
+	ingot-silver x 24
+
+coolant-used-filtration-1:
+	filter-coal x 1
+	liquid-coolant-used x 200
+results:
+	liquid-coolant x 160
+	filter-frame x 1
+
+poison-artillery-shell:
+	steel-plate x 6
+	coal x 15
+	explosives x 3
+results:
+	poison-artillery-shell x 1
+
+substrate-dish:
+	petri-dish x 3
+	paste-cellulose x 1
+results:
+	substrate-dish x 3
+
+bob-mining-drill-4:
+	iron-gear-wheel x 5
+	bob-mining-drill-3 x 1
+	processing-unit x 5
+	steel-plate x 10
+results:
+	bob-mining-drill-4 x 1
+
+chemical-steel-furnace:
+	stone-brick x 10
+	pipe x 5
+	steel-plate x 6
+results:
+	chemical-steel-furnace x 1
+
+powder-steel:
+	ingot-steel x 1
+results:
+	powder-steel x 1
+
+blast-furnace:
+	steel-plate x 10
+results:
+	blast-furnace x 1
+
+tree-generator-2:
+	solid-soil x 5
+	solid-fertilizer x 1
+	water x 50
+results:
+	tree-seed x 6
+
+puffer-breeding-4:
+	bio-puffer-4 x 2
+	solid-pips x 5
+	liquid-nutrient-pulp x 20
+	gas-puffer-atmosphere x 20
+results:
+	bio-puffer-egg-2 x 1
+	bio-puffer-egg-3 x 1
+	bio-puffer-egg-4 x 1
+	bio-puffer-egg-5 x 1
+	bio-puffer-4 x 2
+	bio-puffer-egg-1 x 1
+
+nickel-processed-processing:
+	processed-nickel x 3
+results:
+	pellet-nickel x 4
+
+sponge-titanium-smelting:
+	sponge-titanium x 24
+results:
+	ingot-titanium x 24
+
+bob-robochest:
+	steel-chest x 1
+	roboport-antenna-1 x 1
+	roboport-chargepad-1 x 1
+	roboport-door-1 x 1
+results:
+	bob-robochest x 1
+
+landfill-sand-3:
+	solid-mud x 25
+results:
+	landfill-sand-3 x 1
+
+fast-loader:
+	fast-transport-belt x 5
+	loader x 1
+results:
+	fast-loader x 1
+
+carbon-separation-2:
+	coal x 1
+results:
+	gas-carbon-dioxide x 50
+
+nutrients-refining-3:
+	liquid-nutrient-pulp x 100
+results:
+	gas-acetone x 60
+	gas-ethanol x 30
+	gas-butane x 10
+
+basic-electronic-components:
+	copper-cable x 1
+	coal x 1
+results:
+
+ore-processing-machine-2:
+	ore-processing-machine x 1
+results:
+	ore-processing-machine-2 x 1
+
+crystal-powder-full-red:
+	crystal-full-red-cut x 1
+results:
+	crystal-powder x 1
+
+turbo-stack-inserter:
+	iron-gear-wheel x 6
+	processing-unit x 1
+	stack-inserter x 1
+	steel-plate x 4
+results:
+	turbo-stack-inserter x 1
+
+iron-ore-processing:
+	iron-ore x 4
+results:
+	processed-iron x 2
+
+solid-aluminium-hydroxide-smelting:
+	solid-aluminium-hydroxide x 24
+results:
+	solid-aluminium-oxide x 24
+
+liquid-acetate-mixture:
+	cellulose-fiber x 10
+	liquid-acetic-acid x 40
+	liquid-acetic-anhydride x 40
+	liquid-sulfuric-acid x 20
+results:
+	liquid-cellulose-acetate-mixture x 100
+
+puffer-butchery-2:
+	bio-puffer-2 x 1
+results:
+	bio-raw-meat x 1
+
+burner-ore-crusher:
+	angels-void x 1
+results:
+	burner-ore-crusher x 1
+
+copper-pipe:
+	copper-plate x 1
+results:
+	copper-pipe x 1
+
+washing-1:
+	water-viscous-mud x 200
+	water x 50
+results:
+	water-heavy-mud x 200
+	solid-mud x 0
+
+geode-yellow-liquify:
+	geode-yellow x 5
+	sulfuric-acid x 15
+results:
+	crystal-slurry x 30
+
+bob-armoured-locomotive:
+	steel-plate x 25
+	locomotive x 1
+results:
+	bob-armoured-locomotive x 1
+
+bob-logistic-zone-expander-3:
+	bob-logistic-zone-expander-2 x 1
+	steel-plate x 5
+	roboport-antenna-3 x 3
+results:
+	bob-logistic-zone-expander-3 x 1
+
+phenolic-board:
+	wood x 1
+	resin x 1
+results:
+	phenolic-board x 1
+
+silver-ore-smelting:
+	silver-ore x 24
+results:
+	ingot-silver x 24
+
+uranium-rounds-magazine:
+	uranium-bullet x 5
+	magazine x 1
+results:
+	uranium-rounds-magazine x 1
+
+chemical-furnace:
+	steel-plate x 15
+	stone-brick x 10
+	advanced-circuit x 5
+	pipe x 5
+results:
+	chemical-furnace x 1
+
+silver-ore-processing:
+	silver-ore x 4
+results:
+	processed-silver x 2
+
+swamp-2:
+	swamp-2-seed x 5
+	solid-mud x 10
+	water-heavy-mud x 50
+results:
+	swamp-2 x 0
+
+copper-cable:
+	copper-plate x 1
+results:
+	copper-cable x 1
+
+rail:
+	stone x 1
+	iron-stick x 1
+	steel-plate x 1
+results:
+	rail x 1
+
+gas-fractioning-residual:
+	liquid-ngl x 100
+	gas-residual x 50
+results:
+	gas-methane x 40
+	gas-ethane x 40
+	gas-butane x 50
+	liquid-toluene x 20
+
+desert-tree-arboretum-1:
+	tree-desert-seed x 2
+	solid-sand x 5
+	water-saline x 50
+results:
+	bio-rubber x 2
+	solid-tree x 2
+
+void-nitrogen:
+	nitrogen x 20
+results:
+	void x 1
+
+water-gas-shift-1:
+	steam x 50
+	gas-carbon-monoxide x 50
+results:
+	gas-carbon-dioxide x 50
+	gas-hydrogen x 50
+
+desert-1-seed:
+	desert-1 x 10
+results:
+	desert-1-seed x 0
+
+angelsore2-pure:
+	angels-ore2-crystal x 4
+results:
+	angels-ore2-pure x 4
+
+shotgun-acid-shell:
+	shotgun-shell-casing x 1
+	sulfuric-acid x 10
+	cordite x 1
+results:
+	shotgun-acid-shell x 1
+
+acid-bullet-magazine:
+	acid-bullet x 5
+	magazine x 1
+results:
+	acid-bullet-magazine x 1
+
+red-fiber-algae:
+	algae-red x 10
+results:
+	red-cellulose-fiber x 5
+
+swamp-farm:
+	iron-plate x 1
+results:
+	swamp-farm x 1
+
+bob-liquid-air:
+results:
+	liquid-air x 100
+
+gas-fractioning-condensates:
+	liquid-ngl x 100
+	liquid-condensates x 50
+results:
+	gas-ethane x 30
+	gas-butane x 70
+	liquid-naphtha x 20
+	gas-methane x 30
+
+sintering-oven-3:
+	sintering-oven-2 x 1
+results:
+	sintering-oven-3 x 1
+
+artillery-turret:
+	concrete x 60
+	iron-gear-wheel x 40
+	advanced-circuit x 20
+	steel-plate x 60
+results:
+	artillery-turret x 1
+
+raw-speed-module-8-combine:
+	speed-module-8 x 1
+	effectivity-module-8 x 1
+results:
+	raw-speed-module-8 x 1
+
+void-chlorine:
+	chlorine x 25
+results:
+	void x 1
+
+angels-iron-nugget-smelting:
+	angels-iron-nugget x 2
+results:
+	iron-plate x 3
+
+boiler-5:
+	boiler-4 x 1
+	steel-plate x 5
+results:
+	boiler-5 x 1
+
+angels-wire-coil-platinum-converting:
+	angels-wire-coil-platinum x 4
+results:
+	angels-wire-platinum x 16
+
+empty-barrel:
+	steel-plate x 1
+results:
+	empty-barrel x 1
+
+alien-science-pack-yellow:
+	alien-artifact-yellow x 1
+results:
+	alien-science-pack-yellow x 1
+
+liquid-hexachloroplatinic-acid-smelting:
+	gas-ammonium-chloride x 60
+	liquid-hexachloroplatinic-acid x 120
+results:
+	solid-ammonium-chloroplatinate x 24
+
+alien-artifact-orange-from-small:
+	small-alien-artifact-orange x 25
+results:
+	alien-artifact-orange x 1
+
+steam-cracking-mineral-oil:
+	liquid-mineral-oil x 100
+	steam x 100
+results:
+	gas-synthesis x 100
+	gas-residual x 10
+
+big-electric-pole:
+	iron-stick x 8
+	steel-plate x 5
+	copper-plate x 5
+results:
+	big-electric-pole x 1
+
+slag-processing-1:
+	mineral-sludge x 50
+results:
+	angels-void x 1
+
+roboport-chargepad-3:
+	processing-unit x 5
+	battery x 2
+	steel-plate x 2
+results:
+	roboport-chargepad-3 x 1
+
+steam-cracker-4:
+	steam-cracker-3 x 1
+results:
+	steam-cracker-4 x 1
+
+bob-power-armor-mk4:
+	advanced-circuit x 20
+	steel-plate x 25
+	plastic-bar x 25
+	effectivity-module-3 x 5
+	speed-module-3 x 5
+	bob-power-armor-mk3 x 1
+	processing-unit x 40
+results:
+	bob-power-armor-mk4 x 1
+
+small-lamp:
+	electronic-circuit x 1
+	copper-cable x 3
+	iron-plate x 1
+results:
+	small-lamp x 1
+
+liquid-perchloric-acid:
+	solid-sodium-perchlorate x 2
+	liquid-hydrochloric-acid x 50
+results:
+	liquid-perchloric-acid x 50
+
+molten-titanium-smelting-4:
+	ingot-titanium x 12
+	ingot-aluminium x 12
+	ingot-tin x 12
+results:
+	liquid-molten-titanium x 360
+
+angelsore9-anode-sludge-filtering:
+	angels-ore9-solution x 60
+	water-purified x 50
+	filter-ceramic x 1
+results:
+	angels-ore9-slime x 60
+	water-yellow-waste x 20
+	filter-ceramic-used x 1
+
+liquid-sulfuric-acid:
+	gas-sulfur-dioxide x 90
+	water-purified x 40
+results:
+	liquid-sulfuric-acid x 60
+
+blast-furnace-2:
+	blast-furnace x 1
+results:
+	blast-furnace-2 x 1
+
+bob-amethyst-4:
+	amethyst-3 x 1
+	grinding-wheel x 1
+	water x 10
+results:
+	amethyst-4 x 1
+
+synthetic-wood:
+	heavy-oil x 10
+results:
+	wood x 1
+
+angelsore6-pure-processing:
+	angels-ore6-pure x 9
+results:
+	angels-void x 1
+
+catalyst-metal-blue:
+	catalyst-metal-carrier x 10
+results:
+	catalyst-metal-blue x 10
+
+coolant-cool-300:
+	liquid-coolant-used x 200
+	water x 50
+results:
+	liquid-coolant-used x 200
+	steam x 50
+
+desert-garden-a:
+	desert-garden x 1
+results:
+	desert-5-seed x 5
+	token-bio x 16
+	desert-1-seed x 5
+	desert-2-seed x 5
+	desert-3-seed x 5
+	desert-4-seed x 5
+
+alien-artifact-purple-from-small:
+	small-alien-artifact-purple x 25
+results:
+	alien-artifact-purple x 1
+
+bob-zinc-plate:
+	zinc-ore x 1
+	sulfuric-acid x 10
+results:
+	zinc-plate x 1
+
+superior-circuit-board:
+	ferric-chloride-solution x 5
+	fibreglass-board x 1
+	copper-plate x 1
+results:
+	superior-circuit-board x 1
+
+angels-mono-silicon-2:
+	angels-mono-silicon-seed x 1
+	liquid-molten-silicon x 40
+	angels-quartz-crucible x 1
+results:
+	angels-quartz-crucible x 1
+	angels-mono-silicon x 6
+
+robot-tool-construction-3:
+results:
+	robot-tool-construction-3 x 1
+
+raw-productivity-module-1-combine:
+	effectivity-module x 1
+	pollution-clean-module-1 x 1
+	productivity-module x 1
+results:
+	raw-productivity-module-1 x 1
+
+composter:
+	iron-plate x 1
+results:
+	composter x 1
+
+sorting-temperate-3:
+	temperate-3 x 20
+results:
+	solid-leafs x 32
+	cellulose-fiber x 10
+
+angelsore8-powder:
+	angels-ore8-crushed x 3
+	milling-drum x 1
+results:
+	angels-ore8-powder x 3
+	milling-drum-used x 1
+
+ore-crusher:
+	burner-ore-crusher x 1
+results:
+	ore-crusher x 1
+
+separator-3:
+	separator-2 x 1
+results:
+	separator-3 x 1
+
+water-separation:
+	water-purified x 100
+results:
+	gas-hydrogen x 60
+	gas-oxygen x 40
+
+gas-ethylbenzene-catalyst:
+	gas-benzene x 50
+	gas-ethylene x 50
+	liquid-hydrofluoric-acid x 20
+results:
+	gas-ethylbenzene x 80
+	gas-hydrogen x 20
+
+bob-armoured-locomotive-2:
+	iron-gear-wheel x 20
+	bob-armoured-locomotive x 1
+	steel-plate x 25
+	processing-unit x 5
+results:
+	bob-armoured-locomotive-2 x 1
+
+processed-silicon-smelting:
+	processed-silica x 8
+	gas-hydrogen-chloride x 60
+results:
+	liquid-trichlorosilane x 120
+	gas-hydrogen x 30
+
+sct-t2-microcircuits:
+	copper-plate x 1
+	sct-t2-micro-wafer x 1
+results:
+	sct-t2-microcircuits x 10
+
+air-pump:
+	iron-gear-wheel x 2
+	iron-plate x 2
+	electronic-circuit x 2
+	pipe x 2
+results:
+	air-pump x 1
+
+gas-nitrogen-dioxide:
+	gas-oxygen x 60
+	gas-nitrogen-monoxide x 40
+results:
+	gas-nitrogen-dioxide x 100
+
+desert-5:
+	solid-sand x 10
+	solid-fertilizer x 1
+	water-saline x 50
+	desert-5-seed x 5
+results:
+	desert-5 x 0
+	desert-5-seed-dormant x 5
+
+angelsore7-crystallization-1:
+	crystal-seedling x 50
+	catalysator-green x 1
+results:
+	angels-void x 1
+
+slow-accumulator:
+	electronic-circuit x 2
+	battery x 4
+	iron-plate x 2
+results:
+	slow-accumulator x 1
+
+bob-piercing-rocket:
+	rocket-body x 1
+	piercing-rocket-warhead x 1
+results:
+	bob-piercing-rocket x 1
+
+green-module-2-combine:
+	effectivity-module-2 x 1
+	pollution-clean-module-2 x 1
+results:
+	green-module-2 x 1
+
+casting-powder-tungsten-1:
+	powder-tungsten x 12
+	powder-cobalt x 12
+results:
+	casting-powder-tungsten x 24
+
+slag-processing-filtering-1:
+	slag-slurry x 50
+	water-purified x 50
+	filter-coal x 1
+results:
+	mineral-sludge x 50
+	water-yellow-waste x 40
+	filter-frame x 1
+
+valve-converter:
+	steel-plate x 1
+results:
+	valve-converter x 1
+
+water-pump:
+	iron-gear-wheel x 2
+	iron-plate x 2
+	electronic-circuit x 2
+	pipe x 2
+results:
+	water-pump x 1
+
+angelsore9-solution:
+	angels-ore4-crystal x 1
+	angels-ore6-crystal x 1
+	sulfuric-acid x 20
+	angels-ore9-dust x 3
+	angels-ore3-crystal x 1
+results:
+	angels-ore9-solution x 60
+
+copper-processed-processing:
+	processed-copper x 3
+results:
+	pellet-copper x 4
+
+shotgun-explosive-shell:
+	shotgun-shell-casing x 1
+	explosives x 1
+	cordite x 1
+results:
+	shotgun-explosive-shell x 1
+
+battery-mk2-equipment:
+	battery-equipment x 10
+	processing-unit x 15
+	low-density-structure x 5
+results:
+	battery-mk2-equipment x 1
+
+powdered-tungsten:
+	tungsten-oxide x 1
+	hydrogen x 15
+results:
+	powdered-tungsten x 1
+
+processed-chrome-smelting:
+	processed-chrome x 8
+	solid-carbon x 3
+results:
+	ingot-chrome x 24
+	gas-carbon-monoxide x 60
+
+hogger-butchery-2:
+	bio-hogger-2 x 1
+results:
+	bio-raw-meat x 1
+
+titanium-processed-processing:
+	processed-titanium x 3
+results:
+	pellet-titanium x 4
+
+swamp-tree-generator-1:
+	solid-mud x 5
+	water-light-mud x 50
+results:
+	tree-swamp-seed x 4
+
+crystal-full-cutting:
+	crystal-full-raw x 1
+results:
+	crystal-full-blue-cut x 1
+	crystal-full-red-cut x 1
+	crystal-full-green-cut x 1
+	crystal-dust x 1
+
+bob-pump-4:
+	bob-pump-3 x 1
+	steel-plate x 1
+	copper-pipe x 1
+results:
+	bob-pump-4 x 1
+
+solid-chrome-oxide-smelting:
+	solid-chrome-oxide x 24
+	ingot-aluminium x 6
+results:
+	ingot-chrome x 24
+	solid-aluminium-oxide x 6
+
+bob-robot-tank:
+	laser-turret x 1
+	electric-engine-unit x 5
+	steel-plate x 30
+	iron-gear-wheel x 20
+	advanced-circuit x 10
+	processing-unit x 10
+results:
+	bob-robot-tank x 1
+
+crystal-full-red:
+	crystal-full-red-cut x 1
+	crystal-grindstone x 1
+	crystal-slurry x 1
+results:
+	crystal-full-red x 1
+
+solid-sulfur:
+	gas-hydrogen-sulfide x 60
+	gas-oxygen x 40
+results:
+	sulfur x 3
+
+green-module-3-combine:
+	effectivity-module-3 x 1
+	pollution-clean-module-3 x 1
+results:
+	green-module-3 x 1
+
+glass-mixture-3:
+	quartz x 1
+	solid-aluminium-oxide x 1
+	solid-lime x 1
+results:
+	solid-glass-mixture x 3
+
+angels-plate-lead:
+	liquid-molten-lead x 40
+results:
+	angels-plate-lead x 4
+
+sorting-temperate-5:
+	temperate-5 x 20
+results:
+	solid-corn x 10
+	cellulose-fiber x 8
+	crystal-dust x 4
+
+sct-t1-magnet-coils:
+	copper-plate x 4
+results:
+	sct-t1-magnet-coils x 8
+
+advanced-oil-refining:
+	crude-oil x 90
+	gas-hydrogen x 20
+results:
+	liquid-mineral-oil x 20
+	liquid-fuel-oil x 20
+	liquid-naphtha x 70
+	solid-oil-residual x 1
+
+gunmetal-alloy:
+	zinc-plate x 1
+	copper-plate x 8
+	tin-plate x 1
+results:
+	gunmetal-alloy x 10
+
+sct-lab4-manipulators:
+	stack-filter-inserter x 2
+	processing-unit x 5
+	sct-htech-injector x 1
+results:
+
+silver-plate:
+	silver-ore x 1
+results:
+	silver-plate x 1
+
+green-module-1:
+	effectivity-processor x 1
+	pollution-clean-processor x 1
+	module-case x 1
+	module-circuit-board x 1
+	module-contact x 4
+results:
+	green-module-1 x 1
+
+green-module-4:
+	green-module-3 x 1
+	effectivity-processor-2 x 4
+	pollution-clean-processor-2 x 4
+	module-contact x 5
+	processing-unit x 7
+results:
+	green-module-4 x 1
+
+bob-gun-turret-3:
+	bob-gun-turret-2 x 1
+	iron-gear-wheel x 10
+	steel-plate x 20
+results:
+	bob-gun-turret-3 x 1
+
+lead-oxide:
+	lead-ore x 1
+	oxygen x 10
+results:
+	lead-oxide x 1
+	sulfur-dioxide x 10
+
+angelsore9-crystal:
+	angels-ore9-anode-sludge x 60
+results:
+	angels-ore9-crystal x 6
+
+sorting-desert-1:
+	desert-1 x 20
+results:
+	solid-beans x 12
+
+angelsore-chunk-mix2-processing:
+	angels-ore1-chunk x 2
+	angels-ore5-chunk x 2
+	catalysator-green x 1
+results:
+	angels-void x 1
+
+strand-casting-machine-4:
+	strand-casting-machine-3 x 1
+results:
+	strand-casting-machine-4 x 1
+
+stone-furnace:
+	stone x 5
+results:
+	stone-furnace x 1
+
+swamp-3-seed:
+	swamp-3-seed-dormant x 5
+results:
+	swamp-3-seed x 1
+
+solid-resin:
+	liquid-resin x 40
+results:
+	solid-resin x 4
+
+drydock-structural:
+	low-density-structure x 200
+results:
+	drydock-structural x 1
+
+fish-breeding-2:
+	alien-fish-2-raw x 2
+	algae-green x 2
+	water-saline x 20
+	liquid-nutrient-pulp x 20
+results:
+	alien-fish-2-raw x 0
+	water-yellow-waste x 20
+
+steel-bearing:
+	steel-plate x 1
+	steel-bearing-ball x 16
+results:
+
+ore-floatation-cell-3:
+	ore-floatation-cell-2 x 1
+results:
+	ore-floatation-cell-3 x 1
+
+gas-phenol-catalyst:
+	gas-benzene x 100
+	gas-oxygen x 100
+	catalyst-metal-yellow x 1
+results:
+	gas-phenol x 100
+	catalyst-metal-carrier x 1
+
+angels-roll-titanium-converting:
+	angels-roll-titanium x 1
+results:
+	angels-plate-titanium x 4
+
+large-accumulator-3:
+	large-accumulator-2 x 1
+	steel-plate x 3
+	processing-unit x 2
+	battery x 10
+results:
+	large-accumulator-3 x 1
+
+solar-panel-large-3:
+	solar-panel-large-2 x 1
+	steel-plate x 8
+	processing-unit x 16
+	copper-plate x 8
+results:
+	solar-panel-large-3 x 1
+
+processed-titanium-smelting:
+	processed-titanium x 8
+	solid-carbon x 6
+	gas-chlorine x 60
+results:
+	liquid-titanium-tetrachloride x 120
+
+rod-stack-steel-casting-fast:
+	liquid-molten-steel x 110
+	liquid-coolant x 40
+results:
+	angels-rod-stack-steel x 2
+	liquid-coolant-used x 40
+
+molten-aluminium-smelting-3:
+	ingot-aluminium x 12
+	ingot-silicon x 12
+	ingot-copper x 12
+results:
+	liquid-molten-aluminium x 360
+
+solid-coke:
+	coal-crushed x 2
+results:
+	solid-coke x 2
+
+productivity-processor-2:
+	module-processor-board-2 x 1
+	advanced-circuit x 2
+	processing-unit x 2
+results:
+
+silver-processed-processing:
+	processed-silver x 3
+results:
+	pellet-silver x 4
+
+alien-science-pack:
+	alien-artifact x 1
+results:
+	alien-science-pack x 1
+
+bob-armoured-cargo-wagon:
+	cargo-wagon x 1
+	steel-plate x 25
+results:
+	bob-armoured-cargo-wagon x 1
+
+bob-cargo-wagon-3:
+	bob-cargo-wagon-2 x 1
+	steel-plate x 20
+	iron-gear-wheel x 12
+results:
+	bob-cargo-wagon-3 x 1
+
+angelsore-chunk-mix3-processing:
+	catalysator-green x 1
+	angels-ore2-chunk x 2
+	angels-ore5-chunk x 2
+results:
+	angels-void x 1
+
+angels-warehouse:
+	steel-plate x 50
+	iron-plate x 100
+	stone-brick x 100
+results:
+	angels-warehouse x 1
+
+angels-plate-manganese:
+	liquid-molten-manganese x 40
+results:
+	angels-plate-manganese x 4
+
+advanced-oil-processing:
+	water x 50
+	crude-oil x 100
+results:
+	heavy-oil x 10
+	light-oil x 45
+	petroleum-gas x 55
+
+angelsore3-crushed-hand:
+	angels-ore3 x 2
+results:
+	angels-ore3-crushed x 2
+	stone-crushed x 1
+
+oil-processing-with-sulfur-dioxide-2:
+	water x 40
+	crude-oil x 100
+results:
+	heavy-oil x 30
+	sulfur-dioxide x 40
+	petroleum-gas x 40
+
+biter-small:
+	bio-raw-meat x 1
+	liquid-nutrient-pulp x 1
+	biter-small-egg x 1
+results:
+	biter-small x 1
+
+cobalt-steel-alloy:
+	iron-plate x 14
+	cobalt-plate x 1
+results:
+	cobalt-steel-alloy x 1
+
+geode-purple-processing:
+	geode-purple x 2
+results:
+	crystal-dust x 2
+	stone-crushed x 3
+
+desert-tree-generator-3:
+	solid-fertilizer x 1
+	water-saline x 50
+	gas-nitrogen x 20
+	solid-sand x 5
+results:
+	tree-desert-seed x 8
+
+gun-turret:
+	iron-gear-wheel x 10
+	copper-plate x 10
+	iron-plate x 20
+results:
+	gun-turret x 1
+
+lead-plate:
+	lead-ore x 1
+results:
+	lead-plate x 1
+
+solid-lime:
+	solid-limestone x 4
+results:
+	solid-lime x 4
+	gas-carbon-dioxide x 50
+
+pellet-press-3:
+	pellet-press-2 x 1
+results:
+	pellet-press-3 x 1
+
+tree-arboretum-3:
+	water x 50
+	liquid-nutrient-pulp x 10
+	tree-seed x 2
+	solid-soil x 5
+	solid-fertilizer x 1
+results:
+	solid-tree x 8
+
+angelsore8-solution:
+	angels-ore5-crystal x 1
+	sulfuric-acid x 20
+	angels-ore8-dust x 3
+	angels-ore1-crystal x 1
+	angels-ore2-crystal x 1
+results:
+	angels-ore8-solution x 60
+
+gas-synthesis-separation:
+	gas-synthesis x 100
+results:
+	gas-carbon-monoxide x 40
+	gas-hydrogen x 60
+
+liquid-toluene-from-naphtha:
+	liquid-naphtha x 100
+	gas-hydrogen x 100
+	catalyst-metal-green x 1
+results:
+	liquid-toluene x 100
+	catalyst-metal-carrier x 1
+
+angels-plate-silver:
+	liquid-molten-silver x 40
+results:
+	angels-plate-silver x 4
+
+gold-ore-processing:
+	gold-ore x 4
+results:
+	processed-gold x 2
+
+pellet-iron-smelting:
+	pellet-iron x 8
+	solid-coke x 2
+	solid-limestone x 2
+results:
+	ingot-iron x 24
+
+water-saline:
+	water x 1000
+results:
+	water-saline x 400
+
+liquid-vegetable-oil-refining:
+	liquid-vegetable-oil x 100
+results:
+	liquid-fuel-oil x 70
+	liquid-mineral-oil x 30
+
+robot-brain-logistic-4:
+results:
+	robot-brain-logistic-4 x 1
+
+bob-roboport-4:
+	bob-roboport-3 x 1
+	steel-plate x 15
+	roboport-antenna-4 x 5
+	roboport-chargepad-4 x 4
+	roboport-door-4 x 1
+results:
+	bob-roboport-4 x 1
+
+roboport-door-1:
+	steel-plate x 15
+	iron-gear-wheel x 20
+results:
+	roboport-door-1 x 1
+
+logistic-chest-requester-2:
+	logistic-chest-requester x 1
+	processing-unit x 1
+results:
+	logistic-chest-requester-2 x 1
+
+fluid-generator-3:
+	steel-plate x 5
+	iron-gear-wheel x 5
+	fluid-generator-2 x 1
+	advanced-circuit x 5
+results:
+
+sintering-oven:
+	iron-plate x 10
+results:
+	sintering-oven x 1
+
+sct-prod-baked-biopaste:
+	sct-prod-biosilicate x 1
+results:
+	sct-prod-baked-biopaste x 1
+
+washing-4:
+	water-light-mud x 200
+	water x 50
+results:
+	water-thin-mud x 200
+	solid-mud x 0
+
+puffer-puffing-2:
+	bio-puffer-2 x 4
+	liquid-nutrient-pulp x 20
+	gas-puffer-atmosphere x 20
+	gas-ammonia x 100
+results:
+	bio-puffer-2 x 1
+	gas-acid x 20
+	gas-raw-1 x 200
+
+substation-2:
+	copper-plate x 5
+	substation x 1
+	advanced-circuit x 5
+	steel-plate x 10
+results:
+	substation-2 x 1
+
+coke-purification:
+	solid-coke x 2
+	gas-carbon-dioxide x 35
+results:
+	solid-carbon x 3
+
+gas-dinitrogen-tetroxide:
+	gas-nitrogen-monoxide x 100
+results:
+	gas-dinitrogen-tetroxide x 50
+
+kraft-recovery:
+	liquid-black-liquor x 40
+results:
+	liquid-green-liquor x 40
+
+bob-mining-drill-3:
+	bob-mining-drill-2 x 1
+	processing-unit x 5
+	steel-plate x 10
+	iron-gear-wheel x 5
+results:
+	bob-mining-drill-3 x 1
+
+explosive-cannon-shell:
+	steel-plate x 2
+	plastic-bar x 2
+	explosives x 2
+results:
+
+pure-water:
+	water x 100
+results:
+	pure-water x 100
+
+solid-nitroglycerin:
+	liquid-nitric-acid x 25
+	coal x 1
+	gas-glycerol x 50
+	liquid-sulfuric-acid x 25
+results:
+	explosives x 2
+
+lithium:
+	lithium-chloride x 1
+results:
+	lithium x 1
+
+geode-lightgreen-liquify:
+	geode-lightgreen x 5
+	sulfuric-acid x 15
+results:
+	crystal-slurry x 50
+
+large-accumulator:
+	iron-plate x 3
+	battery x 10
+results:
+	large-accumulator x 1
+
+gas-polyehtylene-catalyst:
+	gas-ethylene x 100
+	catalyst-metal-blue x 1
+results:
+	catalyst-metal-carrier x 1
+	gas-polyethylene x 50
+
+solid-nickel-carbonyl-smelting:
+	solid-nickel-carbonyl x 18
+	ingot-nickel x 6
+results:
+	ingot-nickel x 24
+
+bob-artillery-wagon-2:
+	artillery-wagon x 1
+	iron-gear-wheel x 12
+	steel-plate x 40
+	pipe x 16
+	processing-unit x 20
+results:
+	bob-artillery-wagon-2 x 1
+
+bob-diamond-4:
+	diamond-3 x 1
+	grinding-wheel x 1
+	water x 10
+results:
+	diamond-4 x 1
+
+angelsore9-crystal-processing:
+	angels-ore9-crystal x 8
+results:
+	angels-void x 1
+
+angelsore3-chunk:
+	angels-ore3-crushed x 2
+	water-purified x 50
+results:
+	angels-ore3-chunk x 2
+	water-yellow-waste x 50
+	geode-yellow x 1
+
+puffer-breeding-2:
+	bio-puffer-2 x 2
+	solid-leafs x 5
+	liquid-nutrient-pulp x 20
+	gas-puffer-atmosphere x 20
+results:
+	bio-puffer-egg-4 x 1
+	bio-puffer-egg-5 x 1
+	bio-puffer-2 x 2
+	bio-puffer-egg-1 x 1
+	bio-puffer-egg-2 x 1
+	bio-puffer-egg-3 x 1
+
+nitinol-bearing-ball:
+	nitinol-alloy x 1
+results:
+
+sorting-swamp-1:
+	swamp-1 x 20
+results:
+	solid-nuts x 16
+
+heavy-oil-cracking:
+	water x 30
+	heavy-oil x 40
+results:
+	light-oil x 30
+
+splitter:
+	basic-splitter x 1
+	iron-plate x 8
+	iron-gear-wheel x 14
+	electronic-circuit x 5
+results:
+	splitter x 1
+
+pellet-zinc-smelting:
+	pellet-zinc x 8
+	gas-oxygen x 60
+results:
+	solid-zinc-oxide x 24
+	gas-sulfur-dioxide x 30
+
+bio-generator-temperate-1:
+	temperate-tree x 1
+results:
+	bio-generator-temperate-1 x 1
+
+hogger-hogging-4:
+	iron-ore x 10
+	iron-plate x 1
+	liquid-nutrient-pulp x 20
+	bio-hogger-4 x 4
+results:
+	copper-ore x 10
+	bio-hogger-4 x 0
+
+solid-rubber:
+	liquid-rubber x 40
+results:
+	solid-rubber x 4
+
+gas-hydrogen-chloride-separation:
+	gas-hydrogen-chloride x 100
+results:
+	gas-chlorine x 50
+	gas-hydrogen x 50
+
+sct-lab3-construction:
+	solar-panel x 5
+	steel-plate x 5
+results:
+
+void-sulfur-dioxide:
+	sulfur-dioxide x 20
+results:
+	void x 1
+
+drydock-assembly:
+	roboport x 10
+	processing-unit x 200
+	solar-panel x 200
+	low-density-structure x 100
+	assembly-robot x 50
+results:
+	drydock-assembly x 1
+
+landfill:
+	stone x 20
+results:
+	landfill x 1
+
+sct-prod-bioprocessor:
+	sct-prod-baked-biopaste x 1
+	red-wire x 6
+	advanced-circuit x 4
+results:
+	sct-prod-bioprocessor x 1
+	sct-waste-ironcopper x 2
+
+copper-pipe-to-ground:
+	copper-pipe x 10
+	copper-plate x 5
+results:
+	copper-pipe-to-ground x 1
+
+train-stop:
+	steel-plate x 3
+	electronic-circuit x 5
+	iron-plate x 6
+	iron-stick x 6
+results:
+	train-stop x 1
+
+cobalt-steel-bearing-ball:
+	cobalt-steel-alloy x 1
+results:
+
+slowdown-capsule:
+	steel-plate x 2
+	electronic-circuit x 2
+	coal x 5
+results:
+	slowdown-capsule x 1
+
+plastic-pipe-to-ground:
+	plastic-pipe x 14
+	plastic-bar x 5
+results:
+	plastic-pipe-to-ground x 1
+
+sct-production-science-pack:
+	sct-prod-overclocker x 1
+	sct-prod-bioprocessor x 1
+results:
+	production-science-pack x 2
+
+condensates-refining:
+	gas-carbon-monoxide x 20
+	liquid-condensates x 60
+	thermal-water x 20
+results:
+	solid-coke x 2
+	liquid-naphtha x 50
+	gas-methane x 30
+
+processed-lead-smelting:
+	processed-lead x 8
+	gas-oxygen x 120
+results:
+	solid-lead-oxide x 24
+	gas-sulfur-dioxide x 120
+
+coolant-cool-200:
+	liquid-coolant-used x 200
+	water x 50
+results:
+	steam x 50
+	liquid-coolant-used x 200
+
+angels-wire-coil-tin-casting-fast:
+	liquid-molten-tin x 70
+	liquid-molten-copper x 70
+	liquid-coolant x 40
+results:
+	angels-wire-coil-tin x 8
+	liquid-coolant-used x 40
+
+oil-refinery-4:
+	oil-refinery-3 x 1
+results:
+	oil-refinery-4 x 1
+
+pellet-cobalt-smelting:
+	pellet-cobalt x 2
+	liquid-sulfuric-acid x 20
+results:
+	solid-cobalt-hydroxide x 6
+
+electric-furnace-2:
+	electric-furnace x 1
+	steel-plate x 15
+	stone-brick x 10
+	processing-unit x 5
+results:
+	electric-furnace-2 x 1
+
+pellet-silicon-smelting:
+	pellet-silica x 8
+	ingot-aluminium x 6
+	gas-hydrogen x 60
+results:
+	solid-aluminium-oxide x 6
+	gas-silane x 120
+
+solid-beans-nutrients:
+	solid-beans x 10
+results:
+	liquid-nutrient-pulp x 80
+
+bob-ruby-4:
+	ruby-3 x 1
+	grinding-wheel x 1
+	water x 10
+results:
+	ruby-4 x 1
+
+red-waste-water-purification:
+	water-red-waste x 100
+results:
+	water-mineralized x 20
+	water-purified x 70
+
+gas-refinery-small:
+	steel-plate x 10
+results:
+	gas-refinery-small x 1
+
+gas-ammonia-from-blue-fiber:
+	blue-cellulose-fiber x 20
+results:
+	gas-ammonia x 100
+
+bio-arboretum-1:
+	iron-plate x 1
+results:
+	bio-arboretum-1 x 1
+
+production-science-pack:
+	sct-prod-bioprocessor x 1
+	sct-prod-overclocker x 1
+results:
+	production-science-pack x 2
+
+fast-accumulator-3:
+	fast-accumulator-2 x 1
+	steel-plate x 2
+	processing-unit x 4
+	battery x 4
+results:
+	fast-accumulator-3 x 1
+
+gas-ammonium-chloride:
+	gas-ammonia x 50
+	gas-hydrogen-chloride x 50
+results:
+	gas-ammonium-chloride x 100
+
+gas-acid-catalyst:
+	gas-acid x 100
+	catalyst-metal-green x 1
+results:
+	gas-hydrogen-sulfide x 60
+	gas-carbon-dioxide x 20
+	liquid-hydrofluoric-acid x 20
+	catalyst-metal-carrier x 1
+
+angels-air-filter:
+	steel-plate x 10
+results:
+	angels-air-filter x 1
+
+cooling-tower:
+	iron-plate x 10
+results:
+	cooling-tower x 1
+
+bob-laser-turret-2:
+	steel-plate x 20
+	advanced-circuit x 20
+	laser-turret x 1
+results:
+	bob-laser-turret-2 x 1
+
+angelsore8-crushed:
+	angels-ore1-crushed x 2
+	angels-ore2-crushed x 2
+	angels-ore5-crushed x 2
+results:
+	angels-ore8-crushed x 6
+
+ore-sorting-facility-4:
+	ore-sorting-facility-3 x 1
+results:
+	ore-sorting-facility-4 x 1
+
+temperate-garden-cultivating-a:
+	temperate-garden x 1
+results:
+	token-bio x 32
+
+fish-breeding-1:
+	water x 20
+	liquid-nutrient-pulp x 20
+	alien-fish-1-raw x 2
+	algae-brown x 2
+results:
+	alien-fish-1-raw x 0
+	water-yellow-waste x 20
+
+ore-powderizer-2:
+	angels-void x 1
+results:
+	ore-powderizer-2 x 1
+
+valve-overflow:
+	steel-plate x 1
+results:
+	valve-overflow x 1
+
+raw-speed-module-1:
+	speed-processor x 1
+	effectivity-processor x 1
+	module-case x 1
+	module-circuit-board x 1
+	module-contact x 4
+results:
+	raw-speed-module-1 x 1
+
+angels-wire-coil-gold-converting:
+	angels-wire-coil-gold x 4
+results:
+	angels-wire-gold x 16
+
+powder-mixer-3:
+	powder-mixer-2 x 1
+results:
+	powder-mixer-3 x 1
+
+bob-pumpjack-1:
+	pumpjack x 1
+	steel-plate x 20
+	iron-gear-wheel x 10
+	electronic-circuit x 5
+	pipe x 10
+results:
+	bob-pumpjack-1 x 1
+
+ore-leaching-plant-3:
+	ore-leaching-plant-2 x 1
+results:
+	ore-leaching-plant-3 x 1
+
+filter-lime-used:
+	filter-lime-used x 1
+results:
+	gas-acid x 20
+	filter-frame x 1
+
+alien-poison:
+	alien-artifact-green x 1
+	coal x 8
+	nitric-acid x 8
+results:
+	alien-poison x 100
+
+assembling-machine-5:
+	processing-unit x 3
+	steel-plate x 9
+	iron-gear-wheel x 5
+	assembling-machine-4 x 1
+results:
+	assembling-machine-5 x 1
+
+habitation:
+	steel-plate x 100
+	plastic-bar x 500
+	processing-unit x 100
+	low-density-structure x 100
+results:
+	habitation x 1
+
+stone-wall:
+	stone-brick x 5
+results:
+	stone-wall x 1
+
+advanced-processing-unit:
+	multi-layer-circuit-board x 1
+	basic-electronic-components x 1
+	electronic-components x 2
+	intergrated-electronics x 4
+	processing-electronics x 1
+results:
+
+sct-lab2-automatization:
+	electronic-circuit x 10
+	fast-inserter x 2
+results:
+
+gas-bisphenol-a:
+	gas-phenol x 60
+	gas-acetone x 40
+	liquid-hydrochloric-acid x 20
+results:
+	gas-bisphenol-a x 100
+
+sorting-temperate-2:
+	temperate-2 x 20
+results:
+	cellulose-fiber x 22
+
+pollution-clean-processor-3:
+	module-processor-board-3 x 1
+	processing-unit x 2
+results:
+
+distractor-artillery-shell:
+	steel-plate x 6
+	explosives x 3
+	distractor-capsule x 5
+results:
+	distractor-artillery-shell x 1
+
+solid-clay:
+	water-concentrated-mud x 30
+	water x 25
+results:
+	solid-clay x 3
+
+boiler-3:
+	boiler-2 x 1
+	steel-plate x 5
+results:
+	boiler-3 x 1
+
+crystallizer-2:
+	crystallizer x 1
+results:
+	crystallizer-2 x 1
+
+catalysator-brown:
+	mineral-sludge x 25
+results:
+	catalysator-brown x 2
+
+gas-methanol-from-wood:
+	cellulose-fiber x 20
+results:
+	gas-methanol x 100
+
+angelsore9-crushed:
+	angels-ore3-crushed x 2
+	angels-ore4-crushed x 2
+	angels-ore6-crushed x 2
+results:
+	angels-ore9-crushed x 6
+
+solid-sodium-perchlorate:
+	water-purified x 50
+	catalyst-metal-blue x 1
+	solid-sodium-chlorate x 5
+results:
+	solid-sodium-perchlorate x 5
+	catalyst-metal-carrier x 1
+
+sct-automation-science-pack:
+	sct-t1-ironcore x 1
+	sct-t1-magnet-coils x 2
+results:
+	automation-science-pack x 1
+
+silicon-powder:
+	silicon x 1
+results:
+	silicon-powder x 1
+
+processing-unit:
+	superior-circuit-board x 1
+	basic-electronic-components x 2
+	electronic-components x 4
+	intergrated-electronics x 2
+results:
+
+solid-chromate-smelting:
+	solid-chromate x 12
+	liquid-sulfuric-acid x 30
+results:
+	solid-dichromate x 12
+	solid-sodium-sulfate x 1
+	water-purified x 30
+
+lead-processed-processing:
+	processed-lead x 3
+results:
+	pellet-lead x 4
+
+powder-mixer-2:
+	powder-mixer x 1
+results:
+	powder-mixer-2 x 1
+
+bob-artillery-wagon-3:
+	pipe x 16
+	processing-unit x 20
+	bob-artillery-wagon-2 x 1
+	iron-gear-wheel x 12
+	steel-plate x 20
+results:
+	bob-artillery-wagon-3 x 1
+
+basic-oil-processing:
+	crude-oil x 100
+results:
+	heavy-oil x 30
+	light-oil x 30
+	petroleum-gas x 40
+
+power-armor-mk2:
+	electric-engine-unit x 40
+	low-density-structure x 30
+	effectivity-module-2 x 25
+	speed-module-2 x 25
+	processing-unit x 60
+results:
+	power-armor-mk2 x 1
+
+logistic-chest-passive-provider:
+	steel-chest x 1
+	electronic-circuit x 3
+	advanced-circuit x 1
+results:
+	logistic-chest-passive-provider x 1
+
+solid-sand:
+	water-thin-mud x 10
+	water x 25
+results:
+	solid-sand x 5
+
+separator-4:
+	separator-3 x 1
+results:
+	separator-4 x 1
+
+landfill-dirt-4:
+	solid-mud x 25
+results:
+	landfill-dirt-4 x 1
+
+bio-refugium-fish:
+	iron-plate x 1
+results:
+	bio-refugium-fish x 1
+
+seed-extractor:
+	iron-plate x 1
+results:
+	seed-extractor x 1
+
+steel-pipe-to-ground:
+	steel-plate x 5
+	steel-pipe x 12
+results:
+	steel-pipe-to-ground x 1
+
+crystal-powder-splinter-red:
+	crystal-splinter-red-cut x 1
+results:
+	crystal-powder x 1
+
+tank:
+	iron-gear-wheel x 15
+	advanced-circuit x 10
+	engine-unit x 32
+	steel-plate x 50
+results:
+
+molten-iron-smelting-2:
+	ingot-iron x 12
+	ingot-manganese x 12
+results:
+	liquid-molten-iron x 240
+
+angelsore4-chunk:
+	angels-ore4-crushed x 2
+	water-purified x 50
+results:
+	water-yellow-waste x 50
+	geode-lightgreen x 1
+	angels-ore4-chunk x 2
+
+wood-bricks:
+	wood-pellets x 8
+results:
+	wood-bricks x 4
+
+circuit-paper-board:
+	solid-paper x 2
+results:
+	circuit-wood-fiber-board x 1
+
+algae-farm:
+	iron-plate x 1
+results:
+	algae-farm x 1
+
+logistic-chest-requester-3:
+	logistic-chest-requester-2 x 1
+	processing-unit x 1
+results:
+	logistic-chest-requester-3 x 1
+
+processed-cobalt-smelting:
+	processed-cobalt x 8
+	solid-limestone x 6
+results:
+	solid-cobalt-oxide x 24
+
+roboport-antenna-3:
+	copper-cable x 2
+	processing-unit x 5
+	steel-plate x 1
+results:
+	roboport-antenna-3 x 1
+
+gas-refining:
+	gas-raw-1 x 100
+results:
+	gas-acid x 20
+	liquid-ngl x 80
+
+gas-methylamine:
+	gas-methanol x 50
+	gas-ammonia x 250
+results:
+	gas-methylamine x 200
+	water-purified x 50
+
+effectivity-module-2:
+	effectivity-module x 4
+	advanced-circuit x 5
+	processing-unit x 5
+results:
+	effectivity-module-2 x 1
+
+bob-robo-charge-port-2:
+	bob-robo-charge-port x 1
+	steel-plate x 10
+	roboport-chargepad-2 x 4
+results:
+	bob-robo-charge-port-2 x 1
+
+programmable-speaker:
+	electronic-circuit x 4
+	iron-plate x 3
+	iron-stick x 4
+	copper-cable x 5
+results:
+	programmable-speaker x 1
+
+ore-leaching-plant-2:
+	ore-leaching-plant x 1
+results:
+	ore-leaching-plant-2 x 1
+
+gas-refinery-4:
+	gas-refinery-3 x 1
+results:
+	gas-refinery-4 x 1
+
+powder-chrome:
+	ingot-chrome x 1
+results:
+	powder-chrome x 1
+
+red-wire:
+	electronic-circuit x 1
+	copper-cable x 1
+results:
+	red-wire x 1
+
+roboport:
+	iron-gear-wheel x 45
+	advanced-circuit x 45
+	steel-plate x 45
+results:
+	roboport x 1
+
+pellet-coke:
+	solid-coke x 5
+results:
+	pellet-coke x 1
+
+logistic-chest-storage:
+	steel-chest x 1
+	electronic-circuit x 3
+	advanced-circuit x 1
+results:
+	logistic-chest-storage x 1
+
+slag-processing-stone:
+	slag x 1
+results:
+	stone-crushed x 2
+
+powder-iron:
+	ingot-iron x 1
+results:
+	powder-iron x 1
+
+desert-2-seed:
+	desert-2 x 10
+results:
+	desert-2-seed x 0
+
+bob-pumpjack-4:
+	processing-unit x 5
+	pipe x 10
+	bob-pumpjack-3 x 1
+	steel-plate x 20
+	iron-gear-wheel x 10
+results:
+	bob-pumpjack-4 x 1
+
+uranium-cannon-shell:
+	cannon-shell x 1
+	uranium-238 x 1
+results:
+	uranium-cannon-shell x 1
+
+washing-plant:
+	angels-void x 1
+results:
+	washing-plant x 1
+
+alien-science-pack-green:
+	alien-artifact-green x 1
+results:
+	alien-science-pack-green x 1
+
+ceramic-bearing:
+	silicon-nitride x 1
+	ceramic-bearing-ball x 16
+	lubricant x 10
+results:
+
+angelsore9-powder-processing:
+	angels-ore9-powder x 4
+results:
+	angels-void x 1
+
+thermal-extractor:
+	angels-void x 1
+results:
+	thermal-extractor x 1
+
+bob-robochest-4:
+	bob-robochest-3 x 1
+	steel-plate x 8
+	roboport-chargepad-4 x 1
+	roboport-door-4 x 1
+results:
+	bob-robochest-4 x 1
+
+logistic-chest-storage-3:
+	logistic-chest-storage-2 x 1
+	processing-unit x 1
+results:
+	logistic-chest-storage-3 x 1
+
+electronic-circuit:
+	basic-circuit-board x 1
+	basic-electronic-components x 5
+results:
+
+alien-artifact-green-from-small:
+	small-alien-artifact-green x 25
+results:
+	alien-artifact-green x 1
+
+solid-saw:
+	iron-plate x 1
+results:
+	solid-saw x 1
+
+temperate-tree-generator-1:
+	solid-soil x 5
+	water x 50
+results:
+	tree-temperate-seed x 4
+
+effectivity-processor-3:
+	processing-unit x 2
+	module-processor-board-3 x 1
+results:
+
+laser-rifle-battery-emerald:
+	laser-rifle-battery-sapphire x 1
+	battery x 4
+results:
+	laser-rifle-battery-emerald x 1
+
+desert-3-seed:
+	desert-3-seed-dormant x 5
+results:
+	desert-3-seed x 1
+
+gas-puffer-atmosphere:
+	gas-sulfur-dioxide x 20
+	liquid-hydrofluoric-acid x 10
+	gas-oxygen x 10
+results:
+	gas-puffer-atmosphere x 60
+
+radar-4:
+	radar-3 x 1
+	processing-unit x 5
+	iron-gear-wheel x 5
+	steel-plate x 10
+results:
+	radar-4 x 1
+
+crystal-splinter-green:
+	crystal-splinter-green-cut x 1
+	crystal-grindstone x 1
+	crystal-slurry x 1
+results:
+	crystal-splinter-green x 1
+
+puffer-egg-5:
+	bio-puffer-egg-5 x 1
+results:
+	bio-puffer-5 x 1
+	bio-puffer-1 x 1
+
+constant-combinator:
+	copper-cable x 5
+	electronic-circuit x 2
+results:
+	constant-combinator x 1
+
+robot-brain-construction-4:
+results:
+	robot-brain-construction-4 x 1
+
+steam-cracking-ethane:
+	steam x 60
+	gas-ethane x 60
+results:
+	gas-residual x 20
+	gas-ethylene x 80
+
+catalyst-steam-cracking-naphtha:
+	liquid-naphtha x 100
+	steam x 100
+	catalyst-metal-red x 1
+results:
+	gas-propene x 100
+	catalyst-metal-carrier x 1
+
+nutrients-refining-2:
+	liquid-nutrient-pulp x 100
+results:
+	liquid-fuel-oil x 60
+	gas-glycerol x 40
+
+burner-generator:
+	boiler x 1
+	iron-plate x 4
+	iron-gear-wheel x 5
+	pipe x 4
+results:
+	burner-generator x 1
+
+dirt-water-separation:
+	water x 100
+results:
+	gas-oxygen x 30
+	gas-hydrogen x 40
+	slag x 1
+
+angelsore4-pure:
+	angels-ore4-crystal x 4
+results:
+	angels-ore4-pure x 4
+
+desert-4-seed:
+	desert-4-seed-dormant x 5
+results:
+	desert-4-seed x 1
+
+angels-quartz-crucible:
+	quartz x 1
+results:
+	angels-quartz-crucible x 1
+
+express-transport-belt:
+	steel-plate x 2
+	iron-gear-wheel x 4
+	fast-transport-belt x 1
+results:
+	express-transport-belt x 1
+
+electrolyser:
+	iron-plate x 5
+	stone-brick x 5
+	electronic-circuit x 5
+	pipe x 2
+results:
+	electrolyser x 1
+
+nitinol-pipe:
+	nitinol-alloy x 1
+results:
+	nitinol-pipe x 1
+
+solid-fuel-fuel-oil:
+	solid-coke x 1
+	liquid-fuel-oil x 50
+results:
+	solid-fuel x 2
+
+grenade:
+	iron-plate x 5
+	coal x 10
+results:
+	grenade x 1
+
+angelsore3-crushed-smelting:
+	angels-ore3-crushed x 3
+results:
+	copper-plate x 2
+
+liquifier-3:
+	liquifier-2 x 1
+results:
+	liquifier-3 x 1
+
+robot-brain-logistic:
+results:
+	robot-brain-logistic x 1
+
+bob-valve:
+	iron-plate x 1
+	pipe x 1
+results:
+	bob-valve x 1
+
+angels-plate-copper:
+	liquid-molten-copper x 40
+results:
+	angels-plate-copper x 4
+
+angels-reinforced-concrete-brick:
+	liquid-concrete x 40
+	angels-plate-steel x 4
+results:
+	reinforced-concrete-brick x 4
+
+algae-red:
+	thermal-water x 100
+	gas-ammonia x 100
+results:
+	algae-red x 40
+
+belt-immunity-equipment:
+	advanced-circuit x 5
+	steel-plate x 10
+results:
+	belt-immunity-equipment x 1
+
+bob-nickel-plate:
+	oxygen x 8
+	nickel-ore x 1
+results:
+	nickel-plate x 1
+	sulfur-dioxide x 10
+
+angels-plate-glass-3:
+	liquid-molten-tin x 20
+	gas-nitrogen x 20
+	liquid-molten-glass x 40
+results:
+	angels-plate-glass x 5
+	ingot-tin x 2
+
+temperate-3-seed:
+	temperate-3-seed-dormant x 5
+results:
+	temperate-3-seed x 1
+
+temperate-4-seed:
+	temperate-4-seed-dormant x 5
+results:
+	temperate-4-seed x 1
+
+bob-emerald-3:
+	emerald-ore x 1
+results:
+	emerald-3 x 1
+
+angelsore5-crushed:
+	angels-ore5 x 2
+results:
+	stone-crushed x 1
+	angels-ore5-crushed x 2
+
+bob-gun-turret-2:
+	gun-turret x 1
+	iron-gear-wheel x 10
+	steel-plate x 20
+results:
+	bob-gun-turret-2 x 1
+
+polishing-wheel:
+	steel-plate x 1
+	wood x 5
+results:
+	polishing-wheel x 1
+
+gas-refinery-2:
+	gas-refinery x 1
+results:
+	gas-refinery-2 x 1
+
+processed-tungsten-smelting:
+	processed-tungsten x 8
+	gas-ammonia x 60
+results:
+	solid-ammonium-paratungstate x 24
+
+lubricant:
+	heavy-oil x 10
+results:
+	lubricant x 10
+
+platinum-processed-processing:
+	processed-platinum x 3
+results:
+	pellet-platinum x 4
+
+temperate-garden-cultivating-b:
+	temperate-garden x 1
+	solid-fertilizer x 2
+results:
+	token-bio x 8
+	temperate-garden x 1
+
+iron-stick:
+	iron-plate x 1
+results:
+	iron-stick x 1
+
+gate:
+	stone-wall x 1
+	steel-plate x 2
+	electronic-circuit x 2
+results:
+	gate x 1
+
+solid-nuts-nutrients:
+	solid-nuts x 10
+results:
+	liquid-nutrient-pulp x 40
+
+bob-sapphire-5:
+	polishing-compound x 1
+	sapphire-4 x 1
+	polishing-wheel x 1
+results:
+	sapphire-5 x 1
+
+angels-plate-platinum:
+	liquid-molten-platinum x 40
+results:
+	angels-plate-platinum x 4
+
+pellet-tungsten-smelting:
+	pellet-tungsten x 4
+	gas-ammonia x 60
+results:
+	solid-tungsten-oxide x 12
+
+express-loader:
+	express-transport-belt x 5
+	fast-loader x 1
+results:
+	express-loader x 1
+
+assembling-machine-6:
+	iron-plate x 5
+	iron-gear-wheel x 5
+	assembling-machine-5 x 1
+	processing-unit x 3
+	steel-plate x 5
+results:
+	assembling-machine-6 x 1
+
+sorting-desert-3:
+	desert-3 x 20
+results:
+	solid-pips x 24
+	crystal-dust x 4
+
+bob-ruby-3:
+	ruby-ore x 1
+results:
+	ruby-3 x 1
+
+enriched-fuel-from-hydrazine:
+	hydrazine x 200
+	solid-fuel x 1
+results:
+
+glass-mixture-2:
+	quartz x 1
+	solid-lime x 1
+results:
+	solid-glass-mixture x 2
+
+pellet-press:
+	iron-plate x 10
+results:
+	pellet-press x 1
+
+long-handed-inserter:
+	iron-gear-wheel x 1
+	electronic-circuit x 1
+	inserter x 1
+	steel-plate x 1
+results:
+	long-handed-inserter x 1
+
+raw-speed-module-7:
+	raw-speed-module-6 x 1
+	speed-processor-3 x 8
+	effectivity-processor-3 x 8
+	module-contact x 5
+	processing-unit x 8
+results:
+	raw-speed-module-7 x 1
+
+lab-alien:
+	alien-artifact-blue x 5
+	alien-artifact-orange x 5
+	lab x 1
+	alien-artifact x 10
+results:
+	lab-alien x 1
+
+nitinol-bearing:
+	nitinol-alloy x 1
+	nitinol-bearing-ball x 16
+	lubricant x 10
+results:
+
+roboport-door-3:
+	iron-gear-wheel x 20
+	steel-plate x 15
+results:
+	roboport-door-3 x 1
+
+big-electric-pole-3:
+	big-electric-pole-2 x 1
+	steel-plate x 5
+	copper-plate x 5
+results:
+	big-electric-pole-3 x 1
+
+module-contact:
+	copper-plate x 1
+results:
+
+laser-turret:
+	steel-plate x 20
+	electronic-circuit x 20
+	battery x 12
+results:
+	laser-turret x 1
+
+bob-robochest-3:
+	roboport-chargepad-3 x 1
+	roboport-door-3 x 1
+	bob-robochest-2 x 1
+	steel-plate x 8
+results:
+	bob-robochest-3 x 1
+
+green-module-5:
+	green-module-4 x 1
+	effectivity-processor-2 x 5
+	pollution-clean-processor-2 x 5
+	module-contact x 5
+	processing-unit x 7
+results:
+	green-module-5 x 1
+
+raw-productivity-module-3-combine:
+	productivity-module-3 x 1
+	effectivity-module-3 x 1
+	pollution-clean-module-3 x 1
+results:
+	raw-productivity-module-3 x 1
+
+temperate-garden-a:
+	temperate-garden x 1
+results:
+	temperate-3-seed x 5
+	temperate-4-seed x 5
+	temperate-5-seed x 5
+	token-bio x 16
+	temperate-1-seed x 5
+	temperate-2-seed x 5
+
+sorting-desert-2:
+	desert-2 x 20
+results:
+	solid-corn x 12
+
+artillery-shell:
+	explosive-cannon-shell x 4
+	radar x 1
+	explosives x 8
+results:
+	artillery-shell x 1
+
+gas-separation:
+	gas-natural-1 x 100
+results:
+	gas-raw-1 x 60
+	liquid-condensates x 30
+	water-yellow-waste x 10
+
+titanium-gear-wheel:
+	titanium-plate x 1
+results:
+
+steam-cracker-3:
+	steam-cracker-2 x 1
+results:
+	steam-cracker-3 x 1
+
+speed-processor-2:
+	module-processor-board-2 x 1
+	advanced-circuit x 2
+	processing-unit x 2
+results:
+
+logistic-chest-buffer:
+	steel-chest x 1
+	electronic-circuit x 3
+	advanced-circuit x 1
+results:
+	logistic-chest-buffer x 1
+
+solid-leafs-nutrients:
+	solid-leafs x 10
+results:
+	liquid-nutrient-pulp x 10
+
+yellow-waste-water-purification:
+	water-yellow-waste x 100
+results:
+	water-mineralized x 20
+	water-purified x 70
+	sulfur x 1
+
+robot-brain-logistic-2:
+results:
+	robot-brain-logistic-2 x 1
+
+solid-calcium-chloride:
+	stone-crushed x 6
+	gas-hydrogen-chloride x 30
+results:
+	solid-calcium-chloride x 3
+
+valve-return:
+	steel-plate x 1
+results:
+	valve-return x 1
+
+angels-plate-chrome:
+	liquid-molten-chrome x 40
+results:
+	angels-plate-chrome x 4
+
+bio-plastic-2:
+	cellulose-fiber x 10
+	liquid-acetic-acid x 25
+	liquid-propionic-acid x 25
+results:
+	liquid-plastic x 25
+
+sct-military-science-pack:
+	sct-mil-circuit3 x 1
+	sct-mil-plating x 1
+results:
+	military-science-pack x 2
+
+oil-processing-with-sulfur:
+	crude-oil x 100
+results:
+	heavy-oil x 25
+	light-oil x 25
+	petroleum-gas x 30
+	sulfur x 2
+
+red-stack-filter-inserter:
+	red-stack-inserter x 1
+	electronic-circuit x 5
+results:
+	red-stack-filter-inserter x 1
+
+rocket-part:
+	rocket-control-unit x 10
+	low-density-structure x 10
+	rocket-fuel x 10
+results:
+	rocket-part x 1
+
+kovarex-enrichment-process:
+	uranium-235 x 40
+	uranium-238 x 5
+results:
+	uranium-235 x 41
+	uranium-238 x 2
+
+chrome-processed-processing:
+	processed-chrome x 3
+results:
+	pellet-chrome x 4
+
+temperate-1:
+	temperate-1-seed x 5
+	solid-soil x 5
+	water x 50
+results:
+	temperate-1 x 0
+
+desert-4:
+	desert-4-seed x 5
+	solid-sand x 10
+	solid-fertilizer x 1
+	water-saline x 50
+results:
+	desert-4 x 0
+	desert-4-seed-dormant x 5
+
+oil-boiler-2:
+	oil-boiler x 1
+	steel-plate x 5
+results:
+	oil-boiler-2 x 1
+
+water-synthesis:
+	gas-oxygen x 60
+	gas-hydrogen x 90
+results:
+	water-purified x 100
+
+raw-productivity-module-5:
+	effectivity-processor-2 x 5
+	pollution-clean-processor-2 x 5
+	module-contact x 5
+	processing-unit x 7
+	raw-productivity-module-4 x 1
+	productivity-processor-2 x 5
+results:
+	raw-productivity-module-5 x 1
+
+pellet-chrome-smelting:
+	solid-sodium-carbonate x 6
+	gas-oxygen x 60
+	pellet-chrome x 8
+results:
+	solid-chromate x 24
+
+liquid-propionic-acid-catalyst:
+	gas-ethylene x 50
+	gas-carbon-monoxide x 50
+	water-purified x 50
+	catalyst-metal-green x 1
+results:
+	liquid-propionic-acid x 50
+	catalyst-metal-carrier x 1
+
+sct-t3-laser-emitter:
+	electronic-circuit x 6
+	copper-plate x 2
+	iron-plate x 2
+results:
+	sct-t3-laser-emitter x 1
+	sct-waste-copperonly x 1
+
+slag-processing-3:
+	mineral-sludge x 50
+results:
+	angels-void x 1
+
+angelsore9-sludge:
+	angels-ore6-chunk x 1
+	thermal-water x 20
+	sulfuric-acid x 20
+	angels-ore9-powder x 2
+	angels-ore3-chunk x 1
+	angels-ore4-chunk x 1
+results:
+	angels-ore9-sludge x 6
+
+big-electric-pole-2:
+	big-electric-pole x 1
+	steel-plate x 5
+	copper-plate x 5
+results:
+	big-electric-pole-2 x 1
+
+solid-sodium-sulfate-separation:
+	solid-sodium-sulfate x 2
+results:
+	solid-sodium x 4
+	sulfur x 2
+
+angels-electric-boiler:
+	iron-plate x 10
+results:
+	angels-electric-boile x 1
+
+electric-furnace:
+	steel-plate x 10
+	advanced-circuit x 5
+	stone-brick x 10
+results:
+	electric-furnace x 1
+
+silver-nitrate:
+	silver-plate x 1
+	nitrogen-dioxide x 10
+results:
+	silver-nitrate x 1
+
+coolant:
+	water x 80
+	liquid-mineral-oil x 20
+results:
+	liquid-coolant x 100
+
+angels-warehouse-requester:
+	steel-plate x 20
+	angels-warehouse x 1
+	advanced-circuit x 20
+results:
+	angels-warehouse-requester x 1
+
+sintering-oven-4:
+	sintering-oven-3 x 1
+results:
+	sintering-oven-4 x 1
+
+nitric-oxide:
+	ammonia x 20
+	oxygen x 25
+results:
+	nitric-oxide x 20
+
+anode-copper-smelting:
+	anode-copper x 12
+	liquid-sulfuric-acid x 30
+results:
+	ingot-copper x 12
+
+angels-rod-iron-plate:
+	angels-plate-iron x 2
+results:
+	angels-rod-iron x 1
+
+sorting-temperate-1:
+	temperate-1 x 20
+results:
+	solid-corn x 10
+
+hogger-breeding-3:
+	iron-plate x 1
+	liquid-nutrient-pulp x 20
+	bio-hogger-3 x 2
+results:
+	bio-hogger-3 x 1
+	bio-hogger-1 x 1
+	bio-hogger-2 x 1
+	bio-hogger-4 x 1
+	bio-hogger-5 x 1
+
+solid-fuel-from-hydrogen:
+	hydrogen x 175
+	coal x 1
+results:
+	solid-fuel x 1
+
+molten-cobalt-smelting:
+	ingot-cobalt x 12
+results:
+	liquid-molten-cobalt x 120
+
+slowdown-mine:
+	steel-plate x 1
+	slowdown-capsule x 4
+results:
+	slowdown-mine x 1
+
+hogger-butchery-4:
+	bio-hogger-4 x 1
+results:
+	bio-raw-meat x 1
+
+fish-breeding-3:
+	bio-raw-meat x 2
+	water x 20
+	liquid-nutrient-pulp x 20
+	alien-fish-3-raw x 2
+results:
+	alien-fish-3-raw x 0
+	water-yellow-waste x 20
+
+copper-tungsten-alloy:
+	copper-plate x 2
+	powdered-tungsten x 3
+results:
+	copper-tungsten-alloy x 5
+
+gas-monochloramine:
+	solid-sodium-hypochlorite x 5
+	gas-ammonia x 250
+results:
+	gas-monochloramine x 50
+
+angelsore5-crystal:
+	angels-ore5-chunk x 2
+	sulfuric-acid x 10
+results:
+	angels-ore5-crystal x 2
+
+angelsore-crystal-mix5-processing:
+	angels-ore4-crystal x 2
+	angels-ore6-crystal x 2
+	catalysator-orange x 1
+	angels-ore1-crystal x 2
+results:
+	angels-void x 1
+
+robot-tool-construction-4:
+results:
+	robot-tool-construction-4 x 1
+
+laser-rifle-battery-topaz:
+	laser-rifle-battery-amethyst x 1
+	battery x 4
+results:
+	laser-rifle-battery-topaz x 1
+
+green-wire:
+	electronic-circuit x 1
+	copper-cable x 1
+results:
+	green-wire x 1
+
+bob-lead-plate:
+	lead-oxide x 2
+	carbon x 1
+results:
+	lead-plate x 1
+
+express-inserter:
+	iron-gear-wheel x 1
+	processing-unit x 1
+	turbo-inserter x 1
+	steel-plate x 1
+results:
+	express-inserter x 1
+
+plastic-pipe:
+	plastic-bar x 1
+results:
+	plastic-pipe x 1
+
+pollution-create-processor-3:
+	module-processor-board-3 x 1
+	processing-unit x 2
+results:
+
+crystal-seed:
+	seeded-dish x 1
+	crystal-dust x 1
+results:
+	crystal-seed x 1
+
+crystal-shard-red:
+	crystal-shard-red-cut x 1
+	crystal-grindstone x 1
+	crystal-slurry x 1
+results:
+	crystal-shard-red x 1
+
+bob-amethyst-5:
+	amethyst-4 x 1
+	polishing-wheel x 1
+	polishing-compound x 1
+results:
+	amethyst-5 x 1
+
+bob-rubber:
+	resin x 1
+results:
+	rubber x 1
+
+alien-science-pack-red:
+	alien-artifact-red x 1
+results:
+	alien-science-pack-red x 1
+
+electro-whinning-cell-3:
+	angels-void x 1
+results:
+	electro-whinning-cell-3 x 1
+
+angels-coil-glass-fiber:
+	liquid-molten-glass x 80
+results:
+	angels-coil-glass-fiber x 4
+
+tree-arboretum-1:
+	tree-seed x 2
+	solid-soil x 5
+	water x 50
+results:
+	solid-tree x 4
+
+fluid-generator-2:
+	fluid-generator x 1
+	steel-plate x 5
+	iron-gear-wheel x 5
+	electronic-circuit x 5
+results:
+
+desert-upgrade:
+	token-bio x 5
+	angels-void x 1
+results:
+	desert-upgrade x 1
+
+processed-tin-smelting:
+	processed-tin x 8
+	solid-coke x 2
+results:
+	ingot-tin x 24
+
+petri-dish:
+	angels-plate-glass x 1
+results:
+	petri-dish x 2
+
+solid-fuel-hydrazine:
+	gas-hydrazine x 50
+results:
+	solid-fuel x 2
+
+solid-cobalt-hydroxide-smelting:
+	solid-cobalt-hydroxide x 24
+	solid-calcium-chloride x 6
+results:
+	solid-cobalt-oxide x 24
+
+rail-chain-signal:
+	iron-plate x 5
+	electronic-circuit x 1
+results:
+	rail-chain-signal x 1
+
+zinc-ore-processing:
+	zinc-ore x 4
+results:
+	processed-zinc x 2
+
+tree-generator-3:
+	solid-fertilizer x 1
+	water x 50
+	gas-carbon-dioxide x 20
+	solid-soil x 5
+results:
+	tree-seed x 8
+
+angelsore4-chunk-processing:
+	angels-ore4-chunk x 6
+results:
+	slag x 1
+
+basic-splitter:
+	basic-transport-belt x 5
+	wood x 4
+	iron-gear-wheel x 2
+	copper-cable x 4
+results:
+	basic-splitter x 1
+
+bob-construction-robot-5:
+results:
+	bob-construction-robot-5 x 1
+
+copper-ore-processing:
+	copper-ore x 4
+results:
+	processed-copper x 2
+
+bob-diamond-5:
+	diamond-4 x 1
+	polishing-wheel x 1
+	polishing-compound x 1
+results:
+	diamond-5 x 1
+
+flying-robot-frame-2:
+	electric-engine-unit x 1
+	battery x 2
+	steel-plate x 1
+	advanced-circuit x 3
+results:
+	flying-robot-frame-2 x 1
+
+ultimate-splitter:
+	turbo-splitter x 1
+	steel-plate x 8
+	iron-gear-wheel x 14
+	processing-unit x 5
+results:
+	ultimate-splitter x 1
+
+steel-pipe:
+	steel-plate x 1
+results:
+	steel-pipe x 1
+
+medium-electric-pole-3:
+	medium-electric-pole-2 x 1
+	steel-plate x 2
+	copper-plate x 2
+results:
+	medium-electric-pole-3 x 1
+
+lab-module:
+	speed-processor x 5
+	effectivity-processor x 5
+	productivity-processor x 5
+	lab x 1
+results:
+	lab-module x 1
+
+beacon-3:
+	beacon-2 x 1
+	electronic-circuit x 20
+	advanced-circuit x 20
+	processing-unit x 20
+	steel-plate x 10
+	copper-plate x 10
+	copper-cable x 10
+results:
+	beacon-3 x 1
+
+roboport-chargepad-4:
+	battery x 2
+	steel-plate x 2
+	processing-unit x 5
+results:
+	roboport-chargepad-4 x 1
+
+raw-productivity-module-7:
+	productivity-processor-3 x 8
+	effectivity-processor-3 x 8
+	pollution-clean-processor-3 x 8
+	module-contact x 5
+	processing-unit x 8
+	raw-productivity-module-6 x 1
+results:
+	raw-productivity-module-7 x 1
+
+processed-silver-smelting:
+	processed-silver x 4
+	liquid-nitric-acid x 60
+results:
+	solid-silver-nitrate x 12
+
+air-pump-4:
+	nitinol-alloy x 2
+	nitinol-gear-wheel x 4
+	nitinol-bearing x 4
+	electric-engine-unit x 1
+	advanced-processing-unit x 3
+	air-pump-3 x 1
+results:
+	air-pump-4 x 1
+
+angelsore2-pure-processing:
+	angels-ore2-pure x 9
+results:
+	angels-void x 1
+
+catalyst-metal-carrier:
+	iron-plate x 5
+results:
+	catalyst-metal-carrier x 10
+
+aluminium-processed-processing:
+	processed-aluminium x 3
+results:
+	pellet-aluminium x 4
+
+puffer-egg-2:
+	bio-puffer-egg-2 x 1
+results:
+	bio-puffer-2 x 1
+	bio-puffer-1 x 1
+
+alien-artifact-purple-from-basic:
+	alien-artifact-purple x 1
+	alien-artifact x 5
+results:
+	alien-artifact-purple x 1
+
+sct-lab-t1:
+	sct-lab1-construction x 2
+	sct-lab1-mechanization x 1
+results:
+	lab x 1
+
+solid-dichromate-smelting:
+	solid-carbon x 3
+	solid-dichromate x 24
+results:
+	gas-carbon-monoxide x 30
+	solid-chrome-oxide x 24
+	solid-sodium-carbonate x 3
+
+electric-bullet-magazine:
+	electric-bullet x 5
+	magazine x 1
+results:
+	electric-bullet-magazine x 1
+
+angelsore-pure-mix2-processing:
+	catalysator-orange x 1
+	angels-ore3-pure x 2
+	angels-ore5-pure x 2
+	angels-ore6-pure x 2
+results:
+	angels-void x 1
+
+spacex-combinator:
+	electronic-circuit x 5
+	advanced-circuit x 1
+	copper-cable x 5
+results:
+	spacex-combinator x 1
+
+crystal-full-blue:
+	crystal-full-blue-cut x 1
+	crystal-grindstone x 1
+	crystal-slurry x 1
+results:
+	crystal-full-blue x 1
+
+crystal-slurry-filtering-conversion-2:
+	filter-ceramic x 1
+	crystal-slurry x 35
+	water-mineralized x 100
+results:
+	filter-ceramic-used x 1
+	mineral-sludge x 35
+	water-yellow-waste x 20
+
+assembling-machine-4:
+	assembling-machine-3 x 1
+	advanced-circuit x 3
+	steel-plate x 9
+	iron-gear-wheel x 5
+results:
+	assembling-machine-4 x 1
+
+condensates-oil-refining:
+	crude-oil x 40
+	liquid-condensates x 60
+results:
+	liquid-mineral-oil x 40
+	liquid-fuel-oil x 30
+	liquid-naphtha x 30
+	solid-oil-residual x 1
+
+gas-methanol-catalyst:
+	gas-carbon-dioxide x 100
+	gas-hydrogen x 100
+	catalyst-metal-green x 1
+results:
+	gas-methanol x 100
+	catalyst-metal-carrier x 1
+
+solid-plastic:
+	liquid-plastic x 40
+results:
+	plastic-bar x 4
+
+angels-wire-coil-gold-casting:
+	liquid-molten-gold x 40
+	liquid-molten-copper x 40
+	water x 40
+results:
+	angels-wire-coil-gold x 4
+
+processed-copper-smelting:
+	processed-copper x 8
+	gas-oxygen x 60
+results:
+	ingot-copper x 24
+
+swamp-4:
+	solid-fertilizer x 1
+	water-light-mud x 50
+	swamp-4-seed x 5
+	solid-mud x 10
+results:
+	swamp-4 x 0
+	swamp-4-seed-dormant x 5
+
+angels-electrolyser-4:
+	angels-electrolyser-3 x 1
+results:
+	angels-electrolyser-4 x 1
+
+bob-construction-robot-3:
+results:
+	bob-construction-robot-3 x 1
+
+steam-turbine:
+	steam-engine-3 x 1
+	electronic-circuit x 5
+	copper-plate x 25
+	iron-gear-wheel x 20
+results:
+
+intergrated-electronics:
+	plastic-bar x 1
+	sulfuric-acid x 5
+	copper-cable x 1
+results:
+
+platinum-ore-processing:
+	platinum-ore x 4
+results:
+	processed-platinum x 2
+
+offshore-pump:
+	pipe x 1
+	iron-gear-wheel x 1
+	electronic-circuit x 2
+results:
+	offshore-pump x 1
+
+water-pump-3:
+	processing-unit x 3
+	pipe x 2
+	water-pump-2 x 1
+	titanium-plate x 2
+	titanium-gear-wheel x 4
+	titanium-bearing x 4
+results:
+	water-pump-3 x 1
+
+quartz-glass:
+	quartz x 1
+results:
+	glass x 1
+
+stone-crushed:
+	stone-crushed x 2
+results:
+	stone x 1
+
+ultimate-transport-belt:
+	steel-plate x 2
+	iron-gear-wheel x 4
+	turbo-transport-belt x 1
+results:
+	ultimate-transport-belt x 1
+
+coolant-cool-100:
+	liquid-coolant-used x 200
+	water x 50
+results:
+	liquid-coolant-used x 200
+	steam x 50
+
+desert-2:
+	desert-2-seed x 5
+	solid-sand x 10
+	water-saline x 50
+results:
+	desert-2 x 0
+
+nutrients-refining-1:
+	liquid-nutrient-pulp x 100
+results:
+	liquid-fuel-oil x 40
+	gas-acetone x 40
+	gas-synthesis x 20
+
+hogger-butchery-3:
+	bio-hogger-3 x 1
+results:
+	bio-raw-meat x 1
+
+rocket-control-unit:
+	processing-unit x 1
+	speed-module x 1
+results:
+	rocket-control-unit x 1
+
+angels-rod-stack-iron-converting:
+	angels-rod-stack-iron x 1
+results:
+	angels-rod-iron x 4
+
+bob-tank-2:
+	tank x 1
+	steel-plate x 50
+	iron-gear-wheel x 15
+	processing-unit x 5
+results:
+	bob-tank-2 x 1
+
+sorting-swamp-4:
+	swamp-4 x 20
+results:
+	solid-leafs x 24
+	crystal-dust x 6
+
+boiler:
+	stone-furnace x 1
+	pipe x 4
+results:
+	boiler x 1
+
+advanced-chemical-plant:
+	steel-plate x 10
+results:
+	advanced-chemical-plant x 1
+
+sct-lab-t4:
+	sct-lab-t3 x 1
+	sct-lab4-construction x 2
+	sct-lab4-manipulators x 1
+results:
+	sct-lab-t4 x 1
+
+bob-robochest-2:
+	bob-robochest x 1
+	steel-plate x 8
+	roboport-chargepad-2 x 1
+	roboport-door-2 x 1
+results:
+	bob-robochest-2 x 1
+
+tungsten-pipe:
+	tungsten-plate x 1
+results:
+	tungsten-pipe x 1
+
+angels-warehouse-storage:
+	steel-plate x 20
+	angels-warehouse x 1
+	advanced-circuit x 20
+results:
+	angels-warehouse-storage x 1
+
+oil-refining:
+	crude-oil x 100
+results:
+	liquid-naphtha x 50
+	solid-oil-residual x 1
+	liquid-mineral-oil x 20
+	liquid-fuel-oil x 30
+
+raw-speed-module-1-combine:
+	speed-module x 1
+	effectivity-module x 1
+results:
+	raw-speed-module-1 x 1
+
+loader:
+	inserter x 5
+	electronic-circuit x 5
+	iron-gear-wheel x 5
+	iron-plate x 5
+	transport-belt x 5
+results:
+	loader x 1
+
+sct-waste-processing-copper:
+	sct-waste-copperonly x 2
+results:
+	copper-ore x 2
+
+biter-medium-egg:
+	crystal-seed x 1
+	crystal-splinter-raw x 1
+	catalysator-green x 1
+results:
+	biter-medium-egg x 1
+
+liquid-titanium-tetrachloride-smelting:
+	liquid-titanium-tetrachloride x 120
+results:
+	sponge-titanium x 24
+
+liquid-tungstic-acid-smelting:
+	liquid-tungstic-acid x 120
+results:
+	solid-tungsten-oxide x 24
+	water-purified x 60
+
+solid-aluminium-oxide-smelting:
+	solid-aluminium-oxide x 24
+	solid-carbon x 3
+results:
+	ingot-aluminium x 24
+
+solid-alginic-acid:
+	algae-brown x 10
+results:
+	solid-alginic-acid x 2
+
+crop-farm:
+	iron-plate x 1
+results:
+	crop-farm x 1
+
+solid-fuel-from-petroleum-gas:
+	petroleum-gas x 20
+results:
+	solid-fuel x 1
+
+bob-robo-charge-port-large-3:
+	bob-robo-charge-port-large-2 x 1
+	steel-plate x 15
+	roboport-chargepad-3 x 9
+results:
+	bob-robo-charge-port-large-3 x 1
+
+solid-sodium-chlorate:
+	solid-sodium-hydroxide x 5
+	gas-hydrogen-chloride x 50
+results:
+	solid-sodium-chlorate x 5
+
+green-module-2:
+	green-module-1 x 1
+	effectivity-processor x 2
+	pollution-clean-processor x 2
+	module-contact x 5
+results:
+	green-module-2 x 1
+
+molten-copper-smelting:
+	ingot-copper x 12
+results:
+	liquid-molten-copper x 120
+
+better-shotgun-shell:
+	shotgun-shell-casing x 1
+	shot x 1
+	cordite x 1
+results:
+	better-shotgun-shell x 1
+
+chemical-boiler:
+	stone-brick x 5
+	pipe x 2
+results:
+	chemical-boiler x 1
+
+angelsore7-crystallization-4:
+	crystal-seedling x 50
+	catalysator-green x 1
+results:
+	angels-void x 1
+
+bob-gun-turret-4:
+	bob-gun-turret-3 x 1
+	iron-gear-wheel x 10
+	steel-plate x 20
+results:
+	bob-gun-turret-4 x 1
+
+heat-exchanger-2:
+	heat-exchanger x 1
+	steel-plate x 10
+results:
+	heat-exchanger-2 x 1
+
+separator:
+	steel-plate x 10
+results:
+	separator x 1
+
+hydro-plant-2:
+	hydro-plant x 1
+results:
+	hydro-plant-2 x 1
+
+coal-cracking-1:
+	coal x 5
+results:
+	gas-hydrogen-sulfide x 50
+	gas-benzene x 30
+	gas-methane x 70
+	solid-coke x 6
+
+pellet-silver-smelting:
+	pellet-silver x 8
+	solid-sodium-cyanide x 6
+	water-purified x 60
+	gas-oxygen x 60
+results:
+	solid-sodium-silver-cyanide x 24
+	solid-sodium-hydroxide x 4
+
+distractor-robot:
+results:
+	distractor-robot x 1
+
+bio-generator-swamp-1:
+	swamp-tree x 1
+results:
+	bio-generator-swamp-1 x 1
+
+cathode-manganese-smelting:
+	cathode-manganese x 24
+results:
+	ingot-manganese x 24
+
+light-armor:
+	iron-plate x 40
+results:
+	light-armor x 1
+
+electric-furnace-3:
+	electric-furnace-2 x 1
+	steel-plate x 15
+	stone-brick x 10
+	processing-unit x 5
+results:
+	electric-furnace-3 x 1
+
+angelsore6-crushed:
+	angels-ore6 x 2
+results:
+	angels-ore6-crushed x 2
+	stone-crushed x 1
+
+bob-laser-turret-3:
+	bob-laser-turret-2 x 1
+	steel-plate x 20
+	battery x 12
+results:
+	bob-laser-turret-3 x 1
+
+sct-mil-subplating:
+	iron-plate x 3
+	copper-plate x 1
+results:
+	sct-mil-subplating x 1
+	sct-waste-ironcopper x 1
+
+sct-prod-overclocker:
+	iron-gear-wheel x 17
+	copper-cable x 16
+	steel-plate x 9
+	sct-prod-chipcase x 1
+	water x 120
+results:
+	sct-prod-overclocker x 1
+	sct-waste-ironcopper x 2
+	sct-waste-copperonly x 1
+
+angelsore2-crushed-processing:
+	angels-ore2-crushed x 4
+results:
+	slag x 1
+
+night-vision-equipment:
+	advanced-circuit x 5
+	steel-plate x 10
+results:
+	night-vision-equipment x 1
+
+cargo-wagon:
+	iron-gear-wheel x 10
+	iron-plate x 20
+	steel-plate x 20
+results:
+	cargo-wagon x 1
+
+gas-glycerol:
+	gas-epichlorhydrin x 100
+	water-purified x 50
+results:
+	gas-glycerol x 50
+
+advanced-chemical-plant-2:
+	advanced-chemical-plant x 1
+results:
+	advanced-chemical-plant-2 x 1
+
+angels-plate-aluminium:
+	liquid-molten-aluminium x 40
+results:
+	angels-plate-aluminium x 4
+
+slag-processing-6:
+	mineral-sludge x 50
+results:
+	angels-void x 1
+
+liquid-rubber-1:
+	gas-styrene x 20
+	gas-butadiene x 20
+results:
+	liquid-rubber x 10
+
+catalyst-metal-green:
+	catalyst-metal-carrier x 10
+results:
+	catalyst-metal-green x 10
+
+rocket-oxidizer-capsule:
+	liquid-nitric-acid x 10
+	gas-dinitrogen-tetroxide x 10
+results:
+	rocket-oxidizer-capsule x 2
+
+solid-sodium-gold-cyanide-smelting:
+	solid-sodium-gold-cyanide x 12
+results:
+	cathode-gold x 12
+
+concrete-mixture-1:
+	solid-cement x 8
+	water x 100
+	slag x 4
+results:
+	liquid-concrete x 100
+
+crystal-splinter-blue:
+	crystal-splinter-blue-cut x 1
+	crystal-grindstone x 1
+	crystal-slurry x 1
+results:
+	crystal-splinter-blue x 1
+
+sct-t2-instruments:
+	sct-t2-microcircuits x 10
+	electronic-circuit x 1
+	iron-plate x 1
+results:
+	sct-t2-instruments x 1
+
+solid-ammonium-perchlorate:
+	liquid-perchloric-acid x 100
+	gas-ammonia x 100
+results:
+	solid-ammonium-perchlorate x 3
+	solid-salt x 1
+
+tinned-copper-cable:
+	copper-cable x 3
+	tin-plate x 1
+results:
+	tinned-copper-cable x 1
+
+water-pump-4:
+	water-pump-3 x 1
+	nitinol-alloy x 2
+	nitinol-gear-wheel x 4
+	nitinol-bearing x 4
+	electric-engine-unit x 1
+	advanced-processing-unit x 3
+results:
+	water-pump-4 x 1
+
+slag-processing-5:
+	mineral-sludge x 50
+results:
+	angels-void x 1
+
+powder-nickel:
+	ingot-nickel x 1
+results:
+	powder-nickel x 1
+
+solid-limestone:
+	water-light-mud x 20
+	water x 25
+results:
+	solid-limestone x 3
+
+silver-zinc-battery:
+	plastic-bar x 1
+	sodium-hydroxide x 2
+	silver-oxide x 1
+	zinc-plate x 1
+results:
+
+oil-refinery-3:
+	oil-refinery-2 x 1
+results:
+	oil-refinery-3 x 1
+
+molten-steel-smelting-3:
+	ingot-steel x 12
+	ingot-manganese x 12
+results:
+	liquid-molten-steel x 240
+
+solid-soil:
+	solid-mud x 1
+	solid-compost x 1
+results:
+	solid-soil x 1
+
+satellite:
+	processing-unit x 100
+	rocket-fuel x 50
+	low-density-structure x 100
+	solar-panel x 100
+	accumulator x 100
+	radar x 5
+results:
+	satellite x 1
+
+angels-chemical-furnace-2:
+	angels-chemical-furnace x 1
+results:
+	angels-chemical-furnace-2 x 1
+
+logistic-chest-requester:
+	electronic-circuit x 3
+	advanced-circuit x 1
+	steel-chest x 1
+results:
+	logistic-chest-requester x 1
+
+angelsore3-pure-processing:
+	angels-ore3-pure x 9
+results:
+	angels-void x 1
+
+roboport-antenna-2:
+	steel-plate x 1
+	copper-cable x 2
+	advanced-circuit x 5
+results:
+	roboport-antenna-2 x 1
+
+angels-plate-glass-2:
+	liquid-molten-glass x 40
+	liquid-molten-lead x 20
+results:
+	angels-plate-glass x 4
+	solid-lead-oxide x 2
+
+molten-nickel-smelting:
+	ingot-nickel x 12
+results:
+	liquid-molten-nickel x 120
+
+kraft-causting:
+	liquid-green-liquor x 60
+	water x 60
+	solid-lime x 4
+results:
+	liquid-white-liquor x 55
+	solid-limestone x 4
+
+angels-plate-tungsten:
+	casting-powder-tungsten x 12
+results:
+	angels-plate-tungsten x 12
+
+hogger-butchery-5:
+	bio-hogger-5 x 1
+results:
+	bio-raw-meat x 1
+
+grinding-wheel:
+	steel-plate x 1
+	silicon-carbide x 5
+results:
+	grinding-wheel x 1
+
+air-pump-2:
+	air-pump x 1
+	steel-plate x 2
+	steel-gear-wheel x 4
+	advanced-circuit x 3
+	pipe x 2
+results:
+	air-pump-2 x 1
+
+titanium-ore-smelting:
+	gas-chlorine x 60
+	rutile-ore x 24
+	solid-carbon x 6
+results:
+	liquid-titanium-tetrachloride x 120
+
+solid-fertilizer:
+	solid-compost x 2
+	gas-urea x 40
+results:
+	solid-fertilizer x 2
+
+sct-waste-processing-mixed:
+	sct-waste-ironcopper x 2
+results:
+	copper-ore x 1
+	iron-ore x 1
+
+liquid-resin-2:
+	gas-melamine x 20
+	gas-formaldehyde x 20
+results:
+	liquid-resin x 20
+
+induction-furnace-3:
+	induction-furnace-2 x 1
+results:
+	induction-furnace-3 x 1
+
+personal-laser-defense-equipment:
+	low-density-structure x 5
+	laser-turret x 5
+	processing-unit x 20
+results:
+	personal-laser-defense-equipment x 1
+
+raw-productivity-module-8-combine:
+	productivity-module-8 x 1
+	effectivity-module-8 x 1
+	pollution-clean-module-8 x 1
+results:
+	raw-productivity-module-8 x 1
+
+angels-wire-coil-tin-converting:
+	angels-wire-coil-tin x 4
+results:
+	angels-wire-tin x 16
+
+molten-steel-smelting-5:
+	ingot-steel x 12
+	ingot-chrome x 12
+	powder-tungsten x 12
+results:
+	liquid-molten-steel x 360
+
+solid-sodium-silver-cyanide-smelting:
+	solid-sodium-silver-cyanide x 12
+results:
+	cathode-silver x 12
+
+powder-mixer-4:
+	powder-mixer-3 x 1
+results:
+	powder-mixer-4 x 1
+
+hogger-hogging-5:
+	iron-ore x 10
+	iron-plate x 1
+	liquid-nutrient-pulp x 20
+	bio-hogger-5 x 4
+results:
+	bio-hogger-5 x 0
+	copper-ore x 10
+
+personal-roboport-equipment:
+	steel-plate x 20
+	battery x 45
+	advanced-circuit x 10
+	iron-gear-wheel x 40
+results:
+	personal-roboport-equipment x 1
+
+sct-mil-plating:
+	steel-plate x 1
+	iron-plate x 6
+	sct-mil-subplating x 7
+	copper-plate x 2
+results:
+	sct-mil-plating x 1
+	sct-waste-ironcopper x 1
+
+sct-t2-reaction-nodes:
+	sct-t1-magnet-coils x 2
+	iron-plate x 1
+results:
+	sct-t2-reaction-nodes x 1
+
+pistol:
+	copper-plate x 5
+	iron-plate x 5
+results:
+	pistol x 1
+
+solid-sodium-cyanide:
+	catalyst-metal-green x 1
+	solid-sodium x 5
+	solid-carbon x 1
+	gas-ammonia x 30
+results:
+	catalyst-metal-carrier x 1
+	solid-sodium-cyanide x 5
+	gas-hydrogen x 30
+
+speed-processor:
+	advanced-circuit x 2
+	module-processor-board x 1
+	electronic-circuit x 2
+results:
+
+solid-tungsten-oxide-smelting:
+	solid-tungsten-oxide x 12
+	liquid-hydrofluoric-acid x 30
+results:
+	gas-tungsten-hexafluoride x 60
+
+heat-exchanger-3:
+	heat-exchanger-2 x 1
+	steel-plate x 10
+results:
+	heat-exchanger-3 x 1
+
+solid-fuel-synthesis:
+	solid-coke x 1
+	gas-synthesis x 100
+results:
+	solid-fuel x 2
+
+hydrogen-peroxide:
+	hydrogen x 16
+	oxygen x 20
+results:
+	hydrogen-peroxide x 8
+
+bob-electric-rocket:
+	electric-rocket-warhead x 1
+	rocket-body x 1
+results:
+	bob-electric-rocket x 1
+
+solid-lithium:
+	thermal-water x 1000
+results:
+	solid-lithium x 20
+
+angels-roll-steel-casting:
+	liquid-molten-steel x 80
+	water x 40
+results:
+	angels-roll-steel x 2
+
+angels-roll-aluminium-converting:
+	angels-roll-aluminium x 1
+results:
+	angels-plate-aluminium x 4
+
+bob-sniper-turret-3:
+	bob-sniper-turret-2 x 1
+	iron-gear-wheel x 20
+	steel-plate x 20
+	plastic-bar x 20
+results:
+	bob-sniper-turret-3 x 1
+
+tin-plate:
+	tin-ore x 1
+results:
+	tin-plate x 1
+
+water-mineralized:
+	water x 100
+	stone-crushed x 10
+results:
+	water-mineralized x 100
+
+coal-cracking-2:
+	coal x 5
+	gas-hydrogen x 50
+	catalyst-metal-red x 1
+results:
+	catalyst-metal-carrier x 1
+	liquid-naphtha x 60
+	liquid-ngl x 30
+	liquid-mineral-oil x 20
+	solid-coke x 6
+
+angels-roll-steel-converting:
+	angels-roll-steel x 1
+results:
+	angels-plate-steel x 4
+
+alien-science-pack-orange:
+	alien-artifact-orange x 1
+results:
+	alien-science-pack-orange x 1
+
+big-electric-pole-4:
+	big-electric-pole-3 x 1
+	steel-plate x 5
+	copper-plate x 5
+results:
+	big-electric-pole-4 x 1
+
+molten-gold-smelting:
+	ingot-gold x 12
+results:
+	liquid-molten-gold x 120
+
+salt-water-electrolysis:
+	salt x 1
+	water x 10
+results:
+	sodium-hydroxide x 1
+	chlorine x 25
+	hydrogen x 20
+
+filter-ceramic-refurbish:
+	filter-ceramic-used x 1
+	water-purified x 50
+results:
+	filter-ceramic x 1
+
+hogger-breeding-2:
+	bio-hogger-2 x 2
+	iron-plate x 1
+	liquid-nutrient-pulp x 20
+results:
+	bio-hogger-4 x 1
+	bio-hogger-5 x 1
+	bio-hogger-2 x 1
+	bio-hogger-1 x 1
+	bio-hogger-3 x 1
+
+speed-module:
+	advanced-circuit x 5
+	electronic-circuit x 5
+results:
+	speed-module x 1
+
+solid-salt-from-saline:
+	water-saline x 1000
+results:
+	solid-salt x 25
+
+coal-cracking-3:
+	coal x 5
+	steam x 50
+	gas-oxygen x 50
+results:
+	gas-synthesis x 100
+	gas-carbon-dioxide x 20
+	gas-hydrogen-sulfide x 30
+
+gas-phosgene:
+	solid-carbon x 1
+	gas-carbon-monoxide x 60
+	gas-chlorine x 40
+results:
+	gas-phosgene x 100
+
+fish-butchery-3:
+	alien-fish-3-raw x 1
+results:
+	bio-raw-meat x 2
+
+geode-blue-liquify:
+	geode-blue x 5
+	sulfuric-acid x 15
+results:
+	crystal-slurry x 20
+
+solid-geodes:
+	water-heavy-mud x 40
+	water x 25
+results:
+	geode-yellow x 1
+	geode-blue x 2
+	geode-cyan x 1
+	geode-lightgreen x 1
+	geode-purple x 1
+	geode-red x 2
+
+chemical-plant-2:
+	chemical-plant x 1
+	steel-plate x 10
+	iron-gear-wheel x 5
+	advanced-circuit x 5
+	pipe x 5
+results:
+	chemical-plant-2 x 1
+
+nuclear-reactor:
+	concrete x 500
+	steel-plate x 500
+	advanced-circuit x 500
+	copper-plate x 500
+results:
+	nuclear-reactor x 1
+
+steam-cracking-methane:
+	gas-methane x 60
+	steam x 60
+results:
+	gas-methanol x 80
+	gas-residual x 20
+
+angelsore2-chunk-processing:
+	angels-ore2-chunk x 6
+results:
+	slag x 1
+
+bob-locomotive-3:
+	bob-locomotive-2 x 1
+	processing-unit x 5
+	steel-plate x 10
+	iron-gear-wheel x 20
+results:
+	bob-locomotive-3 x 1
+
+puffer-puffing-1:
+	bio-puffer-1 x 4
+	liquid-nutrient-pulp x 20
+	gas-puffer-atmosphere x 20
+results:
+	bio-puffer-1 x 1
+	gas-acid x 200
+
+angelsore9-anode-sludge:
+	angels-ore9-slime x 60
+results:
+	angels-ore9-anode-sludge x 60
+	water-yellow-waste x 20
+	slag x 1
+
+angels-copper-pebbles:
+	copper-ore x 2
+results:
+	angels-copper-pebbles x 4
+
+ceramic-pipe:
+	silicon-nitride x 1
+results:
+	ceramic-pipe x 1
+
+landfill-red-desert-1:
+	solid-mud x 25
+results:
+	landfill-red-desert-1 x 1
+
+gas-melamine:
+	gas-urea x 100
+	catalyst-metal-blue x 1
+results:
+	gas-melamine x 100
+	catalyst-metal-carrier x 1
+
+bob-laser-turret-4:
+	steel-plate x 20
+	processing-unit x 20
+	battery x 12
+	bob-laser-turret-3 x 1
+results:
+	bob-laser-turret-4 x 1
+
+repair-pack:
+	iron-gear-wheel x 2
+	electronic-circuit x 2
+results:
+	repair-pack x 1
+
+robot-brain-logistic-3:
+results:
+	robot-brain-logistic-3 x 1
+
+crystal-full-green:
+	crystal-full-green-cut x 1
+	crystal-grindstone x 1
+	crystal-slurry x 1
+results:
+	crystal-full-green x 1
+
+pollution-create-processor-2:
+	module-processor-board-2 x 1
+	advanced-circuit x 2
+	processing-unit x 2
+results:
+
+rail-signal:
+	electronic-circuit x 1
+	iron-plate x 5
+results:
+	rail-signal x 1
+
+puffer-butchery-5:
+	bio-puffer-5 x 1
+results:
+	bio-raw-meat x 1
+
+hogger-hogging-2:
+	iron-plate x 1
+	liquid-nutrient-pulp x 20
+	bio-hogger-2 x 4
+	iron-ore x 10
+results:
+	bio-hogger-2 x 0
+	copper-ore x 10
+
+defender-capsule:
+	iron-gear-wheel x 3
+	piercing-rounds-magazine x 1
+	flying-robot-frame x 1
+results:
+	defender-capsule x 1
+
+puffer-egg-4:
+	bio-puffer-egg-4 x 1
+results:
+	bio-puffer-4 x 1
+	bio-puffer-1 x 1
+
+solid-zinc-oxide-smelting:
+	solid-zinc-oxide x 12
+	liquid-sulfuric-acid x 40
+results:
+	cathode-zinc x 12
+
+angelsore1-crushed-hand:
+	angels-ore1 x 2
+results:
+	angels-ore1-crushed x 2
+	stone-crushed x 1
+
+roll-titanium-casting-fast:
+	liquid-coolant x 40
+	liquid-molten-titanium x 140
+results:
+	angels-roll-titanium x 4
+	liquid-coolant-used x 40
+
+alien-air-filtering:
+	water-purified x 50
+results:
+	alien-spores x 50
+
+temperate-1-seed:
+	temperate-1 x 10
+results:
+	temperate-1-seed x 0
+
+alien-acid:
+	alien-artifact-purple x 1
+	sulfuric-acid x 100
+results:
+	alien-acid x 100
+
+carbon-separation-1:
+	water-purified x 50
+	solid-carbon x 1
+results:
+	gas-carbon-monoxide x 50
+
+gas-hydrogen-chloride:
+	gas-chlorine x 50
+	gas-hydrogen x 50
+results:
+	gas-hydrogen-chloride x 100
+
+green-module-8:
+	advanced-circuit x 8
+	processing-unit x 8
+	green-module-7 x 1
+	effectivity-processor-3 x 10
+	pollution-clean-processor-3 x 10
+	module-contact x 5
+results:
+	green-module-8 x 1
+
+substation-3:
+	substation-2 x 1
+	processing-unit x 5
+	steel-plate x 10
+	copper-plate x 5
+results:
+	substation-3 x 1
+
+liquifier-2:
+	liquifier x 1
+results:
+	liquifier-2 x 1
+
+raw-speed-module-4:
+	raw-speed-module-3 x 1
+	speed-processor-2 x 4
+	effectivity-processor-2 x 4
+	module-contact x 5
+	processing-unit x 7
+results:
+	raw-speed-module-4 x 1
+
+module-processor-board-3:
+	copper-plate x 2
+	plastic-bar x 1
+results:
+
+tungsten-carbide-2:
+	carbon x 1
+	powdered-tungsten x 1
+results:
+	tungsten-carbide x 2
+
+swamp-tree-generator-2:
+	solid-mud x 5
+	solid-fertilizer x 1
+	water-light-mud x 50
+results:
+	tree-swamp-seed x 6
+
+angels-roll-iron-converting:
+	angels-roll-iron x 1
+results:
+	angels-plate-iron x 4
+
+desert-garden-b:
+	desert-garden x 1
+results:
+	desert-2-seed x 5
+	desert-3-seed x 5
+	desert-4-seed x 5
+	desert-5-seed x 5
+	desert-1-seed x 5
+
+cellulose-fiber-algae:
+	algae-green x 10
+results:
+	cellulose-fiber x 5
+
+desert-garden-cultivating-a:
+	desert-garden x 1
+results:
+	token-bio x 32
+
+electronics-machine-1:
+	iron-plate x 5
+	iron-gear-wheel x 5
+	electronic-circuit x 5
+results:
+	electronics-machine-1 x 1
+
+cathode-zinc-smelting:
+	cathode-zinc x 24
+results:
+	ingot-zinc x 24
+
+heavy-armor-3:
+	steel-plate x 100
+	plastic-bar x 50
+results:
+	heavy-armor-3 x 1
+
+ore-sorting-facility-2:
+	ore-sorting-facility x 1
+results:
+	ore-sorting-facility-2 x 1
+
+shotgun-poison-shell:
+	shotgun-shell-casing x 1
+	coal x 1
+	cordite x 1
+results:
+	shotgun-poison-shell x 1
+
+car:
+	engine-unit x 8
+	iron-plate x 20
+	steel-plate x 5
+results:
+	car x 1
+
+construction-robot:
+	flying-robot-frame x 1
+	electronic-circuit x 2
+results:
+	construction-robot x 1
+
+sct-mil-circuit3:
+	sct-mil-circuit2 x 1
+	advanced-circuit x 2
+results:
+	sct-mil-circuit3 x 1
+	sct-waste-ironcopper x 2
+	sct-waste-copperonly x 1
+
+sct-lab4-construction:
+	centrifuge x 1
+	steel-plate x 5
+results:
+
+alien-explosive:
+	coal x 8
+	sulfur x 8
+	alien-artifact-yellow x 1
+results:
+	alien-explosive x 100
+
+angelsore9-dust:
+	angels-ore9-sludge x 6
+results:
+	angels-ore9-dust x 6
+	water-yellow-waste x 20
+
+productivity-module-3:
+	productivity-module-2 x 5
+	advanced-circuit x 5
+	processing-unit x 5
+results:
+	productivity-module-3 x 1
+
+turbo-inserter:
+	processing-unit x 1
+	fast-inserter x 1
+	steel-plate x 1
+	iron-gear-wheel x 1
+results:
+	turbo-inserter x 1
+
+logistic-chest-passive-provider-3:
+	logistic-chest-passive-provider-2 x 1
+	processing-unit x 1
+results:
+	logistic-chest-passive-provider-3 x 1
+
+steel-furnace:
+	steel-plate x 6
+	stone-brick x 10
+results:
+	steel-furnace x 1
+
+pumpjack:
+	iron-gear-wheel x 10
+	electronic-circuit x 5
+	pipe x 10
+	steel-plate x 5
+results:
+	pumpjack x 1
+
+bob-emerald-4:
+	emerald-3 x 1
+	grinding-wheel x 1
+	water x 10
+results:
+	emerald-4 x 1
+
+angelsore-chunk-mix6-processing:
+	catalysator-green x 1
+	angels-ore1-chunk x 2
+	angels-ore2-chunk x 2
+results:
+	angels-void x 1
+
+fast-accumulator-2:
+	advanced-circuit x 4
+	battery x 4
+	fast-accumulator x 1
+	steel-plate x 2
+results:
+	fast-accumulator-2 x 1
+
+gas-refinery-3:
+	gas-refinery-2 x 1
+results:
+	gas-refinery-3 x 1
+
+angels-electrolyser-3:
+	angels-electrolyser-2 x 1
+results:
+	angels-electrolyser-3 x 1
+
+player-port:
+	iron-gear-wheel x 5
+	iron-plate x 1
+	electronic-circuit x 10
+results:
+	player-port x 1
+
+angels-mono-silicon-1:
+	ingot-silicon x 4
+	angels-mono-silicon-seed x 1
+results:
+	angels-mono-silicon x 4
+
+poison-bullet-magazine:
+	poison-bullet x 5
+	magazine x 1
+results:
+	poison-bullet-magazine x 1
+
+chrome-ore-smelting:
+	chrome-ore x 24
+	solid-carbon x 3
+results:
+	ingot-chrome x 24
+	gas-carbon-monoxide x 60
+
+gas-styrene-catalyst:
+	gas-ethylbenzene x 100
+	catalyst-metal-green x 1
+results:
+	gas-styrene x 50
+	catalyst-metal-carrier x 1
+
+pellet-platinum-smelting:
+	liquid-nitric-acid x 30
+	pellet-platinum x 4
+	liquid-hydrochloric-acid x 30
+results:
+	liquid-hexachloroplatinic-acid x 60
+
+puffer-breeding-1:
+	solid-beans x 5
+	liquid-nutrient-pulp x 20
+	gas-puffer-atmosphere x 20
+	bio-puffer-1 x 2
+results:
+	bio-puffer-1 x 2
+	bio-puffer-egg-1 x 1
+	bio-puffer-egg-2 x 1
+	bio-puffer-egg-3 x 1
+	bio-puffer-egg-4 x 1
+	bio-puffer-egg-5 x 1
+
+bob-emerald-5:
+	emerald-4 x 1
+	polishing-wheel x 1
+	polishing-compound x 1
+results:
+	emerald-5 x 1
+
+angelsore1-crushed-processing:
+	angels-ore1-crushed x 4
+results:
+	slag x 1
+
+lead-ore-processing:
+	lead-ore x 4
+results:
+	processed-lead x 2
+
+sorting-swamp-2:
+	swamp-2 x 20
+results:
+	solid-beans x 14
+
+low-density-structure:
+	steel-plate x 2
+	copper-plate x 20
+	plastic-bar x 5
+results:
+
+alumina:
+	sodium-hydroxide x 1
+	bauxite-ore x 1
+results:
+	alumina x 1
+
+tungsten-oxide:
+	tungstic-acid x 10
+results:
+	tungsten-oxide x 1
+
+oil-steam-boiler:
+	pipe x 10
+	concrete x 6
+	copper-plate x 16
+	steel-plate x 12
+results:
+	oil-steam-boiler x 1
+
+lab:
+	sct-lab1-construction x 2
+	sct-lab1-mechanization x 1
+results:
+	lab x 1
+
+sct-logistic-science-pack:
+	sct-t2-instruments x 1
+	sct-t2-reaction-nodes x 1
+results:
+	logistic-science-pack x 1
+
+angels-solder-smelting-2:
+	ingot-tin x 12
+	ingot-zinc x 12
+results:
+	liquid-molten-solder x 240
+
+crystal-splinter-cutting:
+	crystal-splinter-raw x 1
+results:
+	crystal-splinter-green-cut x 1
+	crystal-dust x 1
+	crystal-splinter-blue-cut x 1
+	crystal-splinter-red-cut x 1
+
+roboport-antenna-1:
+	steel-plate x 1
+	copper-cable x 2
+	advanced-circuit x 5
+results:
+	roboport-antenna-1 x 1
+
+bob-roboport-3:
+	bob-roboport-2 x 1
+	steel-plate x 15
+	roboport-antenna-3 x 5
+	roboport-chargepad-3 x 4
+	roboport-door-3 x 1
+results:
+	bob-roboport-3 x 1
+
+storage-tank-4:
+	storage-tank-3 x 1
+	steel-plate x 20
+results:
+	storage-tank-4 x 1
+
+angels-plate-cobalt:
+	liquid-molten-cobalt x 40
+results:
+	angels-plate-cobalt x 4
+
+algae-brown-burning:
+	algae-brown x 20
+results:
+	angels-void x 1
+
+cluster-grenade:
+	grenade x 7
+	explosives x 5
+	steel-plate x 5
+results:
+	cluster-grenade x 1
+
+angelsore3-crushed:
+	angels-ore3 x 2
+results:
+	angels-ore3-crushed x 2
+	stone-crushed x 1
+
+solid-sodium:
+	solid-sodium-hydroxide x 5
+	gas-hydrogen x 50
+results:
+	solid-sodium x 5
+	water-purified x 50
+
+stone-pipe-to-ground:
+	stone-pipe x 10
+	stone-brick x 5
+results:
+	stone-pipe-to-ground x 1
+
+nitric-acid:
+	water x 20
+	nitrogen-dioxide x 20
+results:
+	nitric-acid x 20
+
+angelsore2-crushed:
+	angels-ore2 x 2
+results:
+	angels-ore2-crushed x 2
+	stone-crushed x 1
+
+desert-1:
+	desert-1-seed x 5
+	solid-sand x 10
+	water-saline x 50
+results:
+	desert-1 x 0
+
+bob-fluid-wagon-3:
+	storage-tank-3 x 1
+	bob-fluid-wagon-2 x 1
+	iron-gear-wheel x 12
+	steel-plate x 16
+results:
+	bob-fluid-wagon-3 x 1
+
+gas-fractioning-synthesis:
+	liquid-ngl x 100
+	gas-synthesis x 50
+results:
+	gas-methane x 90
+	gas-ethane x 30
+	gas-butane x 20
+	gas-carbon-monoxide x 10
+
+angels-clay-brick-raw:
+	solid-clay x 4
+	solid-sand x 2
+	solid-lime x 2
+results:
+	clay-brick-raw x 4
+
+bob-silicon-plate:
+	calcium-chloride x 2
+	carbon x 1
+	quartz x 2
+results:
+	silicon x 1
+
+bob-pumpjack-3:
+	bob-pumpjack-2 x 1
+	steel-plate x 20
+	iron-gear-wheel x 10
+	processing-unit x 5
+	pipe x 10
+results:
+	bob-pumpjack-3 x 1
+
+biter-medium-butchering:
+	biter-medium x 1
+results:
+	crystal-shard-raw x 1
+	bio-raw-meat x 1
+
+bob-mining-drill-1:
+	electronic-circuit x 5
+	steel-plate x 10
+	iron-gear-wheel x 5
+	electric-mining-drill x 1
+results:
+	bob-mining-drill-1 x 1
+
+pure-water-from-lithia:
+	lithia-water x 100
+results:
+	pure-water x 100
+
+ore-powderizer-3:
+	angels-void x 1
+results:
+	ore-powderizer-3 x 1
+
+rod-stack-iron-casting-fast:
+	liquid-molten-iron x 110
+	liquid-coolant x 40
+results:
+	angels-rod-stack-iron x 2
+	liquid-coolant-used x 40
+
+bob-amethyst-3:
+	amethyst-ore x 1
+results:
+	amethyst-3 x 1
+
+angelsore5-crushed-processing:
+	angels-ore5-crushed x 4
+results:
+	slag x 1
+
+explosive-uranium-cannon-shell:
+	explosive-cannon-shell x 1
+	uranium-238 x 1
+results:
+	explosive-uranium-cannon-shell x 1
+
+bob-distillery:
+	iron-plate x 3
+	copper-plate x 3
+	pipe x 2
+results:
+	bob-distillery x 1
+
+molten-aluminium-smelting-2:
+	ingot-aluminium x 12
+	ingot-manganese x 12
+results:
+	liquid-molten-aluminium x 240
+
+processed-gold-smelting:
+	liquid-chlorauric-acid x 60
+	processed-gold x 2
+results:
+	cathode-gold x 12
+
+bob-robo-charge-port-large:
+	steel-plate x 15
+	roboport-antenna-1 x 1
+	roboport-chargepad-1 x 9
+results:
+	bob-robo-charge-port-large x 1
+
+ore-crusher-3:
+	ore-crusher-2 x 1
+results:
+	ore-crusher-3 x 1
+
+void-hydrogen:
+	hydrogen x 20
+results:
+	void x 1
+
+cathode-gold-smelting:
+	cathode-gold x 24
+results:
+	ingot-gold x 24
+
+arithmetic-combinator:
+	copper-cable x 5
+	electronic-circuit x 5
+results:
+	arithmetic-combinator x 1
+
+oil-refinery-2:
+	oil-refinery x 10
+results:
+	oil-refinery-2 x 1
+
+bio-generator-desert-1:
+	desert-tree x 1
+results:
+	bio-generator-desert-1 x 1
+
+discharge-defense-remote:
+	electronic-circuit x 1
+results:
+	discharge-defense-remote x 1
+
+steel-plate:
+	iron-plate x 5
+results:
+
+paste-tungsten:
+	tungsten-ore x 5
+	paste-cellulose x 5
+results:
+	paste-tungsten x 5
+
+desert-3:
+	desert-3-seed x 5
+	solid-sand x 10
+	water-saline x 50
+results:
+	desert-3 x 0
+	desert-3-seed-dormant x 5
+
+sintering-oven-2:
+	sintering-oven x 1
+results:
+	sintering-oven-2 x 1
+
+kraft-cooking-washing:
+	cellulose-fiber x 20
+	liquid-white-liquor x 40
+results:
+	solid-wood-pulp x 30
+	liquid-black-liquor x 0
+
+turbo-stack-filter-inserter:
+	steel-plate x 4
+	iron-gear-wheel x 6
+	processing-unit x 6
+	stack-filter-inserter x 1
+results:
+	turbo-stack-filter-inserter x 1
+
+fluid-generator:
+	iron-gear-wheel x 8
+	steel-plate x 10
+	pipe x 5
+	electric-engine-unit x 4
+results:
+
+angelsore4-crushed-processing:
+	angels-ore4-crushed x 4
+results:
+	slag x 1
+
+steam-cracking-fuel-oil:
+	liquid-fuel-oil x 100
+	steam x 100
+results:
+	gas-synthesis x 100
+	gas-residual x 10
+
+angels-plate-steel:
+	liquid-molten-steel x 40
+results:
+	angels-plate-steel x 4
+
+hogger-breeding-4:
+	bio-hogger-4 x 2
+	iron-plate x 1
+	liquid-nutrient-pulp x 20
+results:
+	bio-hogger-4 x 1
+	bio-hogger-1 x 1
+	bio-hogger-2 x 1
+	bio-hogger-3 x 1
+	bio-hogger-5 x 1
+
+concrete:
+	water x 100
+	stone-brick x 5
+	iron-ore x 1
+results:
+	concrete x 1
+
+angelsore-crystal-mix1-processing:
+	catalysator-orange x 1
+	angels-ore1-crystal x 2
+	angels-ore3-crystal x 2
+	angels-ore5-crystal x 2
+results:
+	angels-void x 1
+
+engine-unit:
+	steel-plate x 1
+	iron-gear-wheel x 1
+	pipe x 2
+results:
+	engine-unit x 1
+
+angelsore5-chunk-processing:
+	angels-ore5-chunk x 6
+results:
+	slag x 1
+
+solid-salt:
+	water x 1000
+results:
+	solid-salt x 10
+
+liquid-naphtha-catalyst:
+	gas-synthesis x 150
+	gas-carbon-monoxide x 50
+	catalyst-metal-red x 1
+results:
+	liquid-naphtha x 100
+	catalyst-metal-carrier x 1
+
+assembling-machine-1:
+	iron-plate x 9
+	electronic-circuit x 3
+	iron-gear-wheel x 5
+results:
+	assembling-machine-1 x 1
+
+beacon:
+	electronic-circuit x 20
+	advanced-circuit x 20
+	steel-plate x 10
+	copper-cable x 10
+results:
+	beacon x 1
+
+glass-mixture-1:
+	quartz x 1
+results:
+	solid-glass-mixture x 1
+
+angelsore1-crushed:
+	angels-ore1 x 2
+results:
+	angels-ore1-crushed x 2
+	stone-crushed x 1
+
+angelsore1-crystal:
+	angels-ore1-chunk x 2
+	sulfuric-acid x 10
+results:
+	angels-ore1-crystal x 2
+
+liquid-resin-3:
+	gas-bisphenol-a x 20
+	gas-epichlorhydrin x 20
+results:
+	liquid-resin x 30
+
+solid-calcium-carbonate:
+	red-cellulose-fiber x 20
+results:
+	solid-calcium-carbonate x 5
+
+liquid-white-liquor:
+	solid-sodium-hydroxide x 2
+	solid-sodium-sulfate x 2
+	water x 40
+results:
+	liquid-white-liquor x 40
+
+alien-goo:
+	alien-bacteria x 1
+results:
+	alien-goo x 10
+
+polishing-compound:
+	alumina x 1
+	light-oil x 15
+results:
+	polishing-compound x 1
+
+angels-concrete-brick:
+	liquid-concrete x 40
+results:
+	concrete-brick x 4
+
+desert-tree-generator-2:
+	solid-sand x 5
+	solid-fertilizer x 1
+	water-saline x 50
+results:
+	tree-desert-seed x 6
+
+angels-storage-tank-3:
+	steel-plate x 10
+results:
+	angels-storage-tank-3 x 1
+
+steel-gear-wheel:
+	steel-plate x 1
+results:
+
+pellet-copper-smelting:
+	pellet-copper x 8
+	gas-oxygen x 60
+results:
+	anode-copper x 24
+
+flamethrower:
+	steel-plate x 5
+	iron-gear-wheel x 10
+results:
+	flamethrower x 1
+
+storage-tank:
+	iron-plate x 20
+	steel-plate x 5
+results:
+	storage-tank x 1
+
+angels-plate-gold:
+	liquid-molten-gold x 40
+results:
+	angels-plate-gold x 4
+
+raw-productivity-module-5-combine:
+	pollution-clean-module-5 x 1
+	productivity-module-5 x 1
+	effectivity-module-5 x 1
+results:
+	raw-productivity-module-5 x 1
+
+paste-gold:
+	paste-cellulose x 5
+	gold-ore x 5
+results:
+	paste-gold x 5
+
+crystal-shard-blue:
+	crystal-shard-blue-cut x 1
+	crystal-grindstone x 1
+	crystal-slurry x 1
+results:
+	crystal-shard-blue x 1
+
+puffer-butchery-3:
+	bio-puffer-3 x 1
+results:
+	bio-raw-meat x 1
+
+burner-inserter:
+	iron-plate x 1
+	iron-gear-wheel x 1
+results:
+	burner-inserter x 1
+
+roll-iron-casting-fast:
+	liquid-molten-iron x 140
+	liquid-coolant x 40
+results:
+	angels-roll-iron x 4
+	liquid-coolant-used x 40
+
+ceramic-bearing-ball:
+	silicon-nitride x 1
+results:
+
+alien-fire:
+	alien-artifact-red x 1
+	heavy-oil x 8
+	light-oil x 8
+results:
+	alien-fire x 100
+
+oil-boiler:
+	boiler-2 x 1
+	pipe x 2
+results:
+	oil-boiler x 1
+
+molten-steel-smelting-4:
+	ingot-nickel x 12
+	ingot-steel x 12
+	ingot-cobalt x 12
+results:
+	liquid-molten-steel x 360
+
+military-science-pack:
+	sct-mil-circuit3 x 1
+	sct-mil-plating x 1
+results:
+	military-science-pack x 2
+
+angels-sulfur-scrubber:
+	water x 20
+	filter-lime x 1
+results:
+	filter-lime-used x 1
+	water-yellow-waste x 20
+
+angels-storage-tank-2:
+	steel-plate x 10
+results:
+	angels-storage-tank-2 x 1
+
+steam-engine:
+	iron-gear-wheel x 8
+	pipe x 5
+	iron-plate x 10
+results:
+
+laser-rifle-battery-sapphire:
+	laser-rifle-battery-ruby x 1
+	battery x 4
+results:
+	laser-rifle-battery-sapphire x 1
+
+sct-lab1-mechanization:
+	transport-belt x 10
+	electronic-circuit x 10
+results:
+
+solar-panel-3:
+	steel-plate x 4
+	processing-unit x 9
+	copper-plate x 4
+	solar-panel-2 x 1
+results:
+	solar-panel-3 x 1
+
+milling-drum:
+	steel-plate x 1
+	lubricant x 10
+results:
+	milling-drum x 1
+
+gas-sulfur-dioxide-calcium-sulfate:
+	water-purified x 50
+	solid-calcium-sulfate x 2
+results:
+	gas-sulfur-dioxide x 50
+	angels-void x 1
+
+pellet-press-2:
+	pellet-press x 1
+results:
+	pellet-press-2 x 1
+
+filter-coal:
+	coal x 1
+	filter-frame x 5
+results:
+	filter-coal x 5
+
+flying-robot-frame-3:
+	steel-plate x 1
+	processing-unit x 3
+	electric-engine-unit x 1
+	battery x 2
+results:
+	flying-robot-frame-3 x 1
+
+angelsore4-crushed:
+	angels-ore4 x 2
+results:
+	angels-ore4-crushed x 2
+	stone-crushed x 1
+
+ore-leaching-plant:
+	angels-void x 1
+results:
+	ore-leaching-plant x 1
+
+thermal-water-filtering-1:
+	thermal-water x 50
+	filter-coal x 1
+results:
+	mineral-sludge x 50
+	filter-frame x 1
+
+bob-power-armor-mk5:
+	bob-power-armor-mk4 x 1
+	processing-unit x 50
+	advanced-circuit x 50
+	steel-plate x 25
+	plastic-bar x 25
+	effectivity-module-3 x 5
+	speed-module-3 x 5
+results:
+	bob-power-armor-mk5 x 1
+
+solar-panel-large:
+	steel-plate x 8
+	electronic-circuit x 24
+	copper-plate x 8
+results:
+	solar-panel-large x 1
+
+gas-dimethylamine:
+	gas-methylamine x 200
+	gas-methanol x 50
+results:
+	gas-dimethylamine x 200
+	water-purified x 50
+
+liquid-hydrochloric-acid-solid-sodium-sulfate:
+	solid-salt x 6
+	liquid-sulfuric-acid x 120
+results:
+	liquid-hydrochloric-acid x 70
+	solid-sodium-sulfate x 3
+
+molten-aluminium-smelting-1:
+	ingot-aluminium x 12
+results:
+	liquid-molten-aluminium x 120
+
+cellulose-fiber-raw-wood:
+	wood x 1
+results:
+	cellulose-fiber x 4
+
+biter-big:
+	biter-big-egg x 1
+	bio-raw-meat x 1
+	liquid-nutrient-pulp x 1
+results:
+	biter-big x 1
+
+electric-mixing-furnace:
+	steel-plate x 15
+	stone-brick x 10
+	advanced-circuit x 5
+results:
+	electric-mixing-furnace x 1
+
+biter-medium:
+	biter-medium-egg x 1
+	bio-raw-meat x 1
+	liquid-nutrient-pulp x 1
+results:
+	biter-medium x 1
+
+electric-engine-unit:
+	engine-unit x 1
+	lubricant x 15
+	electronic-circuit x 2
+results:
+	electric-engine-unit x 1
+
+glass-mixture-4:
+	solid-sand x 1
+	solid-sodium-carbonate x 1
+	solid-lime x 1
+	solid-sodium-sulfate x 1
+results:
+	solid-glass-mixture x 4
+
+personal-roboport-mk2-equipment:
+	personal-roboport-equipment x 5
+	processing-unit x 100
+	low-density-structure x 20
+results:
+	personal-roboport-mk2-equipment x 1
+
+swamp-tree-generator-3:
+	gas-nitrogen x 20
+	solid-mud x 5
+	solid-fertilizer x 1
+	water-light-mud x 50
+results:
+	tree-swamp-seed x 8
+
+temperate-garden-b:
+	temperate-garden x 1
+results:
+	temperate-1-seed x 5
+	temperate-2-seed x 5
+	temperate-3-seed x 5
+	temperate-4-seed x 5
+	temperate-5-seed x 5
+
+milling-drum-used:
+	milling-drum-used x 1
+	lubricant x 10
+results:
+	milling-drum x 1
+
+bob-locomotive-2:
+	iron-gear-wheel x 20
+	locomotive x 1
+	advanced-circuit x 5
+	steel-plate x 10
+results:
+	bob-locomotive-2 x 1
+
+liquifier-4:
+	liquifier-3 x 1
+results:
+	liquifier-4 x 1
+
+sct-lab2-construction:
+	iron-gear-wheel x 4
+	steel-plate x 2
+results:
+
+titanium-pipe:
+	titanium-plate x 1
+results:
+	titanium-pipe x 1
+
+landfill-dry-dirt:
+	solid-mud x 25
+results:
+	landfill-dry-dirt x 1
+
+shotgun-shell:
+	copper-plate x 2
+	iron-plate x 2
+results:
+	shotgun-shell x 1
+
+steam-cracker:
+	steel-plate x 10
+results:
+	steam-cracker x 1
+
+temperate-tree-generator-2:
+	solid-soil x 5
+	solid-fertilizer x 1
+	water x 50
+results:
+	tree-temperate-seed x 6
+
+temperate-upgrade:
+	token-bio x 5
+	angels-void x 1
+results:
+	temperate-upgrade x 1
+
+brass-pipe-to-ground:
+	brass-pipe x 14
+	brass-alloy x 5
+results:
+	brass-pipe-to-ground x 1
+
+bronze-pipe-to-ground:
+	bronze-pipe x 12
+	bronze-alloy x 5
+results:
+	bronze-pipe-to-ground x 1
+
+swamp-4-seed:
+	swamp-4-seed-dormant x 5
+results:
+	swamp-4-seed x 1
+
+discharge-defense-equipment:
+	processing-unit x 5
+	steel-plate x 20
+	laser-turret x 10
+results:
+	discharge-defense-equipment x 1
+
+gas-canister:
+	steel-plate x 1
+results:
+	gas-canister x 1
+
+cobalt-steel-gear-wheel:
+	cobalt-steel-alloy x 1
+results:
+
+angelsore-crushed-mix4-processing:
+	angels-ore6-crushed x 2
+	angels-ore3-crushed x 2
+	catalysator-brown x 1
+results:
+	angels-void x 1
+
+express-filter-inserter:
+	steel-plate x 1
+	iron-gear-wheel x 1
+	processing-unit x 5
+	turbo-filter-inserter x 1
+results:
+	express-filter-inserter x 1
+
+substation-4:
+	substation-3 x 1
+	processing-unit x 5
+	steel-plate x 10
+	copper-plate x 5
+results:
+	substation-4 x 1
+
+oil-separation:
+	liquid-multi-phase-oil x 100
+results:
+	gas-raw-1 x 20
+	crude-oil x 70
+	water-yellow-waste x 10
+
+beacon-2:
+	advanced-circuit x 20
+	processing-unit x 20
+	steel-plate x 10
+	copper-cable x 10
+	beacon x 1
+	electronic-circuit x 20
+results:
+	beacon-2 x 1
+
+ore-crusher-2:
+	ore-crusher x 1
+results:
+	ore-crusher-2 x 1
+
+sorting-desert-5:
+	desert-5 x 20
+results:
+	solid-nuts x 4
+	solid-corn x 12
+	crystal-dust x 4
+
+rocket-launcher:
+	iron-plate x 5
+	iron-gear-wheel x 5
+	electronic-circuit x 5
+results:
+	rocket-launcher x 1
+
+titanium-bearing-ball:
+	titanium-plate x 1
+results:
+
+solid-salt-separation:
+	solid-salt x 10
+results:
+	gas-chlorine x 200
+	solid-sodium x 5
+
+liquid-nitric-acid:
+	gas-nitrogen-dioxide x 100
+	water-purified x 50
+results:
+	liquid-nitric-acid x 50
+
+reinforced-gate:
+	electronic-circuit x 2
+	reinforced-wall x 1
+	steel-plate x 2
+results:
+	reinforced-gate x 1
+
+solid-wood-pulp:
+	cellulose-fiber x 20
+	solid-alginic-acid x 5
+results:
+	solid-wood-pulp x 20
+
+slag-processing-4:
+	mineral-sludge x 50
+results:
+	angels-void x 1
+
+anaerobic-fermentation:
+	liquid-fermentation-raw x 100
+results:
+	liquid-acetic-acid x 50
+	solid-compost x 1
+
+solid-mud-landfill:
+	solid-mud x 25
+results:
+	landfill x 1
+
+stone-pipe:
+	stone-brick x 1
+results:
+	stone-pipe x 1
+
+gas-synthesis-methanol:
+	gas-synthesis x 100
+	gas-carbon-dioxide x 40
+	catalyst-metal-green x 1
+results:
+	water-purified x 20
+	gas-methanol x 80
+	catalyst-metal-carrier x 1
+
+valve-underflow:
+	steel-plate x 1
+results:
+	valve-underflow x 1
+
+bob-construction-robot-2:
+results:
+	bob-construction-robot-2 x 1
+
+atomic-bomb:
+	rocket-control-unit x 10
+	explosives x 10
+	plutonium x 5
+results:
+	atomic-bomb x 1
+
+angelsore8-anode-sludge-filtering:
+	water-purified x 50
+	filter-ceramic x 1
+	angels-ore8-solution x 60
+results:
+	angels-ore8-slime x 60
+	water-yellow-waste x 10
+	filter-ceramic-used x 1
+
+electronics-machine-3:
+	electronics-machine-2 x 1
+	processing-unit x 5
+	steel-plate x 5
+	iron-gear-wheel x 5
+results:
+	electronics-machine-3 x 1
+
+brass-chest:
+	brass-alloy x 8
+results:
+	brass-chest x 1
+
+rocket-fuel-capsule:
+	gas-dimethylhydrazine x 30
+	gas-hydrazine x 30
+results:
+	rocket-fuel-capsule x 2
+
+medium-electric-pole:
+	iron-stick x 4
+	steel-plate x 2
+	copper-plate x 2
+results:
+	medium-electric-pole x 1
+
+liquid-fuel:
+	light-oil x 10
+results:
+	liquid-fuel x 10
+
+nutrient-extractor:
+	iron-plate x 1
+results:
+	nutrient-extractor x 1
+
+shotgun-flame-shell:
+	shotgun-shell-casing x 1
+	light-oil x 5
+	heavy-oil x 5
+	cordite x 1
+results:
+	shotgun-flame-shell x 1
+
+brass-gear-wheel:
+	brass-alloy x 1
+results:
+
+molten-lead-smelting:
+	ingot-lead x 12
+results:
+	liquid-molten-lead x 120
+
+angels-concrete:
+	liquid-concrete x 40
+results:
+	concrete x 4
+
+centrifuge:
+	concrete x 100
+	steel-plate x 50
+	advanced-circuit x 100
+	iron-gear-wheel x 100
+results:
+	centrifuge x 1
+
+diesel-fuel:
+	petroleum-gas x 20
+	light-oil x 20
+results:
+	diesel-fuel x 30
+
+washing-5:
+	water-thin-mud x 200
+	water x 50
+results:
+	water-saline x 200
+	solid-mud x 0
+
+chemical-plant-3:
+	pipe x 5
+	chemical-plant-2 x 1
+	steel-plate x 10
+	iron-gear-wheel x 5
+	processing-unit x 10
+results:
+	chemical-plant-3 x 1
+
+cliff-explosives:
+	explosives x 10
+	grenade x 1
+	empty-barrel x 1
+results:
+	cliff-explosives x 1
+
+electric-energy-interface:
+	iron-plate x 2
+	electronic-circuit x 5
+results:
+	electric-energy-interface x 1
+
+gas-sulfur-dioxide:
+	sulfur x 1
+	gas-oxygen x 60
+results:
+	gas-sulfur-dioxide x 60
+
+water-saline-separation:
+	water-saline x 100
+results:
+	gas-chlorine x 40
+	gas-hydrogen x 60
+	solid-sodium-hydroxide x 1
+
+pellet-nickel-smelting:
+	pellet-nickel x 8
+	sulfur x 1
+	gas-carbon-monoxide x 60
+results:
+	solid-nickel-carbonyl x 24
+
+crystal-powder-shard-red:
+	crystal-shard-red-cut x 1
+results:
+	crystal-powder x 1
+
+solar-panel-small:
+	steel-plate x 2
+	electronic-circuit x 6
+	copper-plate x 2
+results:
+	solar-panel-small x 1
+
+pellet-manganese-smelting:
+	pellet-manganese x 8
+	gas-natural-1 x 60
+results:
+	solid-manganese-oxide x 24
+
+bio-processor:
+	iron-plate x 1
+results:
+	bio-processor x 1
+
+angelsore6-crystal-processing:
+	angels-ore6-crystal x 8
+results:
+	slag x 1
+
+solder-alloy:
+	copper-plate x 1
+	silver-plate x 1
+	tin-plate x 9
+results:
+	solder-alloy x 1
+
+mineral-oil-lubricant:
+	liquid-mineral-oil x 40
+	gas-residual x 10
+results:
+	lubricant x 50
+
+tin-processed-processing:
+	processed-tin x 3
+results:
+	pellet-tin x 4
+
+distractor-mine:
+	steel-plate x 1
+	distractor-capsule x 1
+results:
+	distractor-mine x 1
+
+swamp-garden-a:
+	swamp-garden x 1
+results:
+	token-bio x 16
+	swamp-1-seed x 5
+	swamp-2-seed x 5
+	swamp-3-seed x 5
+	swamp-4-seed x 5
+	swamp-5-seed x 5
+
+alien-blue-alloy:
+	tungsten-plate x 10
+	alien-artifact-blue x 1
+results:
+	alien-blue-alloy x 1
+
+gas-formaldehyde-catalyst:
+	gas-methanol x 100
+	catalyst-metal-green x 1
+results:
+	gas-formaldehyde x 100
+	catalyst-metal-carrier x 1
+
+rocket-booster-2:
+	solid-ammonium-perchlorate x 3
+	pipe x 1
+results:
+	rocket-booster x 3
+
+raw-productivity-module-1:
+	productivity-processor x 1
+	effectivity-processor x 1
+	pollution-clean-processor x 1
+	module-case x 1
+	module-circuit-board x 1
+	module-contact x 4
+results:
+	raw-productivity-module-1 x 1
+
+defender-robot:
+results:
+	defender-robot x 1
+
+accumulator:
+	iron-plate x 2
+	battery x 5
+results:
+	accumulator x 1
+
+water-pump-2:
+	steel-gear-wheel x 4
+	advanced-circuit x 3
+	pipe x 2
+	water-pump x 1
+	steel-plate x 2
+results:
+	water-pump-2 x 1
+
+bob-artillery-turret-3:
+	bob-artillery-turret-2 x 1
+	steel-plate x 60
+	concrete x 60
+	iron-gear-wheel x 40
+	processing-unit x 20
+results:
+	bob-artillery-turret-3 x 1
+
+turbo-splitter:
+	express-splitter x 1
+	steel-plate x 8
+	iron-gear-wheel x 14
+	processing-unit x 5
+results:
+	turbo-splitter x 1
+
+effectivity-processor:
+	module-processor-board x 1
+	electronic-circuit x 2
+	advanced-circuit x 2
+results:
+
+angels-wire-coil-silver-converting:
+	angels-wire-coil-silver x 4
+results:
+	angels-wire-silver x 16
+
+seeded-dish:
+	substrate-dish x 3
+	alien-bacteria x 1
+results:
+	seeded-dish x 3
+
+bio-hatchery:
+	iron-plate x 1
+results:
+	bio-hatchery x 1
+
+productivity-module-2:
+	processing-unit x 5
+	productivity-module x 4
+	advanced-circuit x 5
+results:
+	productivity-module-2 x 1
+
+washing-3:
+	water-concentrated-mud x 200
+	water x 50
+results:
+	water-light-mud x 200
+	solid-mud x 0
+
+ferric-chloride-solution:
+	water x 30
+	iron-ore x 1
+results:
+	ferric-chloride-solution x 50
+
+sulfur-dioxide:
+	sulfur x 5
+	oxygen x 50
+results:
+	sulfur-dioxide x 50
+
+raw-productivity-module-3:
+	raw-productivity-module-2 x 1
+	productivity-processor-2 x 3
+	effectivity-processor-2 x 3
+	pollution-clean-processor-2 x 3
+	advanced-circuit x 7
+results:
+	raw-productivity-module-3 x 1
+
+science-pack-gold:
+	automation-science-pack x 1
+	logistic-science-pack x 1
+	chemical-science-pack x 1
+	military-science-pack x 1
+results:
+	science-pack-gold x 1
+
+solid-ammonium-chloroplatinate-smelting:
+	solid-ammonium-chloroplatinate x 24
+results:
+	ingot-platinum x 24
+
+angels-clay-brick:
+	clay-brick-raw x 4
+results:
+	clay-brick x 4
+
+angels-wire-coil-tin-casting:
+	liquid-molten-copper x 40
+	water x 40
+	liquid-molten-tin x 40
+results:
+	angels-wire-coil-tin x 4
+
+titanium-ore-processing:
+	rutile-ore x 4
+results:
+	processed-titanium x 2
+
+solid-pips-nutrients:
+	solid-pips x 10
+results:
+	liquid-nutrient-pulp x 20
+
+puffer-breeding-3:
+	liquid-nutrient-pulp x 20
+	gas-puffer-atmosphere x 20
+	bio-puffer-3 x 2
+	solid-nuts x 5
+results:
+	bio-puffer-3 x 2
+	bio-puffer-egg-1 x 1
+	bio-puffer-egg-2 x 1
+	bio-puffer-egg-3 x 1
+	bio-puffer-egg-4 x 1
+	bio-puffer-egg-5 x 1
+
+gas-chlor-methane:
+	gas-chlorine x 60
+	gas-methane x 40
+results:
+	gas-chlor-methane x 100
+
+raw-speed-module-6:
+	raw-speed-module-5 x 1
+	speed-processor-3 x 6
+	effectivity-processor-3 x 6
+	module-contact x 5
+	processing-unit x 7
+results:
+	raw-speed-module-6 x 1
+
+raw-speed-module-7-combine:
+	speed-module-7 x 1
+	effectivity-module-7 x 1
+results:
+	raw-speed-module-7 x 1
+
+inserter:
+	electronic-circuit x 1
+	iron-gear-wheel x 1
+	iron-plate x 1
+results:
+	inserter x 1
+
+filter-frame:
+	steel-plate x 1
+	iron-plate x 1
+results:
+	filter-frame x 1
+
+laser-rifle-battery-diamond:
+	battery x 4
+	laser-rifle-battery-topaz x 1
+results:
+	laser-rifle-battery-diamond x 1
+
+liquid-chlorauric-acid:
+	ingot-gold x 12
+	liquid-nitric-acid x 30
+	liquid-hydrochloric-acid x 30
+results:
+	liquid-chlorauric-acid x 120
+
+laser-rifle-battery-ruby:
+	laser-rifle-battery x 1
+	battery x 4
+results:
+	laser-rifle-battery-ruby x 1
+
+silicon-wafer:
+	silicon x 1
+results:
+	silicon-wafer x 1
+
+heat-shield-tile:
+	steel-plate x 10
+	plastic-bar x 5
+results:
+
+clarifier:
+	angels-void x 1
+results:
+	clarifier x 1
+
+ingot-iron-smelting:
+	ingot-iron x 24
+	gas-oxygen x 60
+results:
+	ingot-steel x 6
+
+robot-brain-construction-3:
+results:
+	robot-brain-construction-3 x 1
+
+casting-powder-tungsten-2:
+	powder-tungsten x 12
+	powder-nickel x 12
+results:
+	casting-powder-tungsten x 24
+
+uranium-fuel-cell:
+	iron-plate x 10
+	uranium-235 x 1
+	uranium-238 x 19
+results:
+	uranium-fuel-cell x 1
+
+cobalt-plate:
+	cobalt-oxide x 1
+	sulfuric-acid x 10
+results:
+	cobalt-plate x 1
+
+angels-roll-steel-casting-fast:
+	liquid-molten-steel x 140
+	liquid-coolant x 40
+results:
+	angels-roll-steel x 4
+	liquid-coolant-used x 40
+
+swamp-garden-b:
+	swamp-garden x 1
+results:
+	swamp-1-seed x 5
+	swamp-2-seed x 5
+	swamp-3-seed x 5
+	swamp-4-seed x 5
+	swamp-5-seed x 5
+
+algae-farm-3:
+	algae-farm-2 x 1
+results:
+	algae-farm-3 x 1
+
+poison-mine:
+	steel-plate x 1
+	poison-capsule x 4
+results:
+	poison-mine x 1
+
+plastic-bar:
+	petroleum-gas x 20
+	coal x 1
+results:
+	plastic-bar x 2
+
+heavy-armor:
+	copper-plate x 100
+	steel-plate x 50
+results:
+	heavy-armor x 1
+
+module-processor-board-2:
+	copper-plate x 1
+	plastic-bar x 1
+results:
+
+assembling-machine-3:
+	speed-module x 4
+	assembling-machine-2 x 2
+results:
+	assembling-machine-3 x 1
+
+raw-speed-module-5:
+	processing-unit x 7
+	raw-speed-module-4 x 1
+	speed-processor-2 x 5
+	effectivity-processor-2 x 5
+	module-contact x 5
+results:
+	raw-speed-module-5 x 1
+
+turbo-filter-inserter:
+	filter-inserter x 1
+	steel-plate x 1
+	iron-gear-wheel x 1
+	processing-unit x 5
+results:
+	turbo-filter-inserter x 1
+
+steam-cracking-oil-residual:
+	solid-oil-residual x 10
+	steam x 100
+results:
+	gas-residual x 100
+
+hull-component:
+	low-density-structure x 250
+	steel-plate x 100
+results:
+	hull-component x 1
+
+rod-stack-steel-casting:
+	liquid-molten-steel x 60
+	water x 40
+results:
+	angels-rod-stack-steel x 1
+
+nickel-ore-processing:
+	nickel-ore x 4
+results:
+	processed-nickel x 2
+
+laser-rifle:
+	iron-gear-wheel x 5
+	plastic-bar x 3
+	steel-plate x 10
+	advanced-circuit x 5
+results:
+	laser-rifle x 1
+
+stack-filter-inserter:
+	red-stack-filter-inserter x 1
+	steel-plate x 4
+	iron-gear-wheel x 6
+	advanced-circuit x 6
+results:
+	stack-filter-inserter x 1
+
+bob-robo-charge-port-large-4:
+	bob-robo-charge-port-large-3 x 1
+	steel-plate x 15
+	roboport-chargepad-4 x 9
+results:
+	bob-robo-charge-port-large-4 x 1
+
+flamethrower-turret:
+	pipe x 10
+	engine-unit x 5
+	steel-plate x 30
+	iron-gear-wheel x 15
+results:
+	flamethrower-turret x 1
+
+scatter-cannon-shell:
+	plastic-bar x 2
+	explosives x 1
+	steel-plate x 4
+	shot x 5
+results:
+	scatter-cannon-shell x 1
+
+valve-check:
+	steel-plate x 1
+results:
+	valve-check x 1
+
+module-processor-board:
+	copper-plate x 1
+	plastic-bar x 1
+results:
+
+swamp-1:
+	swamp-1-seed x 5
+	solid-mud x 10
+	water-viscous-mud x 50
+results:
+	swamp-1 x 0
+
+pipe:
+	iron-plate x 1
+results:
+
+crystal-slurry-filtering-1:
+	filter-coal x 1
+	crystal-slurry x 50
+	water-purified x 50
+results:
+	crystal-seedling x 50
+	water-yellow-waste x 40
+	filter-frame x 1
+
+red-filter-inserter:
+	electronic-circuit x 1
+	yellow-filter-inserter x 1
+	steel-plate x 1
+	iron-gear-wheel x 1
+results:
+	red-filter-inserter x 1
+
+molten-steel-smelting-2:
+	ingot-steel x 12
+	ingot-silicon x 12
+results:
+	liquid-molten-steel x 240
+
+reinforced-wall:
+	stone-brick x 3
+	steel-plate x 3
+results:
+	reinforced-wall x 1
+
+firearm-magazine:
+	iron-plate x 4
+results:
+	firearm-magazine x 1
+
+distractor-capsule:
+	defender-capsule x 4
+	advanced-circuit x 3
+results:
+	distractor-capsule x 1
+
+assembly-robot:
+	low-density-structure x 5
+	construction-robot x 5
+	speed-module-3 x 1
+	effectivity-module-3 x 1
+results:
+	assembly-robot x 1
+
+crystal-powder-splinter-green:
+	crystal-splinter-green-cut x 1
+results:
+	crystal-powder x 1
+
+desert-tree-arboretum-2:
+	solid-fertilizer x 1
+	water-saline x 50
+	tree-desert-seed x 2
+	solid-sand x 5
+results:
+	bio-rubber x 4
+	solid-tree x 3
+
+alien-artifact-from-small:
+	small-alien-artifact x 25
+results:
+	alien-artifact x 1
+
+petroleum-gas-cracking:
+	petroleum-gas x 5
+	water x 5
+results:
+	hydrogen x 250
+
+fast-underground-belt:
+	underground-belt x 2
+	steel-plate x 14
+	iron-gear-wheel x 20
+results:
+	fast-underground-belt x 1
+
+puffer-egg-1:
+	bio-puffer-egg-1 x 1
+results:
+	bio-puffer-1 x 1
+	bio-puffer-2 x 1
+
+silicon-ore-smelting:
+	quartz x 24
+	solid-carbon x 6
+results:
+	ingot-silicon x 24
+
+ore-processing-machine-4:
+	ore-processing-machine-3 x 1
+results:
+	ore-processing-machine-4 x 1
+
+bob-armoured-fluid-wagon-2:
+	bob-armoured-fluid-wagon x 1
+	iron-gear-wheel x 12
+	steel-plate x 25
+	storage-tank-3 x 1
+results:
+	bob-armoured-fluid-wagon-2 x 1
+
+steam-turbine-2:
+	steam-turbine x 1
+	advanced-circuit x 5
+	steel-plate x 25
+	iron-gear-wheel x 25
+results:
+
+angelsore8-anode-sludge:
+	angels-ore8-slime x 60
+results:
+	angels-ore8-anode-sludge x 60
+	water-yellow-waste x 20
+	slag x 1
+
+angelsore1-pure:
+	angels-ore1-crystal x 4
+results:
+	angels-ore1-pure x 4
+
+energy-shield-mk2-equipment:
+	low-density-structure x 5
+	energy-shield-equipment x 10
+	processing-unit x 5
+results:
+	energy-shield-mk2-equipment x 1
+
+puffer-breeding-5:
+	bio-puffer-5 x 2
+	solid-fruit x 5
+	liquid-nutrient-pulp x 20
+	gas-puffer-atmosphere x 20
+results:
+	bio-puffer-5 x 2
+	bio-puffer-egg-1 x 1
+	bio-puffer-egg-2 x 1
+	bio-puffer-egg-3 x 1
+	bio-puffer-egg-4 x 1
+	bio-puffer-egg-5 x 1
+
+hydrazine:
+	ammonia x 20
+	hydrogen-peroxide x 4
+results:
+	hydrazine x 8
+
+angelsore7-crystallization-6:
+	crystal-seedling x 50
+	catalysator-green x 1
+results:
+	angels-void x 1
+
+robot-tool-logistic-3:
+results:
+	robot-tool-logistic-3 x 1
+
+desert-farm:
+	iron-plate x 1
+results:
+	desert-farm x 1
+
+artillery-wagon:
+	engine-unit x 64
+	iron-gear-wheel x 10
+	steel-plate x 40
+	pipe x 16
+	advanced-circuit x 20
+results:
+	artillery-wagon x 1
+
+logistic-chest-active-provider:
+	electronic-circuit x 3
+	advanced-circuit x 1
+	steel-chest x 1
+results:
+	logistic-chest-active-provider x 1
+
+robot-tool-logistic-4:
+results:
+	robot-tool-logistic-4 x 1
+
+boiler-2:
+	boiler x 1
+	steel-plate x 5
+results:
+	boiler-2 x 1
+
+water-gas-shift-2:
+	gas-carbon-dioxide x 50
+	gas-hydrogen x 50
+results:
+	water-purified x 50
+	gas-carbon-monoxide x 50
+
+angelsore-crushed-mix3-processing:
+	angels-ore5-crushed x 2
+	catalysator-brown x 1
+	angels-ore4-crushed x 2
+results:
+	angels-void x 1
+
+angelsore9-crushed-processing:
+	angels-ore9-crushed x 4
+results:
+	angels-void x 1
+
+angels-wire-coil-copper-casting-fast:
+	liquid-molten-copper x 140
+	liquid-coolant x 40
+results:
+	angels-wire-coil-copper x 8
+	liquid-coolant-used x 40
+
+liquid-hexafluorosilicic-acid:
+	quartz x 3
+	liquid-hydrofluoric-acid x 30
+results:
+	liquid-hexafluorosilicic-acid x 60
+
+hogger-breeding-5:
+	bio-hogger-5 x 2
+	iron-plate x 1
+	liquid-nutrient-pulp x 20
+results:
+	bio-hogger-4 x 1
+	bio-hogger-5 x 1
+	bio-hogger-1 x 1
+	bio-hogger-2 x 1
+	bio-hogger-3 x 1
+
+heat-pipe:
+	steel-plate x 10
+	copper-plate x 20
+results:
+	heat-pipe x 1
+
+cobalt-ore-smelting:
+	cobalt-ore x 24
+	solid-carbon x 6
+results:
+	ingot-cobalt x 24
+
+roboport-antenna-4:
+	steel-plate x 1
+	copper-plate x 1
+	copper-cable x 2
+	processing-unit x 5
+results:
+	roboport-antenna-4 x 1
+
+rocket-fuel:
+	solid-fuel x 10
+results:
+	rocket-fuel x 1
+
+void-pump:
+	iron-gear-wheel x 2
+	iron-plate x 2
+	electronic-circuit x 2
+	pipe x 2
+results:
+	void-pump x 1
+
+radar-2:
+	electronic-circuit x 5
+	iron-gear-wheel x 5
+	steel-plate x 10
+	radar x 1
+results:
+	radar-2 x 1
+
+geode-cyan-liquify:
+	geode-cyan x 5
+	sulfuric-acid x 15
+results:
+	crystal-slurry x 50
+
+manganese-processed-processing:
+	processed-manganese x 3
+results:
+	pellet-manganese x 4
+
+angels-air-filtering:
+results:
+	gas-compressed-air x 200
+
+angelsore5-crushed-smelting:
+	angels-ore5-crushed x 3
+results:
+	angels-void x 1
+
+ore-sorting-facility-3:
+	ore-sorting-facility-2 x 1
+results:
+	ore-sorting-facility-3 x 1
+
+solid-iron-hydroxide-smelting:
+	solid-iron-hydroxide x 6
+	solid-coke x 2
+results:
+	ingot-iron x 6
+	gas-carbon-dioxide x 20
+
+blue-fiber-algae:
+	algae-blue x 10
+results:
+	blue-cellulose-fiber x 5
+
+water-electrolysis:
+	water x 10
+results:
+	hydrogen x 20
+	oxygen x 12.5
+
+anode-lead-smelting:
+	anode-lead x 12
+	liquid-hexafluorosilicic-acid x 30
+results:
+	ingot-lead x 12
+	slag x 1
+
+bio-press:
+	iron-plate x 1
+results:
+	bio-press x 1
+
+bauxite-ore-processing:
+	bauxite-ore x 4
+results:
+	processed-aluminium x 2
+
+rocket-silo:
+	steel-plate x 1000
+	concrete x 1000
+	pipe x 100
+	processing-unit x 200
+	electric-engine-unit x 200
+results:
+	rocket-silo x 1
+
+bob-logistic-robot-5:
+results:
+	bob-logistic-robot-5 x 1
+
+productivity-processor-3:
+	module-processor-board-3 x 1
+	processing-unit x 2
+results:
+
+angelsore4-crystal-processing:
+	angels-ore4-crystal x 8
+results:
+	slag x 1
+
+gas-fractioning:
+	liquid-ngl x 100
+results:
+	gas-methane x 50
+	gas-ethane x 30
+	gas-butane x 20
+
+mixing-furnace:
+	stone-brick x 5
+results:
+	mixing-furnace x 1
+
+roll-solder-casting-fast:
+	liquid-molten-solder x 140
+	liquid-coolant x 40
+results:
+	angels-roll-solder x 8
+	liquid-coolant-used x 40
+
+solid-fuel-methane:
+	solid-coke x 1
+	gas-methane x 100
+results:
+	solid-fuel x 2
+
+liquid-hydrofluoric-acid:
+	fluorite-ore x 5
+	sulfuric-acid x 50
+results:
+	liquid-hydrofluoric-acid x 50
+	solid-calcium-sulfate x 1
+
+angels-chemical-furnace-4:
+	angels-chemical-furnace-3 x 1
+results:
+	angels-chemical-furnace-4 x 1
+
+iron-chest:
+	iron-plate x 8
+results:
+	iron-chest x 1
+
+water-viscous-mud:
+	solid-mud x 10
+	water x 150
+results:
+	water-viscous-mud x 150
+
+greenyellow-waste-water-purification:
+	water-greenyellow-waste x 100
+results:
+	water-mineralized x 20
+	water-purified x 70
+
+desert-tree-generator-1:
+	solid-sand x 5
+	water-saline x 50
+results:
+	tree-desert-seed x 4
+
+sct-prod-biosilicate:
+	plastic-bar x 4
+	electronic-circuit x 2
+	petroleum-gas x 20
+	stone x 20
+	steel-plate x 8
+results:
+	sct-prod-biosilicate x 1
+
+wooden-board:
+	wood x 1
+results:
+	wooden-board x 1
+
+ethanol-to-ethylene-synthesis:
+	gas-ethanol x 50
+	liquid-sulfuric-acid x 50
+results:
+	water-yellow-waste x 50
+	gas-ethylene x 50
+
+angels-iron-pebbles:
+	iron-ore x 2
+results:
+	angels-iron-pebbles x 4
+
+solar-panel-2:
+	steel-plate x 4
+	advanced-circuit x 9
+	copper-plate x 4
+	solar-panel x 1
+results:
+	solar-panel-2 x 1
+
+oil-boiler-3:
+	oil-boiler-2 x 1
+	steel-plate x 5
+results:
+	oil-boiler-3 x 1
+
+molten-zinc-smelting:
+	ingot-zinc x 12
+results:
+	liquid-molten-zinc x 120
+
+ore-processing-machine:
+	iron-plate x 10
+results:
+	ore-processing-machine x 1
+
+sorting-swamp-5:
+	swamp-5 x 20
+results:
+	alien-bacteria x 4
+	solid-fruit x 16
+	solid-pips x 12
+
+bob-area-mining-drill-3:
+	processing-unit x 5
+	steel-plate x 10
+	iron-gear-wheel x 5
+	bob-area-mining-drill-2 x 1
+results:
+	bob-area-mining-drill-3 x 1
+
+angelsore-crystal-mix3-processing:
+	catalysator-orange x 1
+	angels-ore3-crystal x 2
+	angels-ore5-crystal x 2
+	angels-ore6-crystal x 2
+results:
+	angels-void x 1
+
+yellow-filter-inserter:
+	inserter x 1
+	electronic-circuit x 4
+results:
+	yellow-filter-inserter x 1
+
+molten-iron-smelting-1:
+	ingot-iron x 12
+results:
+	liquid-molten-iron x 120
+
+biter-small-butchering:
+	biter-small x 1
+results:
+	bio-raw-meat x 1
+	crystal-splinter-raw x 1
+
+liquid-raw-vegetable-oil-filtering-2:
+	liquid-raw-vegetable-oil x 100
+	water-purified x 100
+	filter-ceramic x 1
+results:
+	liquid-vegetable-oil x 180
+	liquid-nutrient-pulp x 20
+	filter-ceramic-used x 1
+
+bob-pumpjack-2:
+	iron-gear-wheel x 10
+	advanced-circuit x 5
+	pipe x 10
+	bob-pumpjack-1 x 1
+	steel-plate x 20
+results:
+	bob-pumpjack-2 x 1
+
+sct-htech-injector:
+	iron-plate x 15
+	copper-cable x 30
+	processing-unit x 3
+	plastic-bar x 10
+results:
+	sct-htech-injector x 1
+	sct-waste-ironcopper x 2
+
+protection-field:
+	energy-shield-mk2-equipment x 100
+results:
+	protection-field x 1
+
+ore-sorting-facility:
+	angels-void x 1
+results:
+	ore-sorting-facility x 1
+
+logistic-chest-storage-2:
+	logistic-chest-storage x 1
+	processing-unit x 1
+results:
+	logistic-chest-storage-2 x 1
+
+raw-speed-module-2:
+	module-contact x 5
+	raw-speed-module-1 x 1
+	speed-processor x 2
+	effectivity-processor x 2
+results:
+	raw-speed-module-2 x 1
+
+desert-5-seed:
+	desert-5-seed-dormant x 5
+results:
+	desert-5-seed x 1
+
+bob-resin-oil:
+	heavy-oil x 10
+results:
+	resin x 1
+
+geode-yellow-processing:
+	geode-yellow x 2
+results:
+	crystal-dust x 2
+	stone-crushed x 1
+
+angels-glass-fiber-board:
+	angels-coil-glass-fiber x 1
+	liquid-resin x 40
+results:
+	angels-void x 1
+
+liquid-acetic-acid-catalyst:
+	water-purified x 50
+	catalyst-metal-green x 1
+	gas-methanol x 70
+	gas-carbon-monoxide x 30
+results:
+	liquid-acetic-acid x 100
+	catalyst-metal-carrier x 1
+
+sct-htech-capbank:
+	battery x 1
+	iron-plate x 10
+	copper-cable x 15
+results:
+	sct-htech-capbank x 1
+	sct-waste-ironcopper x 2
+
+oil-boiler-4:
+	oil-boiler-3 x 1
+	steel-plate x 5
+results:
+	oil-boiler-4 x 1
+
+cobalt-oxide:
+	cobalt-ore x 2
+	stone x 1
+results:
+	cobalt-oxide x 1
+
+casting-machine-2:
+	casting-machine x 1
+results:
+	casting-machine-2 x 1
+
+bob-tank-3:
+	steel-plate x 40
+	plastic-bar x 40
+	iron-gear-wheel x 15
+	processing-unit x 5
+	bob-tank-2 x 1
+results:
+	bob-tank-3 x 1
+
+tungsten-ore-processing:
+	tungsten-ore x 4
+results:
+	processed-tungsten x 2
+
+void-oxygen:
+	oxygen x 25
+results:
+	void x 1
+
+angels-copper-nugget-smelting:
+	angels-copper-nugget x 2
+results:
+	copper-plate x 3
+
+nickel-ore-smelting:
+	nickel-ore x 24
+	gas-carbon-monoxide x 60
+results:
+	ingot-nickel x 24
+
+angels-plate-zinc:
+	liquid-molten-zinc x 40
+results:
+	angels-plate-zinc x 4
+
+algae-brown:
+	water-saline x 100
+results:
+	algae-brown x 40
+
+wood-pellets:
+	cellulose-fiber x 12
+results:
+	wood-pellets x 2
+
+swamp-5-seed:
+	swamp-5-seed-dormant x 5
+results:
+	swamp-5-seed x 1
+
+slag-processing-filtering-2:
+	slag-slurry x 35
+	water-purified x 50
+	filter-ceramic x 1
+results:
+	mineral-sludge x 35
+	water-yellow-waste x 20
+	filter-ceramic-used x 1
+
+chrome-ore-processing:
+	chrome-ore x 4
+results:
+	processed-chrome x 2
+
+solid-sodium-hypochlorite:
+	solid-sodium-hydroxide x 5
+	gas-chlorine x 200
+results:
+	solid-sodium-hypochlorite x 5
+
+multi-layer-circuit-board:
+	copper-plate x 2
+	ferric-chloride-solution x 10
+	fibreglass-board x 1
+results:
+	multi-layer-circuit-board x 1
+
+processed-nickel-smelting:
+	processed-nickel x 4
+	liquid-sulfuric-acid x 60
+results:
+	cathode-nickel x 12
+
+puffer-butchery-4:
+	bio-puffer-4 x 1
+results:
+	bio-raw-meat x 1
+
+bob-resin-wood:
+	wood x 1
+results:
+	resin x 1
+
+electro-whinning-cell:
+	angels-void x 1
+results:
+	electro-whinning-cell x 1
+
+angels-chemical-plant-3:
+	angels-chemical-plant-2 x 1
+results:
+	angels-chemical-plant-3 x 1
+
+green-module-5-combine:
+	effectivity-module-5 x 1
+	pollution-clean-module-5 x 1
+results:
+	green-module-5 x 1
+
+zinc-processed-processing:
+	processed-zinc x 3
+results:
+	pellet-zinc x 4
+
+fast-splitter:
+	steel-plate x 8
+	iron-gear-wheel x 14
+	electronic-circuit x 5
+	splitter x 1
+results:
+	fast-splitter x 1
+
+angelsore1-crystal-processing:
+	angels-ore1-crystal x 8
+results:
+	slag x 1
+
+gold-ore-smelting:
+	gold-ore x 24
+	gas-chlorine x 60
+results:
+	ingot-gold x 24
+
+catalyst-metal-yellow:
+	catalyst-metal-carrier x 10
+results:
+	catalyst-metal-yellow x 10
+
+molten-glass-smelting:
+	solid-glass-mixture x 12
+results:
+	liquid-molten-glass x 120
+
+molten-titanium-smelting-1:
+	ingot-titanium x 12
+results:
+	liquid-molten-titanium x 120
+
+slag-processing-2:
+	mineral-sludge x 50
+results:
+	angels-void x 1
+
+air-separation:
+	gas-compressed-air x 100
+results:
+	gas-nitrogen x 50
+	gas-oxygen x 50
+
+boiler-4:
+	boiler-3 x 1
+	steel-plate x 5
+results:
+	boiler-4 x 1
+
+steam-cracker-2:
+	steam-cracker x 1
+results:
+	steam-cracker-2 x 1
+
+chemical-plant-4:
+	chemical-plant-3 x 1
+	steel-plate x 10
+	iron-gear-wheel x 5
+	processing-unit x 10
+	pipe x 5
+results:
+	chemical-plant-4 x 1
+
+flying-robot-frame-4:
+	electric-engine-unit x 1
+	battery x 2
+	steel-plate x 1
+	processing-unit x 3
+results:
+	flying-robot-frame-4 x 1
+
+angelsore4-crystal:
+	sulfuric-acid x 10
+	angels-ore4-chunk x 2
+results:
+	angels-ore4-crystal x 2
+
+bob-logistic-robot-2:
+results:
+	bob-logistic-robot-2 x 1
+
+sct-t1-ironcore:
+	iron-plate x 2
+results:
+	sct-t1-ironcore x 1
+
+cobalt-steel-bearing:
+	cobalt-steel-alloy x 1
+	cobalt-steel-bearing-ball x 16
+results:
+
+solid-cobalt-oxide-smelting:
+	solid-cobalt-oxide x 24
+	solid-carbon x 6
+results:
+	ingot-cobalt x 24
+
+hogger-hogging-3:
+	bio-hogger-3 x 4
+	iron-ore x 10
+	iron-plate x 1
+	liquid-nutrient-pulp x 20
+results:
+	bio-hogger-3 x 0
+	copper-ore x 10
+
+ore-refinery-2:
+	ore-refinery x 1
+results:
+	ore-refinery-2 x 1
+
+molten-silver-smelting:
+	ingot-silver x 12
+results:
+	liquid-molten-silver x 120
+
+bio-refugium-biter:
+	iron-plate x 1
+results:
+	bio-refugium-biter x 1
+
+sorting-temperate-4:
+	temperate-4 x 20
+results:
+	solid-fruit x 10
+	solid-pips x 28
+
+angelsore8-dust-processing:
+	angels-ore8-dust x 6
+results:
+	angels-void x 1
+
+gas-ammonia:
+	gas-hydrogen x 50
+	gas-nitrogen x 50
+	catalyst-metal-red x 1
+results:
+	gas-ammonia x 100
+	catalyst-metal-carrier x 1
+
+robot-tool-logistic:
+results:
+	robot-tool-logistic x 1
+
+circuit-board:
+	phenolic-board x 1
+	copper-plate x 1
+	ferric-chloride-solution x 5
+results:
+	circuit-board x 1
+
+platinum-ore-smelting:
+	platinum-ore x 24
+results:
+	ingot-platinum x 24
+
+cement-mixture-1:
+	solid-lime x 1
+	quartz x 1
+results:
+	solid-cement x 1
+
+paper-bleaching-1:
+	solid-wood-pulp x 2
+results:
+	solid-paper x 4
+
+effectivity-module:
+	advanced-circuit x 5
+	electronic-circuit x 5
+results:
+	effectivity-module x 1
+
+angelsore3-chunk-processing:
+	angels-ore3-chunk x 6
+results:
+	slag x 1
+
+liquid-plastic-1:
+	gas-propene x 40
+results:
+	liquid-plastic x 10
+
+raw-speed-module-5-combine:
+	speed-module-5 x 1
+	effectivity-module-5 x 1
+results:
+	raw-speed-module-5 x 1
+
+radar-5:
+	radar-4 x 1
+	processing-unit x 5
+	iron-gear-wheel x 5
+	steel-plate x 10
+results:
+	radar-5 x 1
+
+algae-green:
+	water-mineralized x 100
+	gas-carbon-dioxide x 100
+results:
+	algae-green x 40
+
+temperate-tree-arboretum-1:
+	tree-temperate-seed x 2
+	solid-soil x 5
+	water x 50
+results:
+	bio-resin x 2
+	solid-tree x 2
+
+silver-oxide:
+	silver-nitrate x 1
+	sodium-hydroxide x 1
+results:
+	silver-oxide x 1
+
+bob-robo-charge-port:
+	steel-plate x 10
+	roboport-antenna-1 x 1
+	roboport-chargepad-1 x 4
+results:
+	bob-robo-charge-port x 1
+
+molten-manganese-smelting:
+	ingot-manganese x 12
+results:
+	liquid-molten-manganese x 120
+
+molten-tin-smelting:
+	ingot-tin x 12
+results:
+	liquid-molten-tin x 120
+
+gas-urea:
+	gas-ammonia x 60
+	gas-carbon-dioxide x 40
+results:
+	gas-urea x 80
+	water-purified x 20
+
+effectivity-processor-2:
+	advanced-circuit x 2
+	processing-unit x 2
+	module-processor-board-2 x 1
+results:
+
+coolant-used-filtration-2:
+	liquid-coolant-used x 200
+	filter-ceramic x 1
+results:
+	liquid-coolant x 160
+	filter-ceramic-used x 1
+
+roll-titanium-casting:
+	liquid-molten-titanium x 80
+	water x 40
+results:
+	angels-roll-titanium x 2
+
+angels-electrolyser:
+	iron-plate x 10
+results:
+	angels-electrolyser x 1
+
+blast-furnace-3:
+	blast-furnace-2 x 1
+results:
+	blast-furnace-3 x 1
+
+liquid-resin-1:
+	gas-urea x 20
+	gas-formaldehyde x 20
+results:
+	liquid-resin x 10
+
+pollution-clean-processor-2:
+	module-processor-board-2 x 1
+	advanced-circuit x 2
+	processing-unit x 2
+results:
+
+roll-copper-casting:
+	liquid-molten-copper x 80
+	water x 40
+results:
+	angels-roll-copper x 2
+
+angelsore8-powder-processing:
+	angels-ore8-powder x 4
+results:
+	angels-void x 1
+
+ore-floatation-cell:
+	angels-void x 1
+results:
+	ore-floatation-cell x 1
+
+algae-blue:
+	water-yellow-waste x 100
+	gas-carbon-dioxide x 100
+results:
+	algae-blue x 40
+
+air-pump-3:
+	air-pump-2 x 1
+	titanium-plate x 2
+	titanium-gear-wheel x 4
+	titanium-bearing x 4
+	processing-unit x 3
+	pipe x 2
+results:
+	air-pump-3 x 1
+
+basic-underground-belt:
+	stone x 2
+	wood x 2
+	basic-transport-belt x 5
+results:
+	basic-underground-belt x 1
+
+angelsore8-crystal:
+	angels-ore8-anode-sludge x 60
+results:
+	angels-ore8-crystal x 6
+
+angels-wire-coil-gold-casting-fast:
+	liquid-molten-gold x 70
+	liquid-molten-copper x 70
+	liquid-coolant x 40
+results:
+	liquid-coolant-used x 40
+	angels-wire-coil-gold x 8
+
+solid-fruit-nutrients:
+	solid-fruit x 10
+results:
+	liquid-nutrient-pulp x 60
+
+oil-refinery:
+	iron-gear-wheel x 10
+	stone-brick x 10
+	electronic-circuit x 10
+	pipe x 10
+	steel-plate x 15
+results:
+	oil-refinery x 1
+
+nitinol-alloy:
+	nickel-plate x 3
+	titanium-plate x 2
+results:
+	nitinol-alloy x 5
+
+lead-ore-smelting:
+	lead-ore x 24
+	gas-oxygen x 60
+results:
+	ingot-lead x 24
+	gas-sulfur-dioxide x 60
+
+ore-processing-machine-3:
+	ore-processing-machine-2 x 1
+results:
+	ore-processing-machine-3 x 1
+
+copper-plate:
+	copper-ore x 1
+results:
+	copper-plate x 1
+
+piercing-shotgun-shell:
+	shotgun-shell x 2
+	copper-plate x 5
+	steel-plate x 2
+results:
+	piercing-shotgun-shell x 1
+
+carbon:
+	water x 5
+	coal x 1
+results:
+	carbon x 1
+
+explosive-rocket:
+	rocket x 1
+	explosives x 2
+results:
+	explosive-rocket x 1
+
+locomotive:
+	engine-unit x 20
+	electronic-circuit x 10
+	steel-plate x 30
+results:
+	locomotive x 1
+
+angelsore2-crystal:
+	angels-ore2-chunk x 2
+	sulfuric-acid x 10
+results:
+	angels-ore2-crystal x 2
+
+catalyst-steam-cracking-butane:
+	liquid-naphtha x 60
+	steam x 60
+	catalyst-metal-green x 1
+results:
+	gas-butadiene x 80
+	gas-residual x 20
+	catalyst-metal-carrier x 1
+
+bob-explosive-rocket:
+	rocket-body x 1
+	explosive-rocket-warhead x 1
+results:
+	bob-explosive-rocket x 1
+
+breeder-fuel-reprocessing:
+	used-up-breeder-fuel-cell x 10
+results:
+	plutonium x 6
+
+angelsore9-powder:
+	milling-drum x 1
+	angels-ore9-crushed x 3
+results:
+	angels-ore9-powder x 3
+	milling-drum-used x 1
+
+pellet-lead-smelting:
+	pellet-lead x 8
+	solid-limestone x 2
+	solid-coke x 2
+	gas-oxygen x 60
+results:
+	gas-sulfur-dioxide x 60
+	anode-lead x 24
+
+stone-brick:
+	stone x 2
+results:
+	stone-brick x 1
+
+processed-aluminium-smelting:
+	processed-aluminium x 4
+	solid-sodium-hydroxide x 3
+results:
+	solid-aluminium-hydroxide x 12
+
+bio-plastic:
+	gas-acetone x 20
+	bio-plastic x 1
+results:
+	liquid-plastic x 5
+
+gilded-copper-cable:
+	copper-cable x 3
+	gold-plate x 1
+results:
+	gilded-copper-cable x 1
+
+bob-acid-rocket:
+	rocket-body x 1
+	acid-rocket-warhead x 1
+results:
+	bob-acid-rocket x 1
+
+raw-speed-module-3-combine:
+	effectivity-module-3 x 1
+	speed-module-3 x 1
+results:
+	raw-speed-module-3 x 1
+
+processed-platinum-smelting:
+	processed-platinum x 8
+	liquid-sulfuric-acid x 60
+results:
+	ingot-platinum x 24
+
+solar-panel:
+	steel-plate x 4
+	electronic-circuit x 14
+	copper-plate x 4
+results:
+	solar-panel x 1
+
+angelsore2-chunk:
+	angels-ore2-crushed x 2
+	water-purified x 50
+results:
+	geode-purple x 1
+	angels-ore2-chunk x 2
+	water-yellow-waste x 50
+
+sct-lab1-construction:
+	iron-stick x 4
+	iron-plate x 1
+results:
+
+copper-tungsten-pipe:
+	copper-tungsten-alloy x 1
+results:
+	copper-tungsten-pipe x 1
+
+gas-epichlorhydrin:
+	liquid-hydrochloric-acid x 50
+	solid-sodium-hydroxide x 5
+	gas-allylchlorid x 100
+results:
+	gas-epichlorhydrin x 90
+
+bob-artillery-turret-2:
+	artillery-turret x 1
+	steel-plate x 60
+	concrete x 60
+	iron-gear-wheel x 40
+	processing-unit x 20
+results:
+	bob-artillery-turret-2 x 1
+
+bob-topaz-5:
+	topaz-4 x 1
+	polishing-wheel x 1
+	polishing-compound x 1
+results:
+	topaz-5 x 1
+
+steel-bearing-ball:
+	steel-plate x 1
+results:
+
+tin-ore-processing:
+	tin-ore x 4
+results:
+	processed-tin x 2
+
+poison-capsule:
+	steel-plate x 3
+	electronic-circuit x 3
+	coal x 10
+results:
+	poison-capsule x 1
+
+sct-t3-femto-lasers:
+	sct-t3-laser-emitter x 1
+	sct-t3-laser-foci x 1
+	sct-t3-flash-fuel x 1
+	water x 10
+results:
+	sct-t3-femto-lasers x 1
+
+bauxite-ore-smelting:
+	bauxite-ore x 12
+	solid-sodium-hydroxide x 3
+results:
+	solid-aluminium-hydroxide x 12
+
+empty-canister:
+	iron-plate x 1
+	plastic-bar x 1
+results:
+	empty-canister x 1
+
+gas-dimethylhydrazine:
+	gas-dimethylamine x 200
+	gas-monochloramine x 50
+results:
+	gas-dimethylhydrazine x 200
+	water-purified x 50
+
+coal-cracking:
+	water x 15
+	coal x 2
+results:
+	heavy-oil x 12
+
+angelsore4-pure-processing:
+	angels-ore4-pure x 9
+results:
+	angels-void x 1
+
+angelsore3-pure:
+	angels-ore3-crystal x 4
+results:
+	angels-ore3-pure x 4
+
+bob-tungsten-plate:
+	nickel-plate x 1
+	powdered-tungsten x 4
+results:
+	tungsten-plate x 1
+
+bob-logistic-zone-interface:
+	steel-plate x 5
+	roboport-antenna-1 x 1
+	advanced-circuit x 2
+results:
+	bob-logistic-zone-interface x 1
+
+steam-engine-2:
+	steam-engine x 1
+	steel-plate x 5
+	pipe x 5
+	iron-gear-wheel x 5
+results:
+
+rod-stack-iron-casting:
+	liquid-molten-iron x 60
+	water x 40
+results:
+	angels-rod-stack-iron x 1
+
+angels-wire-coil-silver-casting:
+	water x 40
+	liquid-molten-silver x 40
+	liquid-molten-copper x 40
+results:
+	angels-wire-coil-silver x 4
+
+bob-poison-rocket:
+	rocket-body x 1
+	poison-rocket-warhead x 1
+results:
+	bob-poison-rocket x 1
+
+effectivity-module-3:
+	effectivity-module-2 x 5
+	advanced-circuit x 5
+	processing-unit x 5
+results:
+	effectivity-module-3 x 1
+
+sct-t3-atomic-sensors:
+	advanced-circuit x 1
+	iron-plate x 12
+	sct-t1-magnet-coils x 22
+	water x 20
+results:
+	sct-t3-atomic-sensors x 1
+	sct-waste-copperonly x 2
+
+crystal-splinter-red:
+	crystal-splinter-red-cut x 1
+	crystal-grindstone x 1
+	crystal-slurry x 1
+results:
+	crystal-splinter-red x 1
+
+nitinol-gear-wheel:
+	nitinol-alloy x 1
+results:
+
+cathode-nickel-smelting:
+	cathode-nickel x 24
+results:
+	ingot-nickel x 24
+
+angels-mono-silicon-seed:
+	liquid-molten-silicon x 5
+	gas-nitrogen x 10
+results:
+	angels-mono-silicon-seed x 5
+
+concrete-mixture-2:
+	solid-cement x 6
+	water x 100
+	solid-sand x 3
+	stone x 3
+results:
+	liquid-concrete x 120
+
+molten-titanium-smelting-2:
+	ingot-titanium x 12
+	ingot-manganese x 12
+results:
+	liquid-molten-titanium x 240
+
+strand-casting-machine:
+	iron-plate x 10
+results:
+	strand-casting-machine x 1
+
+rocket:
+	electronic-circuit x 1
+	explosives x 1
+	iron-plate x 2
+results:
+	rocket x 1
+
+battery-equipment:
+	battery x 5
+	steel-plate x 10
+results:
+	battery-equipment x 1
+
+gas-hydrazine:
+	gas-monochloramine x 50
+	gas-ammonia x 200
+	catalyst-metal-green x 1
+results:
+	gas-hydrazine x 100
+	gas-hydrogen-chloride x 100
+	catalyst-metal-carrier x 1
+
+express-stack-filter-inserter:
+	turbo-stack-filter-inserter x 1
+	steel-plate x 4
+	iron-gear-wheel x 6
+	processing-unit x 6
+results:
+	express-stack-filter-inserter x 1
+
+insulated-cable:
+	copper-cable x 2
+	rubber x 1
+results:
+	insulated-cable x 1
+
+green-module-7:
+	green-module-6 x 1
+	effectivity-processor-3 x 8
+	pollution-clean-processor-3 x 8
+	module-contact x 5
+	processing-unit x 8
+results:
+	green-module-7 x 1
+
+battery:
+	sulfuric-acid x 20
+	iron-plate x 1
+	copper-plate x 1
+results:
+
+alien-artifact-orange-from-basic:
+	alien-artifact-orange x 1
+	alien-artifact x 5
+results:
+	alien-artifact-orange x 1
+
+solid-fuel-from-heavy-oil:
+	heavy-oil x 20
+results:
+	solid-fuel x 1
+
+angelsore8-crystal-processing:
+	angels-ore8-crystal x 8
+results:
+	angels-void x 1
+
+raw-speed-module-4-combine:
+	speed-module-4 x 1
+	effectivity-module-4 x 1
+results:
+	raw-speed-module-4 x 1
+
+strand-casting-machine-2:
+	strand-casting-machine x 1
+results:
+	strand-casting-machine-2 x 1
+
+solder-alloy-lead:
+	tin-plate x 4
+	lead-plate x 7
+results:
+	solder-alloy x 1
+
+fibreglass-board:
+	plastic-bar x 1
+results:
+	fibreglass-board x 1
+
+solid-corn-nutrients:
+	solid-corn x 10
+results:
+	liquid-nutrient-pulp x 70
+
+sct-lab-t2:
+	lab x 1
+	sct-lab2-construction x 2
+	sct-lab2-automatization x 1
+results:
+	sct-lab-t2 x 1
+
+roboport-door-2:
+	steel-plate x 15
+	iron-gear-wheel x 20
+results:
+	roboport-door-2 x 1
+
+barreling-pump:
+	angels-void x 1
+results:
+	barreling-pump x 1
+
+shotgun-ap-shell:
+	cordite x 1
+	shotgun-shell-casing x 1
+	steel-plate x 1
+results:
+	shotgun-ap-shell x 1
+
+bob-area-mining-drill-4:
+	steel-plate x 10
+	iron-gear-wheel x 5
+	bob-area-mining-drill-3 x 1
+	processing-unit x 5
+results:
+	bob-area-mining-drill-4 x 1
+
+liquid-toluene-from-benzene:
+	gas-benzene x 100
+	gas-chlor-methane x 50
+	catalyst-metal-green x 1
+results:
+	gas-hydrogen-chloride x 50
+	catalyst-metal-carrier x 1
+	liquid-toluene x 100
+
+green-module-6-combine:
+	effectivity-module-6 x 1
+	pollution-clean-module-6 x 1
+results:
+	green-module-6 x 1
+
+solid-sodium-carbonate:
+	solid-sodium x 5
+	gas-carbon-dioxide x 50
+results:
+	solid-sodium-carbonate x 5
+
+crystal-powder-full-green:
+	crystal-full-green-cut x 1
+results:
+	crystal-powder x 1
+
+seafloor-pump:
+	angels-void x 1
+results:
+	seafloor-pump x 1
+
+roboport-chargepad-2:
+	battery x 2
+	steel-plate x 2
+	advanced-circuit x 5
+results:
+	roboport-chargepad-2 x 1
+
+angelsore-crystal-mix4-processing:
+	angels-ore4-crystal x 2
+	angels-ore6-crystal x 2
+	catalysator-orange x 1
+	angels-ore2-crystal x 2
+results:
+	angels-void x 1
+
+green-module-4-combine:
+	effectivity-module-4 x 1
+	pollution-clean-module-4 x 1
+results:
+	green-module-4 x 1
+
+angels-wire-coil-platinum-casting-fast:
+	liquid-molten-copper x 70
+	liquid-coolant x 40
+	liquid-molten-platinum x 70
+results:
+	angels-wire-coil-platinum x 8
+	liquid-coolant-used x 40
+
+gas-tungsten-hexafluoride-smelting:
+	gas-tungsten-hexafluoride x 120
+results:
+	powder-tungsten x 24
+	fluorite-ore x 3
+
+gas-refinery-small-3:
+	gas-refinery-small-2 x 1
+results:
+	gas-refinery-small-3 x 1
+
+molten-platinum-smelting:
+	ingot-platinum x 12
+results:
+	liquid-molten-platinum x 120
+
+roll-iron-casting:
+	liquid-molten-iron x 80
+	water x 40
+results:
+	angels-roll-iron x 2
+
+sct-htech-thermalstore:
+	copper-plate x 40
+results:
+	sct-htech-thermalstore x 1
+	sct-waste-copperonly x 1
+
+lithium-water-electrolysis:
+	lithium-chloride x 1
+	water x 10
+results:
+	hydrogen x 10
+	lithium-perchlorate x 1
+
+desert-garden-cultivating-b:
+	desert-garden x 1
+	solid-fertilizer x 2
+results:
+	token-bio x 8
+	desert-garden x 1
+
+fermentation-fruit:
+	solid-fruit x 10
+	water x 50
+results:
+	liquid-fermentation-raw x 100
+
+fast-inserter:
+	long-handed-inserter x 1
+	steel-plate x 1
+	iron-gear-wheel x 1
+	advanced-circuit x 1
+results:
+	fast-inserter x 1
+
+bob-pump-2:
+	pump x 1
+	steel-plate x 1
+	copper-pipe x 1
+results:
+	bob-pump-2 x 1
+
+fusion-reactor:
+	fusion-reactor-equipment x 100
+results:
+	fusion-reactor x 1
+
+temperate-2-seed:
+	temperate-2 x 10
+results:
+	temperate-2-seed x 0
+
+puffer-puffing-4:
+	bio-puffer-4 x 4
+	liquid-nutrient-pulp x 20
+	gas-puffer-atmosphere x 20
+	gas-sulfur-dioxide x 100
+results:
+	bio-puffer-4 x 1
+	gas-acid x 20
+	gas-synthesis x 200
+
+wooden-chest:
+	wood x 2
+results:
+	wooden-chest x 1
+
+steam-cracking-gas-residual:
+	gas-residual x 100
+	steam x 100
+results:
+	gas-synthesis x 150
+
+dinitrogen-tetroxide:
+	nitrogen-dioxide x 20
+results:
+	dinitrogen-tetroxide x 8
+
+crystal-powder-slurry:
+	crystal-powder x 1
+results:
+	crystal-slurry x 1
+
+biter-big-egg:
+	crystal-shard-raw x 1
+	catalysator-green x 1
+	crystal-seed x 1
+	crystal-enhancer x 1
+results:
+	biter-big-egg x 1
+
+stack-inserter:
+	red-stack-inserter x 1
+	steel-plate x 4
+	iron-gear-wheel x 6
+	advanced-circuit x 1
+results:
+	stack-inserter x 1
+
+chemical-science-pack:
+	sct-t3-femto-lasers x 1
+	sct-t3-atomic-sensors x 1
+results:
+	chemical-science-pack x 1
+
+command:
+	plastic-bar x 200
+	processing-unit x 100
+	low-density-structure x 100
+	speed-module-3 x 50
+	effectivity-module-3 x 50
+	productivity-module-3 x 50
+results:
+	command x 1
+
+angelsore8-sludge:
+	angels-ore8-powder x 2
+	angels-ore1-chunk x 1
+	angels-ore2-chunk x 1
+	angels-ore5-chunk x 1
+	thermal-water x 20
+	sulfuric-acid x 20
+results:
+	angels-ore8-sludge x 6
+
+gas-refinery-small-2:
+	gas-refinery-small x 1
+results:
+	gas-refinery-small-2 x 1
+
+iron-processed-processing:
+	processed-iron x 3
+results:
+	pellet-iron x 4
+
+liquid-ferric-chloride-solution:
+	iron-ore x 2
+	gas-hydrogen-chloride x 40
+results:
+	liquid-ferric-chloride-solution x 40
+
+speed-processor-3:
+	module-processor-board-3 x 1
+	processing-unit x 2
+results:
+
+water-purification:
+	water x 150
+results:
+	water-saline x 20
+	water-purified x 100
+
+temperate-5:
+	temperate-5-seed x 5
+	solid-soil x 5
+	solid-fertilizer x 1
+	water x 50
+results:
+	temperate-5 x 0
+	temperate-5-seed-dormant x 5
+
+gas-carbon-dioxide-from-wood:
+	wood-pellets x 1
+results:
+	gas-carbon-dioxide x 70
+
+liquid-raw-vegetable-oil-beans:
+	solid-beans x 10
+results:
+	liquid-raw-vegetable-oil x 30
+
+tungstic-acid:
+	tungsten-ore x 2
+	hydrogen-chloride x 25
+results:
+	tungstic-acid x 20
+	calcium-chloride x 1
+
+induction-furnace:
+	iron-plate x 10
+results:
+	induction-furnace x 1
+
+raw-speed-module-2-combine:
+	speed-module-2 x 1
+	effectivity-module-2 x 1
+results:
+	raw-speed-module-2 x 1
+
+raw-productivity-module-2-combine:
+	productivity-module-2 x 1
+	effectivity-module-2 x 1
+	pollution-clean-module-2 x 1
+results:
+	raw-productivity-module-2 x 1
+
+angels-solder:
+	liquid-molten-solder x 40
+results:
+	angels-solder x 6
+
+solid-sodium-hydroxide-solid-sodium-sulfate:
+	liquid-sulfuric-acid x 80
+	solid-sodium-hydroxide x 4
+results:
+	solid-sodium-sulfate x 2
+	water-purified x 60
+
+liquid-cupric-chloride-solution:
+	copper-ore x 2
+	gas-hydrogen-chloride x 40
+results:
+	liquid-cupric-chloride-solution x 40
+
+powder-cobalt:
+	ingot-cobalt x 1
+results:
+	powder-cobalt x 1
+
+bob-sapphire-3:
+	sapphire-ore x 1
+results:
+	sapphire-3 x 1
+
+thermal-water-purification:
+	thermal-water x 50
+results:
+	water-purified x 30
+	mineral-sludge x 20
+
+turbo-underground-belt:
+	express-underground-belt x 2
+	steel-plate x 14
+	iron-gear-wheel x 20
+results:
+	turbo-underground-belt x 1
+
+raw-productivity-module-4:
+	raw-productivity-module-3 x 1
+	productivity-processor-2 x 4
+	effectivity-processor-2 x 4
+	pollution-clean-processor-2 x 4
+	module-contact x 5
+	processing-unit x 7
+results:
+	raw-productivity-module-4 x 1
+
+angelsore1-pure-processing:
+	angels-ore1-pure x 9
+results:
+	angels-void x 1
+
+robot-brain-construction-2:
+results:
+	robot-brain-construction-2 x 1
+
+productivity-processor:
+	module-processor-board x 1
+	electronic-circuit x 2
+	advanced-circuit x 2
+results:
+
+biter-small-egg:
+	crystal-dust x 1
+	crystal-seed x 1
+results:
+	biter-small-egg x 1
+
+catalysator-orange:
+	catalysator-brown x 2
+	catalysator-green x 2
+results:
+	catalysator-orange x 2
+
+separator-2:
+	separator x 1
+results:
+	separator-2 x 1
+
+alien-bacteria:
+	alien-spores x 100
+	solid-calcium-carbonate x 1
+	liquid-perchloric-acid x 50
+results:
+	alien-bacteria x 1
+
+astrometrics:
+	speed-module-3 x 50
+	processing-unit x 300
+	low-density-structure x 100
+results:
+	astrometrics x 1
+
+molten-iron-smelting-5:
+	ingot-iron x 12
+	ingot-nickel x 12
+	ingot-chrome x 12
+results:
+	liquid-molten-iron x 360
+
+gas-refinery:
+	steel-plate x 10
+results:
+	gas-refinery x 1
+
+blast-furnace-4:
+	blast-furnace-3 x 1
+results:
+	blast-furnace-4 x 1
+
+temperate-tree-arboretum-2:
+	solid-soil x 5
+	solid-fertilizer x 1
+	water x 50
+	tree-temperate-seed x 2
+results:
+	bio-resin x 4
+	solid-tree x 3
+
+bob-mining-drill-2:
+	bob-mining-drill-1 x 1
+	advanced-circuit x 5
+	steel-plate x 10
+	iron-gear-wheel x 5
+results:
+	bob-mining-drill-2 x 1
+
+decider-combinator:
+	copper-cable x 5
+	electronic-circuit x 5
+results:
+	decider-combinator x 1
+
+angelsore1-chunk-processing:
+	angels-ore1-chunk x 6
+results:
+	slag x 1
+
+roll-copper-casting-fast:
+	liquid-molten-copper x 140
+	liquid-coolant x 40
+results:
+	angels-roll-copper x 4
+	liquid-coolant-used x 40
+
+silica-ore-processing:
+	quartz x 4
+results:
+	processed-silica x 2
+
+destroyer-capsule:
+	distractor-capsule x 4
+	speed-module x 1
+results:
+	destroyer-capsule x 1
+
+pellet-aluminium-smelting:
+	pellet-aluminium x 6
+	solid-sodium-carbonate x 3
+	solid-coke x 3
+results:
+	solid-sodium-aluminate x 18
+
+slag-processing-9:
+	mineral-sludge x 50
+results:
+	angels-void x 1
+
+bob-robo-charge-port-large-2:
+	bob-robo-charge-port-large x 1
+	steel-plate x 15
+	roboport-chargepad-2 x 9
+results:
+	bob-robo-charge-port-large-2 x 1
+
+crystal-powder-splinter-blue:
+	crystal-splinter-blue-cut x 1
+results:
+	crystal-powder x 1
+
+swamp-garden-cultivating-b:
+	swamp-garden x 1
+	solid-fertilizer x 2
+results:
+	token-bio x 8
+	swamp-garden x 1
+
+assembling-machine-2:
+	steel-plate x 2
+	electronic-circuit x 3
+	iron-gear-wheel x 5
+	assembling-machine-1 x 1
+results:
+
+green-module-6:
+	green-module-5 x 1
+	effectivity-processor-3 x 6
+	pollution-clean-processor-3 x 6
+	module-contact x 5
+	processing-unit x 7
+results:
+	green-module-6 x 1
+
+ore-refinery:
+	angels-void x 1
+results:
+	ore-refinery x 1
+
+pellet-titanium-smelting:
+	pellet-titanium x 8
+	solid-calcium-chloride x 6
+	solid-carbon x 6
+results:
+	ingot-titanium x 24
+	solid-limestone x 6
+
+bio-plastic-1:
+	liquid-cellulose-acetate x 25
+	gas-acetone x 25
+results:
+	liquid-plastic x 15
+
+combat-shotgun:
+	copper-plate x 10
+	wood x 10
+	steel-plate x 15
+	iron-gear-wheel x 5
+results:
+	combat-shotgun x 1
+
+sct-htech-thermalstore-heated:
+	sct-htech-thermalstore x 1
+results:
+	sct-htech-thermalstore-heated x 1
+
+logistic-chest-active-provider-3:
+	logistic-chest-active-provider-2 x 1
+	processing-unit x 1
+results:
+	logistic-chest-active-provider-3 x 1
+
+cobalt-ore-processing:
+	cobalt-ore x 4
+results:
+	processed-cobalt x 2
+
+ap-bullet-magazine:
+	ap-bullet x 5
+	magazine x 1
+results:
+	ap-bullet-magazine x 1
+
+alien-artifact-blue-from-small:
+	small-alien-artifact-blue x 25
+results:
+	alien-artifact-blue x 1
+
+tree-arboretum-2:
+	solid-fertilizer x 1
+	water x 50
+	tree-seed x 2
+	solid-soil x 5
+results:
+	solid-tree x 6
+
+crystal-grindstone:
+	iron-plate x 1
+	crystal-powder x 1
+results:
+	crystal-grindstone x 1
+
+tin-ore-smelting:
+	tin-ore x 24
+results:
+	ingot-tin x 24
+
+angels-plate-titanium:
+	liquid-molten-titanium x 40
+results:
+	angels-plate-titanium x 4
+
+small-electric-pole:
+	wood x 1
+	copper-cable x 2
+results:
+	small-electric-pole x 1
+
+angelsore6-crystal:
+	angels-ore6-chunk x 2
+	sulfuric-acid x 10
+results:
+	angels-ore6-crystal x 2
+
+wind-turbine-2:
+	iron-stick x 5
+	iron-plate x 8
+	iron-gear-wheel x 4
+	copper-cable x 8
+results:
+	wind-turbine-2 x 1
+
+cumene-process:
+	gas-benzene x 50
+	gas-propene x 50
+	gas-oxygen x 20
+	catalyst-metal-blue x 1
+results:
+	catalyst-metal-carrier x 1
+	gas-phenol x 60
+	gas-acetone x 60
+
+solar-panel-small-2:
+	advanced-circuit x 4
+	copper-plate x 2
+	solar-panel-small x 1
+	steel-plate x 2
+results:
+	solar-panel-small-2 x 1
+
+steam-cracking-naphtha:
+	liquid-naphtha x 100
+	steam x 100
+results:
+	gas-synthesis x 150
+	gas-residual x 10
+
+induction-furnace-2:
+	induction-furnace x 1
+results:
+	induction-furnace-2 x 1
+
+coal-liquefaction:
+	coal x 10
+	heavy-oil x 25
+	steam x 50
+results:
+	light-oil x 20
+	petroleum-gas x 10
+	heavy-oil x 90
+
+sct-lab-t3:
+	sct-lab3-optics x 1
+	sct-lab-t2 x 1
+	sct-lab3-construction x 2
+results:
+	sct-lab-t3 x 1
+
+alien-orange-alloy:
+	alien-artifact-orange x 1
+	steel-plate x 10
+results:
+	alien-orange-alloy x 1
+
+medium-electric-pole-4:
+	copper-plate x 2
+	medium-electric-pole-3 x 1
+	steel-plate x 2
+results:
+	medium-electric-pole-4 x 1
+
+ammonia:
+	nitrogen x 10
+	hydrogen x 24
+results:
+	ammonia x 20
+
+nitinol-pipe-to-ground:
+	nitinol-pipe x 18
+	nitinol-alloy x 5
+results:
+	nitinol-pipe-to-ground x 1
+
+paste-zinc:
+	paste-cellulose x 5
+	zinc-ore x 5
+results:
+	paste-zinc x 5
+
+casting-machine-3:
+	casting-machine-2 x 1
+results:
+	casting-machine-3 x 1
+
+bob-ruby-5:
+	ruby-4 x 1
+	polishing-wheel x 1
+	polishing-compound x 1
+results:
+	ruby-5 x 1
+
+angels-plate-iron:
+	liquid-molten-iron x 40
+results:
+	angels-plate-iron x 4
+
+bob-sniper-turret-1:
+	iron-gear-wheel x 20
+	copper-plate x 20
+	iron-plate x 20
+results:
+	bob-sniper-turret-1 x 1
+
+crystal-shard-cutting:
+	crystal-shard-raw x 1
+results:
+	crystal-shard-red-cut x 1
+	crystal-shard-green-cut x 1
+	crystal-dust x 1
+	crystal-shard-blue-cut x 1
+
+temperate-5-seed:
+	temperate-5-seed-dormant x 5
+results:
+	temperate-5-seed x 1
+
+liquid-raw-vegetable-oil-filtering-1:
+	filter-coal x 1
+	liquid-raw-vegetable-oil x 100
+	water-purified x 100
+results:
+	liquid-vegetable-oil x 160
+	liquid-nutrient-pulp x 40
+	filter-frame x 1
+
+angelsore5-pure:
+	angels-ore5-crystal x 4
+results:
+	angels-ore5-pure x 4
+
+slow-accumulator-3:
+	slow-accumulator-2 x 1
+	steel-plate x 2
+	processing-unit x 4
+	battery x 4
+results:
+	slow-accumulator-3 x 1
+
+robot-tool-construction-2:
+results:
+	robot-tool-construction-2 x 1
+
+bob-pump-3:
+	bob-pump-2 x 1
+	steel-plate x 1
+	copper-pipe x 1
+results:
+	bob-pump-3 x 1
+
+sct-chemical-science-pack:
+	sct-t3-atomic-sensors x 1
+	sct-t3-femto-lasers x 1
+results:
+	chemical-science-pack x 1
+
+angelsore2-crystal-processing:
+	angels-ore2-crystal x 8
+results:
+	slag x 1
+
+titanium-chest:
+	titanium-plate x 8
+results:
+	titanium-chest x 1
+
+angels-wire-coil-silver-casting-fast:
+	liquid-molten-silver x 70
+	liquid-molten-copper x 70
+	liquid-coolant x 40
+results:
+	liquid-coolant-used x 40
+	angels-wire-coil-silver x 8
+
+powder-mixer:
+	iron-plate x 10
+results:
+	powder-mixer x 1
+
+titanium-bearing:
+	lubricant x 10
+	titanium-plate x 1
+	titanium-bearing-ball x 16
+results:
+
+speed-module-2:
+	speed-module x 4
+	advanced-circuit x 5
+	processing-unit x 5
+results:
+	speed-module-2 x 1
+
+shotgun:
+	iron-gear-wheel x 5
+	copper-plate x 10
+	wood x 5
+	iron-plate x 15
+results:
+	shotgun x 1
+
+paste-from-sodium-hydroxide:
+	cellulose-fiber x 5
+	solid-sodium-hydroxide x 3
+results:
+	paste-cellulose x 10
+
+sct-mil-circuit1:
+	electronic-circuit x 2
+	coal x 5
+results:
+	sct-waste-ironcopper x 1
+	sct-mil-circuit1 x 1
+
+basic-transport-belt:
+	iron-plate x 1
+	iron-gear-wheel x 1
+results:
+	basic-transport-belt x 1
+
+module-circuit-board:
+	copper-plate x 1
+	plastic-bar x 1
+results:
+	module-circuit-board x 1
+
+bob-area-mining-drill-2:
+	bob-area-mining-drill-1 x 1
+	advanced-circuit x 5
+	steel-plate x 10
+	iron-gear-wheel x 5
+results:
+	bob-area-mining-drill-2 x 1
+
+bob-logistic-robot-4:
+results:
+	bob-logistic-robot-4 x 1
+
+roll-aluminium-casting:
+	liquid-molten-aluminium x 80
+	water x 40
+results:
+	angels-roll-aluminium x 2
+
+roll-aluminium-casting-fast:
+	liquid-molten-aluminium x 140
+	liquid-coolant x 40
+results:
+	angels-roll-aluminium x 4
+	liquid-coolant-used x 40
+
+fish-butchery-2:
+	alien-fish-2-raw x 1
+results:
+	bio-raw-meat x 1
+
+filter-inserter:
+	red-filter-inserter x 1
+	steel-plate x 1
+	iron-gear-wheel x 1
+	advanced-circuit x 5
+results:
+	filter-inserter x 1
+
+salination-plant-2:
+	salination-plant x 1
+results:
+	salination-plant-2 x 1
+
+brass-alloy:
+	copper-plate x 3
+	zinc-plate x 2
+results:
+	brass-alloy x 5
+
+invar-alloy:
+	nickel-plate x 2
+	iron-plate x 3
+results:
+	invar-alloy x 5
+
+bob-oil-processing:
+	crude-oil x 100
+results:
+	heavy-oil x 50
+	light-oil x 20
+	petroleum-gas x 30
+
+large-accumulator-2:
+	large-accumulator x 1
+	steel-plate x 3
+	advanced-circuit x 2
+	battery x 10
+results:
+	large-accumulator-2 x 1
+
+refined-concrete:
+	concrete x 20
+	iron-stick x 8
+	steel-plate x 1
+	water x 100
+results:
+	refined-concrete x 1
+
+steam-engine-3:
+	steam-engine-2 x 1
+	pipe x 5
+	steel-plate x 5
+	iron-gear-wheel x 5
+results:
+
+bob-area-mining-drill-1:
+	iron-gear-wheel x 5
+	electric-mining-drill x 1
+	electronic-circuit x 5
+	steel-plate x 10
+results:
+	bob-area-mining-drill-1 x 1
+
+iron-plate:
+	iron-ore x 1
+results:
+	iron-plate x 1
+
+pipe-to-ground:
+	pipe x 10
+	iron-plate x 5
+results:
+	pipe-to-ground x 1
+
+solid-sodium-aluminate-smelting:
+	solid-sodium-aluminate x 24
+	solid-sodium-hydroxide x 3
+	gas-carbon-dioxide x 60
+results:
+	solid-aluminium-oxide x 24
+	solid-sodium-carbonate x 2
+
+artillery-targeting-remote:
+	processing-unit x 1
+	radar x 1
+results:
+	artillery-targeting-remote x 1
+
+heavy-armor-2:
+	iron-plate x 100
+	steel-plate x 50
+results:
+	heavy-armor-2 x 1
+
+bob-laser-robot:
+results:
+	bob-laser-robot x 1
+
+bob-armoured-fluid-wagon:
+	fluid-wagon x 1
+	steel-plate x 25
+results:
+	bob-armoured-fluid-wagon x 1
+
+angelsore8-dust:
+	angels-ore8-sludge x 6
+results:
+	angels-ore8-dust x 6
+	water-yellow-waste x 20
+
+angels-plate-nickel:
+	liquid-molten-nickel x 40
+results:
+	angels-plate-nickel x 4
+
+power-armor:
+	steel-plate x 40
+	processing-unit x 40
+	electric-engine-unit x 20
+results:
+	power-armor x 1
+
+mox-fuel-cell:
+	iron-plate x 10
+	plutonium x 1
+	uranium-238 x 9
+results:
+	uranium-fuel-cell x 10
+
+light-oil-cracking:
+	water x 30
+	light-oil x 30
+results:
+	petroleum-gas x 20
+
+alien-artifact-yellow-from-small:
+	small-alien-artifact-yellow x 25
+results:
+	alien-artifact-yellow x 1
+
+hogger-breeding-1:
+	bio-hogger-1 x 2
+	iron-plate x 1
+	liquid-nutrient-pulp x 20
+results:
+	bio-hogger-2 x 1
+	bio-hogger-3 x 1
+	bio-hogger-4 x 1
+	bio-hogger-5 x 1
+	bio-hogger-1 x 1
+
+angelsore-chunk-mix5-processing:
+	angels-ore3-chunk x 2
+	angels-ore5-chunk x 2
+	catalysator-green x 1
+results:
+	angels-void x 1
+
+steam-engine-5:
+	steam-engine-4 x 1
+	pipe x 5
+	steel-plate x 5
+	iron-gear-wheel x 5
+results:
+
+gas-synthesis-methanation:
+	gas-synthesis x 100
+	gas-hydrogen x 40
+	catalyst-metal-blue x 1
+results:
+	gas-ethane x 20
+	gas-butane x 20
+	catalyst-metal-carrier x 1
+	gas-methane x 60
+
+bob-gun-turret-5:
+	iron-gear-wheel x 10
+	steel-plate x 20
+	bob-gun-turret-4 x 1
+results:
+	bob-gun-turret-5 x 1
+
+energy-shield-equipment:
+	advanced-circuit x 5
+	steel-plate x 10
+results:
+	energy-shield-equipment x 1
+
+angels-wire-coil-copper-casting:
+	liquid-molten-copper x 80
+	water x 40
+results:
+	angels-wire-coil-copper x 4
+
+power-switch:
+	electronic-circuit x 2
+	iron-plate x 5
+	copper-cable x 5
+results:
+	power-switch x 1
+
+silver-from-lead:
+	carbon x 3
+	nickel-plate x 1
+	lead-oxide x 7
+results:
+	lead-plate x 0
+	silver-ore x 0
+
+sct-mil-circuit2:
+	sct-mil-circuit1 x 1
+	electronic-circuit x 2
+results:
+	sct-mil-circuit2 x 1
+	sct-waste-ironcopper x 2
+	sct-waste-copperonly x 1
+
+filtration-unit:
+	angels-void x 1
+results:
+	filtration-unit x 1
+
+temperate-tree-generator-3:
+	solid-soil x 5
+	solid-fertilizer x 1
+	water x 50
+	gas-carbon-dioxide x 20
+results:
+	tree-temperate-seed x 8
+
+speed-module-3:
+	speed-module-2 x 5
+	advanced-circuit x 5
+	processing-unit x 5
+results:
+	speed-module-3 x 1
+
+alien-science-pack-purple:
+	alien-artifact-purple x 1
+results:
+	alien-science-pack-purple x 1
+
+bio-refugium-puffer:
+	iron-plate x 1
+results:
+	bio-refugium-puffer x 1
+
+angels-warehouse-active-provider:
+	steel-plate x 20
+	angels-warehouse x 1
+	advanced-circuit x 20
+results:
+	angels-warehouse-active-provider x 1
+
+angelsore-crushed-mix2-processing:
+	angels-ore3-crushed x 2
+	angels-ore4-crushed x 2
+	catalysator-brown x 1
+results:
+	angels-void x 1
+
+salination-plant:
+	angels-void x 1
+results:
+	salination-plant x 1
+
+coolant-cool-steam:
+	steam x 100
+results:
+	water-purified x 100
+
+crystal-dust-liquify:
+	crystal-dust x 10
+	sulfuric-acid x 15
+results:
+	crystal-slurry x 50
+
+solid-manganese-oxide-smelting:
+	solid-manganese-oxide x 12
+	ingot-iron x 4
+	liquid-sulfuric-acid x 40
+results:
+	cathode-manganese x 12
+	solid-iron-hydroxide x 4
+
+aerobic-fermentation:
+	liquid-fermentation-raw x 100
+results:
+	solid-compost x 1
+	gas-ethanol x 50
+
+sct-t3-flash-fuel:
+	heavy-oil x 10
+	light-oil x 10
+	steel-plate x 1
+results:
+	sct-t3-flash-fuel x 1
+
+silicon-nitride:
+	silicon-powder x 1
+	nitrogen x 12.5
+results:
+	silicon-nitride x 1
+
+salt:
+	water x 25
+results:
+	salt x 1
+
+sulfur-2:
+	hydrogen x 80
+	sulfur-dioxide x 50
+results:
+	sulfur x 1
+
+land-mine:
+	steel-plate x 1
+	explosives x 2
+results:
+	land-mine x 1
+
+pump:
+	engine-unit x 1
+	steel-plate x 1
+	pipe x 1
+results:
+	pump x 1
+
+hogger-butchery-1:
+	bio-hogger-1 x 1
+results:
+	bio-raw-meat x 1
+
+liquifier:
+	angels-void x 1
+results:
+	liquifier x 1
+
+angels-warehouse-passive-provider:
+	steel-plate x 20
+	angels-warehouse x 1
+	advanced-circuit x 20
+results:
+	angels-warehouse-passive-provider x 1
+
+processed-iron-smelting:
+	processed-iron x 8
+	solid-coke x 2
+results:
+	ingot-iron x 24
+
+radar-3:
+	radar-2 x 1
+	advanced-circuit x 5
+	iron-gear-wheel x 5
+	steel-plate x 10
+results:
+	radar-3 x 1
+
+algae-brown-burning-wash:
+	algae-brown x 20
+	water-purified x 50
+results:
+	solid-sodium-carbonate x 1
+
+sorting-swamp-3:
+	swamp-3 x 20
+results:
+	solid-leafs x 36
+	solid-nuts x 6
+
+crystal-slurry-filtering-2:
+	water-purified x 50
+	filter-ceramic x 1
+	crystal-slurry x 35
+results:
+	crystal-seedling x 35
+	water-yellow-waste x 20
+	filter-ceramic-used x 1
+
+electronics-machine-2:
+	electronics-machine-1 x 1
+	advanced-circuit x 5
+	steel-plate x 5
+	iron-gear-wheel x 5
+results:
+	electronics-machine-2 x 1
+
+bob-gold-plate:
+	gold-ore x 1
+	chlorine x 3
+results:
+	gold-plate x 1
+
+logistic-chest-buffer-2:
+	logistic-chest-buffer x 1
+	processing-unit x 1
+results:
+	logistic-chest-buffer-2 x 1
+
+hydro-plant:
+	angels-void x 1
+results:
+	hydro-plant x 1
+
+hogger-hogging-1:
+	liquid-nutrient-pulp x 20
+	bio-hogger-1 x 4
+	iron-ore x 10
+	iron-plate x 1
+results:
+	bio-hogger-1 x 0
+	copper-ore x 10
+
+cobalt-processed-processing:
+	processed-cobalt x 3
+results:
+	pellet-cobalt x 4
+
+mixing-steel-furnace:
+	steel-plate x 6
+	stone-brick x 10
+results:
+	mixing-steel-furnace x 1
+
+angelsore6-crushed-processing:
+	angels-ore6-crushed x 4
+results:
+	slag x 1
+
+medium-electric-pole-2:
+	medium-electric-pole x 1
+	steel-plate x 2
+	copper-plate x 2
+results:
+	medium-electric-pole-2 x 1
+
+gas-silane-smelting:
+	gas-silane x 90
+	ingot-silicon x 6
+results:
+	ingot-silicon x 24
+
+paper-bleaching-2:
+	solid-wood-pulp x 2
+	solid-sodium-hydroxide x 2
+	gas-chlorine x 60
+results:
+	solid-paper x 5
+	solid-sodium-hypochlorite x 2
+
+angelsore6-chunk-processing:
+	angels-ore6-chunk x 6
+results:
+	slag x 1
+
+gas-nitrogen-monoxide:
+	gas-oxygen x 40
+	catalyst-metal-green x 1
+	gas-ammonia x 60
+results:
+	gas-nitrogen-monoxide x 100
+	catalyst-metal-carrier x 1
+
+swamp-3:
+	water-concentrated-mud x 50
+	swamp-3-seed x 5
+	solid-mud x 10
+results:
+	swamp-3 x 0
+	swamp-3-seed-dormant x 5
+
+uranium-processing:
+	uranium-ore x 10
+results:
+	uranium-235 x 1
+	uranium-238 x 1
+
+crystal-shard-green:
+	crystal-shard-green-cut x 1
+	crystal-grindstone x 1
+	crystal-slurry x 1
+results:
+	crystal-shard-green x 1
+
+puffer-butchery-1:
+	bio-puffer-1 x 1
+results:
+	bio-raw-meat x 1
+
+angelsore6-crushed-smelting:
+	angels-ore6-crushed x 3
+results:
+	angels-void x 1
+
+angelsore-pure-mix1-processing:
+	angels-ore2-pure x 2
+	angels-ore3-pure x 2
+	angels-ore6-pure x 2
+	catalysator-orange x 1
+results:
+	angels-void x 1
+
+lithium-ion-battery:
+	lithium-perchlorate x 2
+	lithium-cobalt-oxide x 1
+	carbon x 1
+	plastic-bar x 1
+results:
+
+space-thruster:
+	speed-module-3 x 50
+	pipe x 100
+	processing-unit x 100
+	electric-engine-unit x 100
+	low-density-structure x 100
+results:
+	space-thruster x 1
+
+storage-tank-3:
+	storage-tank-2 x 1
+	steel-plate x 20
+results:
+	storage-tank-3 x 1
+
+angels-chemical-plant:
+	iron-plate x 1
+results:
+	angels-chemical-plant x 1
+
+powder-copper:
+	ingot-copper x 1
+results:
+	powder-copper x 1
+
+tungsten-ore-smelting:
+	tungsten-ore x 12
+	gas-hydrogen-chloride x 30
+results:
+	liquid-tungstic-acid x 60
+	solid-calcium-chloride x 2
+
+green-module-3:
+	green-module-2 x 1
+	effectivity-processor-2 x 3
+	pollution-clean-processor-2 x 3
+	advanced-circuit x 7
+results:
+	green-module-3 x 1
+
+copper-ore-smelting:
+	copper-ore x 24
+results:
+	ingot-copper x 24
+
+swamp-upgrade:
+	token-bio x 5
+	angels-void x 1
+results:
+	swamp-upgrade x 1
+
+pellet-tin-smelting:
+	pellet-tin x 8
+	solid-carbon x 2
+results:
+	ingot-tin x 24
+
+heat-exchanger:
+	boiler-3 x 1
+	heat-pipe x 4
+results:
+	heat-exchanger x 1
+
+titanium-pipe-to-ground:
+	titanium-pipe x 16
+	titanium-plate x 5
+results:
+	titanium-pipe-to-ground x 1
+
+swamp-tree-arboretum-2:
+	solid-fertilizer x 1
+	water-light-mud x 50
+	tree-swamp-seed x 2
+	solid-mud x 5
+results:
+	bio-plastic x 4
+	solid-tree x 3
+
+sulfuric-acid:
+	sulfur x 5
+	iron-plate x 1
+	water x 100
+results:
+	sulfuric-acid x 50
+
+angels-solder-smelting-1:
+	ingot-tin x 12
+	ingot-lead x 12
+results:
+	liquid-molten-solder x 240
+
+angelsore1-chunk:
+	angels-ore1-crushed x 2
+	water-purified x 50
+results:
+	angels-ore1-chunk x 2
+	water-yellow-waste x 50
+	geode-blue x 1
+
+solid-coke-sulfur:
+	coal-crushed x 2
+	water-purified x 50
+results:
+	solid-coke x 2
+	water-yellow-waste x 50
+
+residual-oil-refining:
+	crude-oil x 60
+	gas-residual x 40
+results:
+	liquid-naphtha x 10
+	solid-oil-residual x 1
+	liquid-mineral-oil x 60
+	liquid-fuel-oil x 30
+
+flamethrower-ammo:
+	steel-plate x 5
+	light-oil x 50
+	heavy-oil x 50
+results:
+	flamethrower-ammo x 1
+
+fluid-wagon:
+	steel-plate x 16
+	pipe x 8
+	storage-tank x 1
+	iron-gear-wheel x 10
+results:
+	fluid-wagon x 1
+
+processed-zinc-smelting:
+	processed-zinc x 8
+	solid-carbon x 6
+	gas-oxygen x 60
+results:
+	ingot-zinc x 24
+	gas-sulfur-dioxide x 30
+
+modular-armor:
+	steel-plate x 50
+	advanced-circuit x 30
+results:
+	modular-armor x 1
+
+shotgun-uranium-shell:
+	shotgun-shell-casing x 1
+	uranium-238 x 1
+	cordite x 1
+results:
+	shotgun-uranium-shell x 1
+
+solid-lead-oxide-smelting:
+	solid-lead-oxide x 24
+	solid-carbon x 2
+results:
+	ingot-lead x 24
+
+manganese-ore-smelting:
+	manganese-ore x 24
+	solid-coke x 6
+results:
+	ingot-manganese x 24
+
+molten-titanium-smelting-3:
+	ingot-titanium x 12
+	ingot-nickel x 12
+results:
+	liquid-molten-titanium x 240
+
+liquid-cellulose-acetate:
+	water-purified x 20
+	liquid-cellulose-acetate-mixture x 50
+results:
+	liquid-cellulose-acetate x 50
+	water-yellow-waste x 20
+
+nuclear-fuel-pu:
+	plutonium x 1
+	rocket-fuel x 1
+results:
+	nuclear-fuel x 1
+
+steam-turbine-3:
+	steam-turbine-2 x 1
+	processing-unit x 5
+	steel-plate x 25
+	iron-gear-wheel x 25
+results:
+
+liquid-acetic-anhydride:
+	gas-methanol x 50
+	gas-carbon-monoxide x 50
+	liquid-acetic-acid x 100
+results:
+	liquid-acetic-anhydride x 150
+
+silica-processed-processing:
+	processed-silica x 3
+results:
+	pellet-silica x 4
+
+bob-rocket:
+	rocket-body x 1
+	rocket-warhead x 1
+results:
+	bob-rocket x 1
+
+biter-big-butchering:
+	biter-big x 1
+results:
+	bio-raw-meat x 1
+	crystal-full-raw x 1
+
+crystal-powder-full-blue:
+	crystal-full-blue-cut x 1
+results:
+	crystal-powder x 1
+
+sulfuric-acid-2:
+	water x 50
+	sulfur-dioxide x 50
+results:
+	sulfuric-acid x 50
+
+catalysator-green:
+	crystal-seedling x 25
+results:
+	catalysator-green x 2
+
+found a total of 1741 recipes

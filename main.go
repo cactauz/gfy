@@ -8,7 +8,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/yuin/gopher-lua"
+	lua "github.com/yuin/gopher-lua"
 )
 
 func main() {
@@ -19,9 +19,9 @@ func main() {
 
 	recipes := getRecipes(L)
 
-	for _, r := range recipes {
-		fmt.Println(r)
-	}
+	// for _, r := range recipes {
+	// 	fmt.Println(r)
+	// }
 
 	fmt.Println("found a total of", len(recipes), "recipes")
 }
@@ -268,6 +268,9 @@ func getRecipes(L *lua.LState) []*Recipe {
 			norm := recipe.RawGetString("normal").(*lua.LTable)
 			ing = norm.RawGetString("ingredients")
 			res = norm.RawGetString("results")
+			if res.Type() == lua.LTNil {
+				res = norm.RawGetString("result")
+			}
 		}
 
 		if res == nil || res.Type() == lua.LTNil {

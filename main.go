@@ -10,8 +10,13 @@ import (
 	"strings"
 	"time"
 
+	"gopkg.in/ini.v1"
+
 	lua "github.com/yuin/gopher-lua"
 )
+
+// type -> key -> name string
+var locale map[string]map[string]string
 
 func main() {
 	start := time.Now()
@@ -19,13 +24,15 @@ func main() {
 	L := lua.NewState()
 	setupState(L)
 
-	loadMods(L)
+	mods := loadMods(L)
+
+	locale = loadLocale(mods)
 
 	recipes := getRecipes(L)
 
-	for _, r := range recipes {
-		fmt.Println(r)
-	}
+	// for _, r := range recipes {
+	// 	fmt.Println(r)
+	// }
 
 	fmt.Println("found a total of", len(recipes), "recipes in", time.Since(start))
 }
@@ -39,15 +46,29 @@ type Recipe struct {
 func (r *Recipe) String() string {
 	ings := ""
 	for k, v := range r.Ingredients {
-		ings += fmt.Sprintf("\t%s x %g\n", k, v)
+		item, ok := locale["item"][k]
+		if !ok {
+			item = k
+		}
+		ings += fmt.Sprintf("\t%s x %g\n", item, v)
 	}
 
 	res := ""
 	for k, v := range r.Results {
-		res += fmt.Sprintf("\t%s x %g\n", k, v)
+		item, ok := locale["item"][k]
+		if !ok {
+			item = k
+		}
+
+		res += fmt.Sprintf("\t%s x %g\n", item, v)
 	}
 
-	return fmt.Sprintf("%s:\n%sresults:\n%s", r.Name, ings, res)
+	recipe, ok := locale["recipe"][r.Name]
+	if !ok {
+		recipe = r.Name
+	}
+
+	return fmt.Sprintf("%s:\n%sresults:\n%s", recipe, ings, res)
 }
 
 func setupState(L *lua.LState) {
@@ -83,7 +104,7 @@ func setupState(L *lua.LState) {
 	}
 }
 
-func loadMods(L *lua.LState) {
+func loadMods(L *lua.LState) []*ModInfo {
 	core := &ModInfo{
 		Name:         "core",
 		Path:         "./factorio-data-master/core",
@@ -111,7 +132,7 @@ func loadMods(L *lua.LState) {
 	fis, err := ioutil.ReadDir("./mods")
 	if err != nil {
 		fmt.Println("err:", err)
-		return
+		return nil
 	}
 
 	for _, fi := range fis {
@@ -151,6 +172,11 @@ func loadMods(L *lua.LState) {
 		}
 	}
 
+	allMods := make([]*ModInfo, len(mods))
+	for i, m := range mods {
+		allMods[i] = m
+	}
+
 	for len(mods) > 0 {
 		for i := 0; i < len(mods); i++ {
 			mod := mods[i]
@@ -170,6 +196,8 @@ func loadMods(L *lua.LState) {
 			}
 		}
 	}
+
+	return allMods
 }
 
 func loadModSettings(L *lua.LState, mods []*ModInfo) {
@@ -329,6 +357,47 @@ func loadModData(L *lua.LState, mod *ModInfo) {
 
 	// clean up package.path
 	pkg.RawSetString("path", startPkgPath)
+}
+
+func loadLocale(mods []*ModInfo) map[string]map[string]string {
+	types := []string{"entity", "item", "fluid", "recipe"}
+
+	locale := make(map[string]map[string]string)
+	for _, t := range types {
+		locale[t] = make(map[string]string)
+	}
+
+	for _, m := range mods {
+		cfgs, err := ioutil.ReadDir(m.Path + "/locale/en")
+		if err != nil {
+			continue
+		}
+
+		for _, c := range cfgs {
+			cfg, err := ini.Load(fmt.Sprintf("%s/locale/en/%s", m.Path, c.Name()))
+			if err != nil {
+				continue
+			}
+
+			for _, t := range types {
+				cfg, err := cfg.GetSection(t + "-name")
+				if err != nil {
+					continue
+				}
+
+				for _, k := range cfg.KeyStrings() {
+					v, err := cfg.GetKey(k)
+					if err != nil {
+						fmt.Println("err getting key???:", err)
+						continue
+					}
+					locale[t][k] = v.MustString("")
+				}
+			}
+		}
+	}
+
+	return locale
 }
 
 func getRecipes(L *lua.LState) []*Recipe {

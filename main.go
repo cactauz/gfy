@@ -30,9 +30,9 @@ func main() {
 
 	recipes := getRecipes(L)
 
-	// for _, r := range recipes {
-	// 	fmt.Println(r)
-	// }
+	for _, r := range recipes {
+		fmt.Println(r)
+	}
 
 	fmt.Println("found a total of", len(recipes), "recipes in", time.Since(start))
 }

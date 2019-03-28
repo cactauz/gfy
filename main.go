@@ -31,6 +31,14 @@ func main() {
 
 	recipes := getRecipes(L)
 
+	for _, r := range recipes {
+		r.Name = resolveRecipeName(r.Name)
+	}
+
+	sort.Slice(recipes, func(i, j int) bool {
+		return strings.ToLower(recipes[i].Name) < strings.ToLower(recipes[j].Name)
+	})
+
 	query := ""
 
 	fmt.Printf("recipes for query %s:\n", query)
@@ -76,7 +84,7 @@ func (r *Recipe) String() string {
 		res += fmt.Sprintf("\t%s x %g\n", resolveName(k), v)
 	}
 
-	return fmt.Sprintf("%s:\n%sresults:\n%s", resolveRecipeName(r.Name), ings, res)
+	return fmt.Sprintf("%s:\n%sresults:\n%s", r.Name, ings, res)
 }
 
 var r = regexp.MustCompile(`__(.*?)__(.*?)__`)

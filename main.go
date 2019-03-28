@@ -104,30 +104,8 @@ func setupState(L *lua.LState) {
 	}
 }
 
-func loadMods(L *lua.LState) []*ModInfo {
-	core := &ModInfo{
-		Name:         "core",
-		Path:         "./factorio-data-master/core",
-		Dependencies: map[string]bool{},
-	}
-	loadModData(L, core)
-
-	base := &ModInfo{
-		Name:         "base",
-		Path:         "./factorio-data-master/base",
-		Dependencies: map[string]bool{},
-	}
-	loadModData(L, base)
-
+func readMods() []*ModInfo {
 	mods := make([]*ModInfo, 0)
-	modNames := map[string]bool{
-		"base": true,
-		"core": true,
-	}
-	loadedMods := map[string]bool{
-		"base": true,
-		"core": true,
-	}
 
 	fis, err := ioutil.ReadDir("./mods")
 	if err != nil {
@@ -143,20 +121,61 @@ func loadMods(L *lua.LState) []*ModInfo {
 			if err == nil {
 				info := loadModInfo(path)
 				mods = append(mods, info)
-				modNames[info.Name] = true
 			}
 		}
 	}
 
-	sort.Slice(mods, func(i, j int) bool {
-		return mods[i].Name < mods[j].Name
-	})
+	return resolveModOrder(mods)
+}
 
+func loadMods(L *lua.LState) []*ModInfo {
+	core := &ModInfo{
+		Name:         "core",
+		Path:         "./factorio-data-master/core",
+		Dependencies: map[string]bool{},
+	}
+	loadModData(L, core)
+
+	base := &ModInfo{
+		Name:         "base",
+		Path:         "./factorio-data-master/base",
+		Dependencies: map[string]bool{},
+	}
+	loadModData(L, base)
+
+	mods := readMods()
 	loadModSettings(L, mods)
-	err = L.DoFile("./patch.lua")
+
+	err := L.DoFile("./patch.lua")
 	if err != nil {
 		fmt.Println("err:", err)
 	}
+
+	for _, m := range mods {
+		loadModData(L, m)
+	}
+
+	return mods
+}
+
+func resolveModOrder(mods []*ModInfo) []*ModInfo {
+	modNames := map[string]bool{
+		"base": true,
+		"core": true,
+	}
+	loadedMods := map[string]bool{
+		"base": true,
+		"core": true,
+	}
+
+	for _, m := range mods {
+		modNames[m.Name] = true
+	}
+
+	// sort
+	sort.Slice(mods, func(i, j int) bool {
+		return mods[i].Name < mods[j].Name
+	})
 
 	// validate deps and remove optional mods that aren't present
 	for _, mod := range mods {
@@ -172,11 +191,10 @@ func loadMods(L *lua.LState) []*ModInfo {
 		}
 	}
 
-	allMods := make([]*ModInfo, len(mods))
-	for i, m := range mods {
-		allMods[i] = m
-	}
+	orderedMods := make([]*ModInfo, 0, len(mods))
 
+	// take the sorted list and iterate repeatedly, removing items each
+	// pass who's dependencies are all resolved
 	for len(mods) > 0 {
 		for i := 0; i < len(mods); i++ {
 			mod := mods[i]
@@ -189,15 +207,14 @@ func loadMods(L *lua.LState) []*ModInfo {
 			}
 
 			if allLoaded {
-				fmt.Println("loading mod:", mod)
-				loadModData(L, mod)
-				loadedMods[mod.Name] = true
+				orderedMods = append(orderedMods, mod)
 				mods = append(mods[:i], mods[i+1:]...)
+				loadedMods[mod.Name] = true
 			}
 		}
 	}
 
-	return allMods
+	return orderedMods
 }
 
 func loadModSettings(L *lua.LState, mods []*ModInfo) {
@@ -357,6 +374,7 @@ func loadModData(L *lua.LState, mod *ModInfo) {
 
 	// clean up package.path
 	pkg.RawSetString("path", startPkgPath)
+	fmt.Printf("loaded mod %v\n", mod)
 }
 
 func loadLocale(mods []*ModInfo) map[string]map[string]string {

@@ -5,13 +5,17 @@ import (
 	"fmt"
 	"io/ioutil"
 	"os"
+	"path/filepath"
 	"sort"
 	"strings"
+	"time"
 
 	lua "github.com/yuin/gopher-lua"
 )
 
 func main() {
+	start := time.Now()
+
 	L := lua.NewState()
 	setupState(L)
 
@@ -23,7 +27,7 @@ func main() {
 		fmt.Println(r)
 	}
 
-	fmt.Println("found a total of", len(recipes), "recipes")
+	fmt.Println("found a total of", len(recipes), "recipes in", time.Since(start))
 }
 
 type Recipe struct {
@@ -47,57 +51,137 @@ func (r *Recipe) String() string {
 }
 
 func setupState(L *lua.LState) {
-	guiStyle := L.NewTable()
-	guiStyle.RawSetString("default", L.NewTable())
+	str := "package.path = package.path .. \";./factorio-data-master/core/lualib/?.lua\""
+	L.DoString(str)
 
-	raw := L.NewTable()
-	raw.RawSetString("gui-style", guiStyle)
-
-	L.SetGlobal("mods", L.NewTable())
-
-	// TODO: populate
-	settings := L.NewTable()
-	settings.RawSetString("startup", L.NewTable())
-	L.SetGlobal("settings", settings)
-
-	err := L.DoFile("./data.lua")
-	if err != nil {
-		fmt.Println("err:", err)
-		return
-	}
-
+	// defines expected by mods
 	rDiff := L.NewTable()
-	rDiff.RawSetString("normal", lua.LString("normal"))
-	rDiff.RawSetString("expensive", lua.LString("expensive"))
+	rDiff.RawSetString("normal", lua.LBool(true))
 
 	diffS := L.NewTable()
 	diffS.RawSetString("recipe_difficulty", rDiff)
 	diffS.RawSetString("technology_difficulty", rDiff)
 
 	dirs := L.NewTable()
-	dirs.RawSetString("north", lua.LString("north"))
-	dirs.RawSetString("south", lua.LString("south"))
-	dirs.RawSetString("east", lua.LString("east"))
-	dirs.RawSetString("west", lua.LString("west"))
+	dirs.RawSetString("north", lua.LNumber(0))
+	dirs.RawSetString("east", lua.LNumber(2))
+	dirs.RawSetString("south", lua.LNumber(4))
+	dirs.RawSetString("west", lua.LNumber(6))
 
 	defines := L.NewTable()
 	defines.RawSetString("difficulty_settings", diffS)
 	defines.RawSetString("direction", dirs)
 	L.SetGlobal("defines", defines)
 
-	str := "package.path = package.path .. \";./factorio-data-master/core/lualib/?.lua\""
-	L.DoString(str)
+	// populated during settings loading
+	L.SetGlobal("mods", L.NewTable())
+
+	// sets up data and extending it
+	err := L.DoFile("./factorio-data-master/core/lualib/dataloader.lua")
+	if err != nil {
+		fmt.Println("err:", err)
+	}
+}
+
+func loadMods(L *lua.LState) {
+	core := &ModInfo{
+		Name:         "core",
+		Path:         "./factorio-data-master/core",
+		Dependencies: map[string]bool{},
+	}
+	loadModData(L, core)
+
+	base := &ModInfo{
+		Name:         "base",
+		Path:         "./factorio-data-master/base",
+		Dependencies: map[string]bool{},
+	}
+	loadModData(L, base)
+
+	mods := make([]*ModInfo, 0)
+	modNames := map[string]bool{
+		"base": true,
+		"core": true,
+	}
+	loadedMods := map[string]bool{
+		"base": true,
+		"core": true,
+	}
+
+	fis, err := ioutil.ReadDir("./mods")
+	if err != nil {
+		fmt.Println("err:", err)
+		return
+	}
+
+	for _, fi := range fis {
+		if fi.IsDir() {
+			path := fmt.Sprintf("./mods/%s", fi.Name())
+			_, err := ioutil.ReadFile(path + "/data.lua")
+
+			if err == nil {
+				info := loadModInfo(path)
+				mods = append(mods, info)
+				modNames[info.Name] = true
+			}
+		}
+	}
+
+	sort.Slice(mods, func(i, j int) bool {
+		return mods[i].Name < mods[j].Name
+	})
+
+	loadModSettings(L, mods)
+	err = L.DoFile("./patch.lua")
+	if err != nil {
+		fmt.Println("err:", err)
+	}
+
+	// validate deps and remove optional mods that aren't present
+	for _, mod := range mods {
+		for dep, req := range mod.Dependencies {
+			exists := modNames[dep]
+			if !exists {
+				if req {
+					panic(fmt.Sprintf("missing required dependency %s!", dep))
+				}
+
+				delete(mod.Dependencies, dep)
+			}
+		}
+	}
+
+	for len(mods) > 0 {
+		for i := 0; i < len(mods); i++ {
+			mod := mods[i]
+			allLoaded := true
+			for dep := range mod.Dependencies {
+				if !loadedMods[dep] {
+					allLoaded = false
+					break
+				}
+			}
+
+			if allLoaded {
+				fmt.Println("loading mod:", mod)
+				loadModData(L, mod)
+				loadedMods[mod.Name] = true
+				mods = append(mods[:i], mods[i+1:]...)
+			}
+		}
+	}
 }
 
 func loadModSettings(L *lua.LState, mods []*ModInfo) {
 	settingState := lua.NewState()
-	settingState.DoFile("./data.lua")
+	setupState(settingState)
 
-	ms := settingState.NewTable()
+	ms := settingState.GetGlobal("mods").(*lua.LTable)
+	gms := L.GetGlobal("mods").(*lua.LTable)
 	for _, m := range mods {
 		ms.RawSetString(m.Name, lua.LBool(true))
+		gms.RawSetString(m.Name, lua.LBool(true))
 	}
-	settingState.SetGlobal("mods", ms)
 
 	for _, m := range mods {
 		str := fmt.Sprintf("package.path = package.path .. \";%s/?.lua\"", m.Path)
@@ -172,8 +256,9 @@ func loadModSettings(L *lua.LState, mods []*ModInfo) {
 }
 
 type ModInfo struct {
-	Name         string
-	Path         string
+	Name string
+	Path string
+	// maps name -> is required dependency
 	Dependencies map[string]bool
 }
 
@@ -215,38 +300,35 @@ func loadModInfo(path string) *ModInfo {
 }
 
 func loadModData(L *lua.LState, mod *ModInfo) {
+	pkg := L.GetGlobal("package").(*lua.LTable)
+	startPkgPath := pkg.RawGetString("path")
+
 	path := mod.Path
-	str := fmt.Sprintf("package.path = package.path .. \";%s/?.lua\"", path)
-	err := L.DoString(str)
-	if err != nil {
-		fmt.Println(err)
-	}
 
-	prototypes, err := ioutil.ReadDir(path + "/prototypes")
-	if err == nil {
-		str = fmt.Sprintf("package.path = package.path .. \";%s/prototypes/?.lua\"", path)
-		err = L.DoString(str)
+	// add this and all subdirs to package.path
+	filepath.Walk(path, func(p string, info os.FileInfo, err error) error {
 		if err != nil {
-			fmt.Println("err:", err)
+			return err
 		}
-
-		for _, p := range prototypes {
-			if p.IsDir() {
-				str = fmt.Sprintf("package.path = package.path .. \";%s/prototypes/%s/?.lua\"", path, p.Name())
-				err = L.DoString(str)
-				if err != nil {
-					fmt.Println("err:", err)
-				}
+		if info.IsDir() {
+			pr := strings.Replace(p, "\\", "/", -1) // fml windows
+			str := fmt.Sprintf("package.path = package.path .. \";%s/?.lua\"", pr)
+			err = L.DoString(str)
+			if err != nil {
+				fmt.Println("err:", err)
 			}
 		}
-	}
+		return nil
+	})
 
-	err = L.DoFile(path + "/data.lua")
+	err := L.DoFile(path + "/data.lua")
 	if err != nil {
 		fmt.Println("data err:", err)
 		return
 	}
 
+	// clean up package.path
+	pkg.RawSetString("path", startPkgPath)
 }
 
 func getRecipes(L *lua.LState) []*Recipe {
@@ -288,90 +370,6 @@ func getRecipes(L *lua.LState) []*Recipe {
 	})
 
 	return recs
-}
-
-func loadMods(L *lua.LState) {
-	core := &ModInfo{
-		Name:         "core",
-		Path:         "./factorio-data-master/core",
-		Dependencies: map[string]bool{},
-	}
-	loadModData(L, core)
-
-	base := &ModInfo{
-		Name:         "base",
-		Path:         "./factorio-data-master/base",
-		Dependencies: map[string]bool{},
-	}
-	loadModData(L, base)
-
-	mods := make([]*ModInfo, 0)
-	modNames := map[string]bool{
-		"base": true,
-		"core": true,
-	}
-	loadedMods := map[string]bool{
-		"base": true,
-		"core": true,
-	}
-
-	fis, err := ioutil.ReadDir("./mods")
-	if err != nil {
-		fmt.Println("err:", err)
-		return
-	}
-
-	for _, fi := range fis {
-		if fi.IsDir() {
-			path := fmt.Sprintf("./mods/%s", fi.Name())
-			_, err := ioutil.ReadFile(path + "/data.lua")
-
-			if err == nil {
-				info := loadModInfo(path)
-				mods = append(mods, info)
-				modNames[info.Name] = true
-			}
-		}
-	}
-
-	sort.Slice(mods, func(i, j int) bool {
-		return mods[i].Name < mods[j].Name
-	})
-
-	loadModSettings(L, mods)
-
-	for _, mod := range mods {
-		for dep, req := range mod.Dependencies {
-			exists := modNames[dep]
-			if !exists {
-				if req {
-					panic(fmt.Sprintf("missing required dependency %s!", dep))
-				}
-
-				delete(mod.Dependencies, dep)
-			}
-		}
-	}
-
-	for len(mods) > 0 {
-		for i := 0; i < len(mods); i++ {
-			mod := mods[i]
-			allLoaded := true
-			for dep := range mod.Dependencies {
-				if !loadedMods[dep] {
-					allLoaded = false
-					break
-				}
-			}
-
-			if allLoaded {
-				fmt.Println("loading mod:", mod)
-				loadModData(L, mod)
-				loadedMods[mod.Name] = true
-				mods = append(mods[:i], mods[i+1:]...)
-			}
-		}
-	}
 }
 
 func parseItems(v lua.LValue) map[string]float64 {

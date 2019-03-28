@@ -6,6 +6,7 @@ import (
 	"io/ioutil"
 	"os"
 	"path/filepath"
+	"regexp"
 	"sort"
 	"strings"
 	"time"
@@ -30,8 +31,29 @@ func main() {
 
 	recipes := getRecipes(L)
 
+	query := ""
+
+	fmt.Printf("recipes for query %s:\n", query)
+loop:
 	for _, r := range recipes {
-		fmt.Println(r)
+		if strings.Contains(r.Name, query) {
+			fmt.Println(r)
+			continue
+		}
+
+		for k := range r.Ingredients {
+			if strings.Contains(k, query) {
+				fmt.Println(r)
+				continue loop
+			}
+		}
+
+		for k := range r.Results {
+			if strings.Contains(k, query) {
+				fmt.Println(r)
+				continue loop
+			}
+		}
 	}
 
 	fmt.Println("found a total of", len(recipes), "recipes in", time.Since(start))
@@ -46,29 +68,58 @@ type Recipe struct {
 func (r *Recipe) String() string {
 	ings := ""
 	for k, v := range r.Ingredients {
-		item, ok := locale["item"][k]
-		if !ok {
-			item = k
-		}
-		ings += fmt.Sprintf("\t%s x %g\n", item, v)
+		ings += fmt.Sprintf("\t%s x %g\n", resolveName(k), v)
 	}
 
 	res := ""
 	for k, v := range r.Results {
-		item, ok := locale["item"][k]
-		if !ok {
-			item = k
+		res += fmt.Sprintf("\t%s x %g\n", resolveName(k), v)
+	}
+
+	return fmt.Sprintf("%s:\n%sresults:\n%s", resolveRecipeName(r.Name), ings, res)
+}
+
+var r = regexp.MustCompile(`__(.*?)__(.*?)__`)
+
+func rewriteName(name string) string {
+	if sms := r.FindAllStringSubmatch(name, -1); sms != nil {
+		for _, sm := range sms {
+			s, ok := locale[strings.ToLower(sm[1])][sm[2]]
+			if ok {
+				name = strings.Replace(name, sm[0], s, 1)
+			}
 		}
-
-		res += fmt.Sprintf("\t%s x %g\n", item, v)
 	}
 
-	recipe, ok := locale["recipe"][r.Name]
-	if !ok {
-		recipe = r.Name
+	return name
+}
+
+func resolveName(name string) string {
+	s, ok := locale["entity"][name]
+	if ok {
+		return rewriteName(s)
 	}
 
-	return fmt.Sprintf("%s:\n%sresults:\n%s", recipe, ings, res)
+	s, ok = locale["item"][name]
+	if ok {
+		return rewriteName(s)
+	}
+
+	s, ok = locale["fluid"][name]
+	if ok {
+		return rewriteName(s)
+	}
+
+	return rewriteName(name)
+}
+
+func resolveRecipeName(name string) string {
+	s, ok := locale["recipe"][name]
+	if ok {
+		return rewriteName(s)
+	}
+
+	return resolveName(name)
 }
 
 func setupState(L *lua.LState) {
@@ -385,32 +436,40 @@ func loadLocale(mods []*ModInfo) map[string]map[string]string {
 		locale[t] = make(map[string]string)
 	}
 
+	base, _ := ini.Load("./base.cfg")
+	core, _ := ini.Load("./core.cfg")
+	cfgs := []*ini.File{base, core}
+
 	for _, m := range mods {
-		cfgs, err := ioutil.ReadDir(m.Path + "/locale/en")
+		cs, err := ioutil.ReadDir(m.Path + "/locale/en")
 		if err != nil {
 			continue
 		}
 
-		for _, c := range cfgs {
+		for _, c := range cs {
 			cfg, err := ini.Load(fmt.Sprintf("%s/locale/en/%s", m.Path, c.Name()))
 			if err != nil {
 				continue
 			}
 
-			for _, t := range types {
-				cfg, err := cfg.GetSection(t + "-name")
+			cfgs = append(cfgs, cfg)
+		}
+	}
+
+	for _, cfg := range cfgs {
+		for _, t := range types {
+			cfg, err := cfg.GetSection(t + "-name")
+			if err != nil {
+				continue
+			}
+
+			for _, k := range cfg.KeyStrings() {
+				v, err := cfg.GetKey(k)
 				if err != nil {
+					fmt.Println("err getting key???:", err)
 					continue
 				}
-
-				for _, k := range cfg.KeyStrings() {
-					v, err := cfg.GetKey(k)
-					if err != nil {
-						fmt.Println("err getting key???:", err)
-						continue
-					}
-					locale[t][k] = v.MustString("")
-				}
+				locale[t][k] = v.MustString("")
 			}
 		}
 	}
